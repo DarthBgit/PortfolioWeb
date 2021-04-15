@@ -1,0 +1,56 @@
+.container-picture_description{
+    width: 100%;
+    height: 100%;
+   /* background-color: white;*/
+    display: flex;
+    justify-content: center;
+
+}
+.picture-cover{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &_img{
+        width: 450px;
+        height:450px;
+        border-radius: 50%;
+       background-color:  rgba(12, 12, 11, 0.849);
+       position: relative;
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+    } 
+   
+}
+.picture-cover_img::after{
+    content: '    ';
+    width: 450px;
+    height: 450px;
+    background: url(../../Images/my_photo.png);
+    background-position: -10px -50px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+
+.description-cover{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos-cover{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,66 @@
+.container-about{
+    width: $margenes;
+    height: $sections;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+/*SECCION PARTE IZQUIERDA*/
+.am-section-a{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    &_title{
+        position: absolute;
+        left: $margen-title-lat;
+        top: $margen-title-sup;
+    }
+    &_containertext{
+        width: 70%;
+        height: 200px;
+        position: absolute;
+        left: $margen-title-lat;  
+        top: 200px;   
+
+    }
+    
+}
+.am-section-a_button-cv{
+    position: absolute;
+    left: 40%;
+    bottom: 50px;
+    cursor: pointer;
+} 
+/*SECCION PARTE DERECHA*/
+
+.am-section-b{
+width: 40%;
+height: 100%;   
+position: relative;
+&_image{
+    width: 100%;
+    height: 100%;
+    background: url(../../Images/photo2.jpg) center;
+    background-position: cover;
+    background-size: 670px;
+    background-repeat: no-repeat;
+
+}    
+}
+
+.am-section-b_image::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);;
+}
+
+

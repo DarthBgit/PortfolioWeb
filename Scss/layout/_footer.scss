@@ -1,0 +1,11 @@
+.main-footer{
+    width: $margenes;
+    margin-left: auto
+    ;margin-right: auto;
+    height: 60px;
+    background-color: $dark-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

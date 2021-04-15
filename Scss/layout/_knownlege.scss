@@ -1,0 +1,63 @@
+.container-know{
+    width: $margenes;
+    height: $sections;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    &_title{
+        
+            position: absolute;
+            right: $margen-title-lat;
+            top: $margen-title-sup;
+    }
+}
+
+.section-know{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.know-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: agrandar;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: scale(0.001);
+    }
+    @keyframes agrandar{
+        0%{
+            transform: scale(0.001);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }      
+.know-icon{
+    font-size: $xxxl * 2; }
+   
+.SQL{
+        font-size: $xxxl * 1.4;  
+        margin-top: 30px;  
+        }  
+   
+/*descripcion */
+.know-icon p{
+    font-size: $s;
+    font-family: 'Questrial', sans-serif;
+    color: $dark-color;
+
+}
+.know-text{
+    width: 380px;
+    height: 35%;
+    margin-right: auto;
+    margin-left: auto;
+}
