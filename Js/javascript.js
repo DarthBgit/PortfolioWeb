@@ -53,7 +53,7 @@ function showSlides(n){
   /* CAMBIO AUTOMATICO DE IMAGENES*/
   
   setInterval(function time(){
-  showSlides(index += 1)},50000000)
+  showSlides(index += 1)},5000)
   
 
 

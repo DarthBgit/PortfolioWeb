@@ -457,42 +457,41 @@ body {
 }
 
 .picture-cover {
-  width: 70%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 .picture-cover_img {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  background-color: rgba(12, 12, 11, 0.849);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.picture-cover_img::after {
-  content: "    ";
-  width: 450px;
-  height: 450px;
-  background: url(../../Images/my_photo.png);
-  background-position: -10px -50px;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-
-.description-cover {
   width: 100%;
+  height: 100%;
+  background: url(../../Images/YOOOO.png);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 10PX 50px;
+}
+
+/*
+.picture-cover_img::after{
+    content: '    ';
+    width: 420px;
+    height: 420px;
+    background: url(../../Images/yoRemov.png);
+    background-position: 30px 20px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+
+}*/
+.description-cover {
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .iconos-cover {
@@ -733,7 +732,7 @@ body {
 
 /*HOVER BOTONES HEADER*/
 .header_botons:hover {
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 .botton-theme:hover {
@@ -746,12 +745,12 @@ body {
 
 /*HOVER FLECHAS SLIDER*/
 .directions button:hover {
-  color: #f5f0f0;
+  color: #fffdfd;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-botons:hover {
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -798,7 +797,7 @@ body {
   background-color: #d8aa6f;
 }
 .botton-theme a {
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 /* Botones del header */
@@ -825,7 +824,7 @@ body {
 
 /*TITULOS*/
 .title-L {
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 .title-R {
@@ -839,11 +838,11 @@ body {
 
 .am-section-a_button-cv {
   background-color: #d8aa6f;
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 .am-section-a_text {
-  color: #f5f0f0;
+  color: #fffdfd;
 }
 
 /*CONOCIMIENTOS*/
@@ -861,7 +860,7 @@ body {
 
 /*SLIDER COURSES*/
 .but-dir {
-  color: #f5f0f0;
+  color: #fffdfd;
   display: inline-block;
   background-color: transparent;
   padding: 20px;
@@ -907,12 +906,12 @@ body {
 }
 .allCourses .text-courses {
   font-size: 52px;
-  color: #f5f0f0;
+  color: #fffdfd;
   margin: 0;
   text-align: center;
 }
 .allCourses .academy {
-  color: #f5f0f0;
+  color: #fffdfd;
   position: absolute;
   bottom: 30px;
 }

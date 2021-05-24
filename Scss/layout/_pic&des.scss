@@ -6,45 +6,45 @@
     justify-content: center;
 
 }
+
 .picture-cover{
-    width: 70%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     &_img{
-        width: 450px;
-        height:450px;
-        border-radius: 50%;
-       background-color:  rgba(12, 12, 11, 0.849);
-       position: relative;
-       overflow: hidden;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       
-    } 
+        width: 100%;
+        height: 100%;
+        background:url(../../Images/YOOOO.png);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position: 10PX 50px;
+    }
+    
    
 }
+/*
 .picture-cover_img::after{
     content: '    ';
-    width: 450px;
-    height: 450px;
-    background: url(../../Images/my_photo.png);
-    background-position: -10px -50px;
-    background-size: 500px;
+    width: 420px;
+    height: 420px;
+    background: url(../../Images/yoRemov.png);
+    background-position: 30px 20px;
+    background-size: 400px;
     background-repeat: no-repeat;
     position: absolute;
     
-}
+}*/
 
 .description-cover{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 50px;
 }
 
 .iconos-cover{
