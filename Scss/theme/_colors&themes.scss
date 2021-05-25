@@ -35,13 +35,7 @@
     background-color: $dark-color;
 }
 
-/*BOTON CAMBIAR TEMA DEL HEADER*/
-.botton-theme{
-    background-color: $secundary-color;
-    & a{
-        color: $white-color;
-    }
-    }
+
 /* Botones del header */
 .header_botons{
     
@@ -128,10 +122,7 @@
 
 .allCourses{
     &_1{
-        background:url(../../Images/slider-color2.jpg);
-        background-position: -300px -620px;
-        background-size: 4000px;
-        background-repeat: no-repeat;
+        background: red;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -162,42 +153,27 @@
         bottom: 30px;
     }
     &_2{
-        background:url(../../Images/slider-color3.jpg);
-        background-position: -100px -200px;
-        background-size: 2500px;
-        background-repeat: no-repeat;
+        background:blue;
         width: 100%;
         height: 100%;
         position: absolute;}
     &_3{
-        background:url(../../Images/slider-color2.jpg);
-        background-position: -2700px -550px;
-        background-size: 4000px;
-        background-repeat: no-repeat;
+        background:red;
         width: 100%;
         height: 100%;
         position: absolute;}
     &_4{
-        background:url(../../Images/slider-color2.jpg);
-        background-position: -300px -620px;
-        background-size: 4000px;
-        background-repeat: no-repeat;
+        background:blue;
         width: 100%;
         height: 100%;
         position: absolute;}
     &_5{
-        background:url(../../Images/slider-color3.jpg);
-        background-position: -100px -200px;
-        background-size: 2500px;
-        background-repeat: no-repeat;
+        background:red;
         width: 100%;
         height: 100%;
         position: absolute;}
     &_6{
-        background:url(../../Images/slider-color2.jpg);
-        background-position: -2700px -550px;
-        background-size: 4000px;
-        background-repeat: no-repeat;
+        background:blue;
         width: 100%;
         height: 100%;
         position: absolute;}

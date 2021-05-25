@@ -1,10 +1,3 @@
-/*CAMBIAR TEMATICA*/
-
-const boton_tema = document.getElementById("bot-theme")
-const tema = document.getElementById("theme")
-
-
-
 
 /*DESCARGA DE PDF */
 
@@ -52,19 +45,6 @@ function showSlides(n){
   setInterval(function time(){
   showSlides(index += 1)},5000)
   
-
-
- 
-
-    
-  
-
-
-
-
-
-
-
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 
 var wow = new WOW(

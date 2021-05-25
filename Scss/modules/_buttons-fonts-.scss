@@ -1,20 +1,4 @@
-/*BOTON CAMBIAR TEMA COLOR*/
-.botton-theme{
-    position: absolute;
-    width: 120px;
-    height: 22px;
-    border-radius: 20PX 20PX 20PX 20PX;
-    left: 30px;
-    bottom: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    & a{
-        cursor: pointer;
-        text-decoration: none;
-        font-size: $xs * 1.3;
-    }
-    }
+
 /* Botones del header */
 .header_botons{
     cursor: pointer;
@@ -25,9 +9,10 @@
 }
 
 /*TEXTO DE PORTADA*/
-.my_name{
+.my_name {
     font-family: 'Pacifico', cursive;
     font-size: $xxl * 2;
+    
 }
 .name{
     font-size: $xxl * 1.8;
@@ -36,13 +21,13 @@
     font-family: 'Questrial', sans-serif;
 }
 .profession{
-    font-size: $l;
+    font-size: $xl;
     font-family: 'Questrial', sans-serif;
 }
 
 .iconos-cover a{
     text-decoration: none;
-    font-size: $l;
+    font-size: $xl;
     margin: 10px;
 }
 

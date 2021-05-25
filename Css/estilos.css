@@ -502,24 +502,72 @@ body {
   justify-content: center;
 }
 
-/*BOTON CAMBIAR TEMA COLOR*/
-.botton-theme {
-  position: absolute;
-  width: 120px;
-  height: 22px;
-  border-radius: 20PX 20PX 20PX 20PX;
-  left: 30px;
-  bottom: 9px;
+.container-courses {
+  width: 86%;
+  height: 800px;
+  background-color: rgba(15, 15, 15, 0.829);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
-.botton-theme a {
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 10.4px;
+.container-courses_title {
+  position: absolute;
+  left: 150px;
+  top: 50px;
 }
 
+/*SLIDER*/
+.slider-container {
+  width: 70%;
+  height: 70%;
+  position: relative;
+  border: 6px solid #242020;
+  transition: 2s;
+}
+
+.name-courses {
+  transition: 2s;
+}
+
+/* FLECHAS DEL SLIDER */
+.directions {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+/*BARRAS INFERIORES DEL SLIDER*/
+.barras {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+/*ANIMACION OPACIDAD DE FOTO*/
+.ani-next-photo {
+  animation-name: ani;
+  animation-duration: 3s;
+}
+
+@keyframes ani {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /* Botones del header */
 .header_botons {
   cursor: pointer;
@@ -543,13 +591,13 @@ body {
 }
 
 .profession {
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Questrial", sans-serif;
 }
 
 .iconos-cover a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   margin: 10px;
 }
 
@@ -661,14 +709,6 @@ body {
   background-color: rgba(15, 15, 15, 0.829);
 }
 
-/*BOTON CAMBIAR TEMA DEL HEADER*/
-.botton-theme {
-  background-color: #f0b262;
-}
-.botton-theme a {
-  color: #fffdfd;
-}
-
 /* Botones del header */
 .header_botons {
   color: #f0b262;
@@ -754,10 +794,7 @@ body {
 
 /* IMAGENES DE LOS CURSOS DEL SLIDER*/
 .allCourses_1 {
-  background: url(../../Images/slider-color2.jpg);
-  background-position: -300px -620px;
-  background-size: 4000px;
-  background-repeat: no-repeat;
+  background: red;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -785,46 +822,31 @@ body {
   bottom: 30px;
 }
 .allCourses_2 {
-  background: url(../../Images/slider-color3.jpg);
-  background-position: -100px -200px;
-  background-size: 2500px;
-  background-repeat: no-repeat;
+  background: blue;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 .allCourses_3 {
-  background: url(../../Images/slider-color2.jpg);
-  background-position: -2700px -550px;
-  background-size: 4000px;
-  background-repeat: no-repeat;
+  background: red;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 .allCourses_4 {
-  background: url(../../Images/slider-color2.jpg);
-  background-position: -300px -620px;
-  background-size: 4000px;
-  background-repeat: no-repeat;
+  background: blue;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 .allCourses_5 {
-  background: url(../../Images/slider-color3.jpg);
-  background-position: -100px -200px;
-  background-size: 2500px;
-  background-repeat: no-repeat;
+  background: red;
   width: 100%;
   height: 100%;
   position: absolute;
 }
 .allCourses_6 {
-  background: url(../../Images/slider-color2.jpg);
-  background-position: -2700px -550px;
-  background-size: 4000px;
-  background-repeat: no-repeat;
+  background: blue;
   width: 100%;
   height: 100%;
   position: absolute;
