@@ -3,9 +3,6 @@
 const boton_tema = document.getElementById("bot-theme")
 const tema = document.getElementById("theme")
 
-boton_tema.addEventListener("click",()=>{
-    tema.classList.toggle("primary-theme")
-})
 
 
 
