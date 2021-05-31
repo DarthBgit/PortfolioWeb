@@ -1,0 +1,41 @@
+.container-courses{
+    width: $margenes;
+    height: $sections;
+    background-color: $white-background;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    &_title{
+        
+        position: absolute;
+        right: $margen-title-lat;
+        top: $margen-title-sup;
+}
+}
+
+.courses-list{
+    width: 80%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+    background-color: $dark-background;
+    
+  
+}
+.course-name{
+	height: auto;
+    width: auto;
+    padding:4px;
+	color: $white-color;
+    margin: 30px;
+    font-size: $xxxl;
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Tamanyos de fuentes*/
 /* Colores */
 /*SEPARACION DE LOS COSTADOS*/
@@ -354,6 +355,22 @@ body {
   font-size: 14px;
 }
 
+/* ESTILOS DE LA BARRA DE SCROLL */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #070707;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
+  background-color: #222121;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f0b262;
+  background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
+}
+
 .container-about {
   width: 86%;
   height: 800px;
@@ -420,7 +437,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 60px;
-  background-color: rgba(15, 15, 15, 0.829);
+  background-color: #222121;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -432,8 +449,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
-  border-radius: 5px 5px 0 0;
+  margin-top: 50px;
 }
 
 .container-header {
@@ -442,7 +458,7 @@ body {
 }
 .container-header_section {
   height: 100%;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -468,24 +484,12 @@ body {
   height: 100%;
   background: url(../../Images/yoTop.png);
   background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: 10PX 30px;
+  background-size: 97%;
+  background-position: 10PX 100px;
 }
 
-/*
-.picture-cover_img::after{
-    content: '    ';
-    width: 420px;
-    height: 420px;
-    background: url(../../Images/yoRemov.png);
-    background-position: 30px 20px;
-    background-size: 400px;
-    background-repeat: no-repeat;
-    position: absolute;
-
-}*/
 .description-cover {
-  width: 80%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -557,7 +561,7 @@ body {
 .know-icon p {
   font-size: 14px;
   font-family: "Questrial", sans-serif;
-  color: rgba(15, 15, 15, 0.829);
+  color: #222121;
 }
 
 .know-text {
@@ -567,10 +571,10 @@ body {
   margin-left: auto;
 }
 
-.container-courses {
+.container-proyects {
   width: 86%;
   height: 800px;
-  background-color: rgba(15, 15, 15, 0.829);
+  background-color: #222121;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -578,7 +582,7 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-.container-courses_title {
+.container-proyects_title {
   position: absolute;
   left: 150px;
   top: 50px;
@@ -591,9 +595,10 @@ body {
   position: relative;
   border: 6px solid #242020;
   transition: 2s;
+  margin-bottom: 50px;
 }
 
-.name-courses {
+.name-p {
   transition: 2s;
 }
 
@@ -633,6 +638,46 @@ body {
     opacity: 1;
   }
 }
+.container-courses {
+  width: 86%;
+  height: 800px;
+  background-color: #f5f0f0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.container-courses_title {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.courses-list {
+  width: 80%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  background-color: #222121;
+}
+
+.course-name {
+  height: auto;
+  width: auto;
+  padding: 4px;
+  color: #fffdfd;
+  margin: 30px;
+  font-size: 32px;
+}
+
 /* Botones del header */
 .header_botons {
   cursor: pointer;
@@ -645,28 +690,28 @@ body {
 /*TEXTO DE PORTADA*/
 .my_name {
   font-family: "Pacifico", cursive;
-  font-size: 56px;
+  font-size: 64px;
 }
 
 .name {
-  font-size: 50.4px;
+  font-size: 57.6px;
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Questrial", sans-serif;
 }
 
 .profession {
-  font-size: 24px;
+  font-size: 28px;
   font-family: "Questrial", sans-serif;
 }
 
 .iconos-cover a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 32px;
   margin: 10px;
 }
 
-/*TITULOS DE LA PAGINA*/
+/*DISEÑO TITULOS DE LA PAGINA*/
 .titles {
   font-size: 46.8px;
   font-family: "Questrial", sans-serif;
@@ -742,36 +787,27 @@ body {
         display: none;
     }
 }*/
+/*EFECTO SOMBRA 3D*/
+/*EFECTO SOMBRA 3D*/
 /*IMAGEN DEL BODY*/
 .body-theme {
-  background: url(../../Images/multi.jpg) center;
-  background-size: cover;
+  background-color: #f0d29c;
 }
 
 /*IMAGEN FONDO PORTADA*/
-.secundary-theme {
-  width: 86%;
-  height: 625px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  /*background:url(../../Images/white2.jpg) center;*/
-  background-size: cover;
-}
-
 .primary-theme {
   width: 86%;
-  height: 625px;
+  height: 680px;
   margin-left: auto;
   margin-right: auto;
   /*background:url(../../Images/blue.jpg) center;*/
-  background-color: rgba(245, 240, 240, 0.808);
+  background-color: #f5f0f0;
   /* CREO QUE QUEDA MEJOR EL BACKGROUND EN BLANCO */
   background-size: cover;
 }
 
 .main-header {
-  background-color: rgba(15, 15, 15, 0.829);
+  background-color: #222121;
 }
 
 /* Botones del header */
@@ -793,7 +829,7 @@ body {
 }
 
 .iconos-cover a {
-  color: rgba(15, 15, 15, 0.829);
+  color: #222121;
 }
 
 /*TITULOS*/
@@ -802,12 +838,12 @@ body {
 }
 
 .title-R {
-  color: rgba(15, 15, 15, 0.829);
+  color: #222121;
 }
 
 /*ACERCA DE MI*/
 .container-about {
-  background-color: rgba(15, 15, 15, 0.829);
+  background-color: #222121;
 }
 
 .am-section-a_button-cv {
@@ -821,18 +857,18 @@ body {
 
 /*CONOCIMIENTOS*/
 .container-know {
-  background-color: rgba(245, 240, 240, 0.808);
+  background-color: #f5f0f0;
 }
 
 .know-title {
-  color: rgba(15, 15, 15, 0.829);
+  color: #222121;
 }
 
 .know-icon {
-  color: rgba(15, 15, 15, 0.829);
+  color: #222121;
 }
 
-/*SLIDER COURSES*/
+/*SLIDER PROYECTS*/
 .but-dir {
   color: #fffdfd;
   display: inline-block;
@@ -854,63 +890,41 @@ body {
   margin-left: 3px;
 }
 .barras_active {
-  background-color: rgba(15, 15, 15, 0.829);
+  background-color: #f0b262;
 }
 
 /* IMAGENES DE LOS CURSOS DEL SLIDER*/
-.allCourses_1 {
+.allProyects_1 {
   background: red;
   width: 100%;
   height: 100%;
   position: absolute;
 }
-.allCourses .container-text-slider {
-  width: 70%;
-  height: 80%;
-  margin-top: 6%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.allCourses .text-courses {
-  font-size: 52px;
-  color: #fffdfd;
-  margin: 0;
-  text-align: center;
-}
-.allCourses .academy {
-  color: #fffdfd;
+.allProyects_2 {
+  background: #8282c9;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  bottom: 30px;
 }
-.allCourses_2 {
+.allProyects_3 {
+  background: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.allProyects_4 {
   background: blue;
   width: 100%;
   height: 100%;
   position: absolute;
 }
-.allCourses_3 {
+.allProyects_5 {
   background: red;
   width: 100%;
   height: 100%;
   position: absolute;
 }
-.allCourses_4 {
-  background: blue;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-.allCourses_5 {
-  background: red;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-.allCourses_6 {
+.allProyects_6 {
   background: blue;
   width: 100%;
   height: 100%;

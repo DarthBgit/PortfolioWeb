@@ -21,7 +21,7 @@ function positionSlide(n){
 
 function showSlides(n){
   let i;
-  let slides = document.getElementsByClassName("name-courses")
+  let slides = document.getElementsByClassName("name-p")
   let barras = document.getElementsByClassName("barras_bar")
 
   if(n > slides.length){

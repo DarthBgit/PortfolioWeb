@@ -14,19 +14,20 @@
 </head>
 <body class="body-theme">
     <!--CABECERA--> 
-    <header class="main-header container-header">
+    <header class="main-header container-header  shadow3d">
         <!--Contenido header-->
         <div class="container-header_section">
-        <a class="header_botons" href="#">BIENVENIDO</a>
         <a  class="header_botons" href="#">ACERCA DE MI</a>
         <a  class="header_botons" href="#">CONOCIMIENTOS</a>
+        <a class="header_botons" href="#">PROYECTOS</a>
+        <a class="header_botons" href="#">CURSOS</a>
         <a  class="header_botons" href="#">EXPERIENCIA</a>
         <a  class="header_botons" href="#">CONTÁCTAME</a>
         </div>
     </header>
-    <div class=" secundary-theme primary-theme" id="theme">
+    <div class="primary-theme">
     <!--PICTURE & DESCRIPTION-->
-    <div class="container-picture_description">
+    <div class="container-picture_description shadow3d" >
         <div class="picture-cover">
             <div class="picture-cover_img"></div>
         </div>
@@ -42,7 +43,7 @@
     </div>
     </div>
     <!--ABOUT ME-->
-    <div class="container-about am">
+    <div class="container-about am  shadow3d">
         <div class="am-section-a">
         <h1 class="am-section-a_title titles title-L">ACERCA DE MÍ</h1>
         <div class="am-section-a_containertext">
@@ -50,7 +51,7 @@
             desarrollo de aplicaciones web. 
         </p>
         </div>
-        <a href="#" class="am-section-a_button-cv" onclick="openPDF()">DESCARGAR CV </a>    
+        <a href="#" class="am-section-a_button-cv animate__bounceIn" onclick="openPDF()">DESCARGAR CV</a>    
     </div>
     <div class="am-section-b">
         <div class="am-section-b_image"></div>
@@ -59,7 +60,7 @@
     </div>
     
     <!--KNOWELEDGE-->
-    <div class="container-know">
+    <div class="container-know  shadow3d">
         <h1 class="container-know_title titles title-R">CONOCIMIENTOS</h1>
         <div class="section-know">
         <div class=" wow know-grid" data-wow-delay="0.2s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO WEB</h2>
@@ -76,16 +77,16 @@
                 <div class="know-text"><p>Facilidad a la hora de trabajar con terminologias en ingles, asi como la mayoria de softwares que funcionan con la lengua inglesa.</p></div></div></div>
         </div>
     </div>
-     <!--SLIDER-COURSES-->
-     <div class="container-courses">
-         <h1 class="container-courses_title titles title-L">PROYECTOS</h1>
-         <div class="slider-container allCourses">
-             <div class="name-courses ani-next-photo allCourses_1 "><div class="container-text-slider"><h1 class="text-courses">UNIVERSIDAD JAVA DE CERO A MASTER +100 HORAS</h1><h1 class="academy">UDEMY</h1></div></div>   
-             <div class="name-courses ani-next-photo allCourses_2 "><div class="container-text-slider"><h1 class="text-courses">JAVASCRIPT DESDE CERO</h1><h1 class="academy">DORIAN</h1></div></div> 
-             <div class="name-courses ani-next-photo allCourses_3 "><div class="container-text-slider"><h1 class="text-courses">ANIMACIONES AVANZADAS CSS</h1><h1 class="academy">EDTEAM</h1></div></div> 
-             <div class="name-courses ani-next-photo allCourses_4 "><div class="container-text-slider"><h1 class="text-courses">CURSO DE KOTLIN</h1><h1 class="academy">EDTEAM</h1></div></div> 
-             <div class="name-courses ani-next-photo allCourses_5 "><div class="container-text-slider"><h1 class="text-courses">LENGUAJE SQL DESDE CERO</h1><h1 class="academy">UDEMY</h1></div></div> 
-             <div class="name-courses ani-next-photo allCourses_6 "><div class="container-text-slider"><h1 class="text-courses">APRENDE CSS DESDE CERO</h1><h1 class="academy">EDTEAM</h1></div></div> 
+     <!--SLIDER-PROYECS-->
+     <div class="container-proyects  shadow3d">
+         <h1 class="container-proyects_title titles title-L">PROYECTOS</h1>
+         <div class="slider-container allProyects">
+             <div class="name-p ani-next-photo allProyects_1 "></div>   
+             <div class="name-p ani-next-photo allProyects_2 "></div> 
+             <div class="name-p ani-next-photo allProyects_3 "></div> 
+             <div class="name-p ani-next-photo allProyects_4 "></div> 
+             <div class="name-p ani-next-photo allProyects_5 "></div> 
+             <div class="name-p ani-next-photo allProyects_6 "></div> 
              <div class="directions" id="directions">
                 <button class="but-dir" onclick="nextSlide(-1)">&#10094;</a>
                 <button class="but-dir" onclick="nextSlide(1)">&#10095;</a>
@@ -101,21 +102,36 @@
             <span class="barras_bar" onclick="positionSlide(6)"></span>
         </div>
      </div>
+     <!--CORSES-->
+     <div class="container-courses  shadow3d">
+         <h1 class="container-courses_title titles title-R">CURSOS</h1>
+         <div class="courses-list">
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+              <div class="course-name">Mensaje 1</div>
+          </div>
+     </div>
     <!--FOOTER-->
-    <div class="main-footer">
+    <div class="main-footer  shadow3d">
             <a href="#" class="footer-botons icon-linkedin-square"></a>
             <a href="#" class="footer-botons icon-github-square"></a>
             <a class="footer-botons icon-envelope" href="mailto:sergiovencillon10@gmail.com"></a>
     </div>
+    
     <script src="Js/javascript.js"></script>
     <script src="Js/wow.js"></script>
 </body>
-
-<!--<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por kjpargeter - www.freepik.es</a>
-<a href='https://www.freepik.es/vectores/boton'>Vector de Botón creado por starline - www.freepik.es</a>
-<a href='https://www.freepik.es/fotos/fondo'>Foto de Fondo creado por freepik - www.freepik.es</a>
-<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por rawpixel.com - www.freepik.es</a>
-<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por macrovector - www.freepik.es</a>
-<a href='https://www.freepik.es/vectores/fondo'>Vector de Fondo creado por rawpixel.com - www.freepik.es</a>-->
-<!--<div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>-->
+<!--LINEA DEL TIEMPO<a href='https://www.freepik.es/vectores/flecha'>Vector de Flecha creado por macrovector - www.freepik.es</a>
+<a href='https://www.freepik.es/vectores/infografia'>Vector de Infografía creado por katemangostar - www.freepik.es</a>-->
 </html>

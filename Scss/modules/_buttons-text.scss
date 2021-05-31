@@ -1,0 +1,84 @@
+
+/* Botones del header */
+.header_botons{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: $s;
+    padding: 7px 10px;
+    margin: 6px;
+}
+
+/*TEXTO DE PORTADA*/
+.my_name {
+    font-family: 'Pacifico', cursive;
+    font-size: $xxxl * 2;
+    
+}
+.name{
+    font-size: $xxxl * 1.8;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Questrial', sans-serif;
+}
+.profession{
+    font-size: $xxl;
+    font-family: 'Questrial', sans-serif;
+}
+
+.iconos-cover a{
+    text-decoration: none;
+    font-size: $xxxl;
+    margin: 10px;
+}
+
+/*DISEÑO TITULOS DE LA PAGINA*/
+
+.titles{
+font-size: $xxxxl * 1.3;
+font-family: 'Questrial', sans-serif;
+&::after{
+    content: "";
+    height: 5px;
+    width: 200px;
+    background-color: $secundary-color;
+    position: absolute;
+    left: calc(50% - 100px);
+    bottom: -10px;
+    
+}
+}
+
+
+/*ABOUT ME*/
+.am-section-a{
+    &_button-cv{
+    font-size: $l;
+    text-decoration: none;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: 'Questrial', sans-serif;
+} 
+&_text{
+    font-size: $m;
+    font-family: 'Questrial', sans-serif;
+}
+} 
+/*CONOCIMIENTOS*/
+.know-title{
+    font-size: $xl;
+    font-family: 'Questrial', sans-serif;
+}   
+  
+   
+
+/*FOOTER*/
+
+.footer-botons{
+    text-decoration: none;
+    font-size: 2.5em; /*agregar clase a botones portada*/
+}

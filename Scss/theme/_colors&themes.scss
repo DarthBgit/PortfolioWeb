@@ -5,25 +5,23 @@
         display: none;
     }
 }*/
+/*EFECTO SOMBRA 3D*/
+
+
+   /*EFECTO SOMBRA 3D*/
+
+
+
 /*IMAGEN DEL BODY*/ 
 .body-theme{
-    background:url(../../Images/multi.jpg) center;
-    background-size: cover;
+background-color: $background-body;
 
 }
 /*IMAGEN FONDO PORTADA*/
-.secundary-theme{
-    width: $margenes;
-    height: 625px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:black;
-    /*background:url(../../Images/white2.jpg) center;*/
-    background-size: cover;
-}
+
 .primary-theme{
     width: $margenes;
-    height: 625px;
+    height: 680px;
     margin-left: auto;
     margin-right: auto;
     /*background:url(../../Images/blue.jpg) center;*/
@@ -92,7 +90,7 @@
 
 }
 
-/*SLIDER COURSES*/
+/*SLIDER PROYECTS*/
 
 .but-dir{
     color: $white-color;
@@ -114,13 +112,13 @@
         margin-left: 3px;
     }
     &_active{
-        background-color: $dark-color;
+        background-color: $secundary-color;
     }
 }
 
 /* IMAGENES DE LOS CURSOS DEL SLIDER*/
 
-.allCourses{
+.allProyects{
     &_1{
         background: red;
         width: 100%;
@@ -128,32 +126,8 @@
         position: absolute;
        
     }
-    .container-text-slider{
-        width: 70%;
-        height: 80%;
-        margin-top: 6%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        }
-    .text-courses{
-        font-size: $xxxl + 20px;
-        color: $white-color;
-        margin: 0;
-        text-align: center;
-       
-    }
-    .academy{
-
-        color: $white-color;
-        position: absolute;
-        bottom: 30px;
-    }
     &_2{
-        background:blue;
+        background:rgb(130, 130, 201);
         width: 100%;
         height: 100%;
         position: absolute;}

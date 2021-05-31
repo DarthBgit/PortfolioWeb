@@ -1,0 +1,69 @@
+.container-proyects{
+    width: $margenes;
+    height: $sections;
+    background-color: $dark-color;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    &_title{
+        position: absolute;
+        left: $margen-title-lat;
+        top: $margen-title-sup;
+    }
+}
+
+/*SLIDER*/
+
+.slider-container{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    border: 6px solid rgb(36, 32, 32);
+    transition: 2s;
+    margin-bottom: 50px;
+
+}
+.name-p{
+    transition: 2s;
+}
+
+/* FLECHAS DEL SLIDER */
+.directions{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $xl;
+}
+
+/*BARRAS INFERIORES DEL SLIDER*/
+.barras{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+
+
+/*ANIMACION OPACIDAD DE FOTO*/
+.ani-next-photo{
+    animation-name:ani;
+    animation-duration: 3s;
+}
+@keyframes ani{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    };
+}
