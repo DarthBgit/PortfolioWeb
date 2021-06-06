@@ -353,6 +353,7 @@ template {
 
 body {
   font-size: 14px;
+  position: relative;
 }
 
 /* ESTILOS DE LA BARRA DE SCROLL */
@@ -432,15 +433,32 @@ body {
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);
 }
 
-.main-footer {
+.container-footer {
   width: 86%;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
-  height: 60px;
-  background-color: #222121;
+  background-color: white;
+  position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+.container-footer_title {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.section-footer_A {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.section-footer_B {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
 }
 
 .main-header {
@@ -552,7 +570,8 @@ body {
   font-size: 64px;
 }
 
-.SQL {
+/*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
+.smll {
   font-size: 44.8px;
   margin-top: 30px;
 }
@@ -591,11 +610,12 @@ body {
 /*SLIDER*/
 .slider-container {
   width: 70%;
-  height: 70%;
+  height: 65%;
   position: relative;
-  border: 6px solid #242020;
   transition: 2s;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  padding: 0;
+  overflow: hidden;
 }
 
 .name-p {
@@ -621,7 +641,7 @@ body {
   display: flex;
   justify-content: center;
   bottom: 0;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /*ANIMACION OPACIDAD DE FOTO*/
@@ -641,7 +661,7 @@ body {
 .container-courses {
   width: 86%;
   height: 800px;
-  background-color: #f5f0f0;
+  background-color: #222121;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -651,31 +671,56 @@ body {
 }
 .container-courses_title {
   position: absolute;
-  right: 150px;
+  left: 150px;
   top: 50px;
 }
 
 .courses-list {
   width: 80%;
-  height: 70%;
+  height: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3%;
+  margin-bottom: 7%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: space-between;
   overflow-y: scroll;
-  background-color: #222121;
+  background-color: white;
 }
 
 .course-name {
   height: auto;
   width: auto;
   padding: 4px;
-  color: #fffdfd;
+  color: #222121;
   margin: 30px;
   font-size: 32px;
+}
+
+.container-exp {
+  width: 86%;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.container-exp_title {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.section-exp {
+  width: 100%;
+  height: 70%;
+  background: url(../../Images/tline2.jpg) center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
 }
 
 /* Botones del header */
@@ -757,6 +802,26 @@ body {
   /*agregar clase a botones portada*/
 }
 
+/*FLECHA PARA SUBIR*/
+.container-icon-up {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 28px;
+  bottom: 30px;
+  background-color: #222121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-icon-up a {
+  text-decoration: none;
+  color: #f0b262;
+  font-size: 28px;
+  width: auto;
+  height: auto;
+}
+
 /*HOVER BOTONES HEADER*/
 .header_botons:hover {
   color: #fffdfd;
@@ -787,22 +852,18 @@ body {
         display: none;
     }
 }*/
-/*EFECTO SOMBRA 3D*/
-/*EFECTO SOMBRA 3D*/
-/*IMAGEN DEL BODY*/
+/*FONDO DEL BODY*/
 .body-theme {
   background-color: #f0d29c;
 }
 
-/*IMAGEN FONDO PORTADA*/
+/*FONDO PORTADA*/
 .primary-theme {
   width: 86%;
   height: 680px;
   margin-left: auto;
   margin-right: auto;
-  /*background:url(../../Images/blue.jpg) center;*/
-  background-color: #f5f0f0;
-  /* CREO QUE QUEDA MEJOR EL BACKGROUND EN BLANCO */
+  background-color: white;
   background-size: cover;
 }
 
@@ -846,6 +907,11 @@ body {
   background-color: #222121;
 }
 
+/*EXPERIENCIA*/
+.container-exp {
+  background-color: white;
+}
+
 .am-section-a_button-cv {
   background-color: #f0b262;
   color: #fffdfd;
@@ -857,7 +923,7 @@ body {
 
 /*CONOCIMIENTOS*/
 .container-know {
-  background-color: #f5f0f0;
+  background-color: white;
 }
 
 .know-title {
@@ -870,7 +936,7 @@ body {
 
 /*SLIDER PROYECTS*/
 .but-dir {
-  color: #fffdfd;
+  color: #222121;
   display: inline-block;
   background-color: transparent;
   padding: 20px;
@@ -885,7 +951,7 @@ body {
   height: 3px;
   width: 25px;
   margin: 0 2px;
-  background-color: white;
+  background-color: #fffdfd;
   display: inline-block;
   margin-left: 3px;
 }
@@ -893,11 +959,11 @@ body {
   background-color: #f0b262;
 }
 
-/* IMAGENES DE LOS CURSOS DEL SLIDER*/
+/* IMAGENES PROYECTOS DEL SLIDER*/
 .allProyects_1 {
   background: red;
-  width: 100%;
-  height: 100%;
+  width: 101%;
+  height: 101%;
   position: absolute;
 }
 .allProyects_2 {

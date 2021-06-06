@@ -1,7 +1,7 @@
 .container-courses{
     width: $margenes;
     height: $sections;
-    background-color: $white-background;
+    background-color: $dark-background;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -11,23 +11,23 @@
     &_title{
         
         position: absolute;
-        right: $margen-title-lat;
+        left: $margen-title-lat;
         top: $margen-title-sup;
 }
 }
 
 .courses-list{
     width: 80%;
-    height: 70%;
+    height: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3%;
+    margin-bottom: 7%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
     overflow-y: scroll;
-    background-color: $dark-background;
+    background-color: $white-background;
     
   
 }
@@ -35,7 +35,7 @@
 	height: auto;
     width: auto;
     padding:4px;
-	color: $white-color;
+	color: $dark-color;
     margin: 30px;
     font-size: $xxxl;
 }

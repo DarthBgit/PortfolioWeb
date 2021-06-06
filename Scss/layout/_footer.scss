@@ -1,11 +1,35 @@
-.main-footer{
+.container-footer{
     width: $margenes;
-    margin-left: auto
-    ;margin-right: auto;
-    height: 60px;
-    background-color: $dark-color;
+    height:$sections/2;
+    margin-left: auto;   
+    margin-right: auto;
+    background-color: $white-background;
+    position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    
+    &_title{
+        
+        position: absolute;
+        right: $margen-title-lat;
+        top: $margen-title-sup;
+}
+}
+
+.section-footer{
+
+    &_A{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+
+
+    }
+    &_B{
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+    }
 }
 

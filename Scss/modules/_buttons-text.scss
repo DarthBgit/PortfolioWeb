@@ -82,3 +82,26 @@ font-family: 'Questrial', sans-serif;
     text-decoration: none;
     font-size: 2.5em; /*agregar clase a botones portada*/
 }
+
+/*FLECHA PARA SUBIR*/
+
+.container-icon-up{
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 28px;
+    bottom: 30px;
+    background-color:$dark-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & a{
+        text-decoration: none;
+        color: $secundary-color;
+        font-size: $xxl;
+        width: auto;
+        height: auto;
+
+    }
+    }

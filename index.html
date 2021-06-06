@@ -14,15 +14,15 @@
 </head>
 <body class="body-theme">
     <!--CABECERA--> 
-    <header class="main-header container-header  shadow3d">
+    <header class="main-header container-header  shadow3d" id="index">
         <!--Contenido header-->
         <div class="container-header_section">
-        <a  class="header_botons" href="#">ACERCA DE MI</a>
-        <a  class="header_botons" href="#">CONOCIMIENTOS</a>
-        <a class="header_botons" href="#">PROYECTOS</a>
-        <a class="header_botons" href="#">CURSOS</a>
-        <a  class="header_botons" href="#">EXPERIENCIA</a>
-        <a  class="header_botons" href="#">CONTÁCTAME</a>
+        <a  class="header_botons" href="#aboutme">ACERCA DE MI</a>
+        <a  class="header_botons" href="#experience">EXPERIENCIA</a>
+        <a class="header_botons" href="#courses">CURSOS</a>
+        <a  class="header_botons" href="#knowledge">CONOCIMIENTOS</a>
+        <a class="header_botons" href="#proyects">PROYECTOS</a>
+        <a  class="header_botons" href="#contact">CONTÁCTAME</a>
         </div>
     </header>
     <div class="primary-theme">
@@ -33,8 +33,8 @@
         </div>
         <div class="description-cover">
             <p class="description-cover_text name animate__backInDown">Hola, me llamo <span class="animate__backInDown my_name">Sergio</span></p>
-            <p class="description-cover_text profession">Tecnico en desarrollo de aplicaciones web</p>
-            <div class="iconos-cover">
+            <p class="description-cover_text profession animate__backInDown">Tecnico en desarrollo de aplicaciones web</p>
+            <div class="iconos-cover animate__backInDown">
                 <a href="#" class="icon-linkedin-square"></a>
                 <a href="#" class="icon-github-square"></a>
                 <a class="icon-envelope" href="mailto:sergiovencillon10@gmail.com"></a>
@@ -43,9 +43,9 @@
     </div>
     </div>
     <!--ABOUT ME-->
-    <div class="container-about am  shadow3d">
+    <div class="container-about am">
         <div class="am-section-a">
-        <h1 class="am-section-a_title titles title-L">ACERCA DE MÍ</h1>
+        <h1 class="am-section-a_title titles title-L" id="aboutme">ACERCA DE MÍ</h1>
         <div class="am-section-a_containertext">
         <p class="am-section-a_text">Me llamo Sergio Berdiell Sanchez, tengo 31 años y acabo de obtener el titulo de FPGS de tecnico en 
             desarrollo de aplicaciones web. 
@@ -58,28 +58,55 @@
     
     </div>
     </div>
+    <!--EXPERIENCE-->
+    <div class="container-exp">
+        <h1 class="container-exp_title titles title-R" id="experience">EXPERIENCIA</h1>
+        <div class="section-exp"><div class="timeline"></div>
+        </div>
+       
+    </div>
+      <!--CORSES-->
+      <div class="container-courses" >
+        <h1 class="container-courses_title titles title-L" id="courses">CURSOS</h1>
+        <div class="courses-list">
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+             <div class="course-name">Mensaje 1</div>
+         </div>
+    </div>
     
     <!--KNOWELEDGE-->
-    <div class="container-know  shadow3d">
-        <h1 class="container-know_title titles title-R">CONOCIMIENTOS</h1>
+    <div class="container-know">
+        <h1 class="container-know_title titles title-R" id="knowledge">CONOCIMIENTOS</h1>
         <div class="section-know">
         <div class=" wow know-grid" data-wow-delay="0.2s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO WEB</h2>
             <div class="know-text"><p>Capacidad de implementar tecnologias de front-end y back-end para el desarrollo de una pagina web.</p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="0.4s"><div class="know-icon icon-book "><h2 class="know-title">LENGUAJES DE PROGRAMACIÓN</h2>
             <div class="know-text"><p>Conocimiento en los lenguajes de programación de Java, Kotlin y C#.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="0.6s"><div class="know-icon icon-design-graphic-tablet-streamline-tablet"><h2 class="know-title">DISEÑO WEB</h2>
+        <div class=" wow know-grid" data-wow-delay="0.6s"><div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"><h2 class="know-title">DISEÑO WEB</h2>
             <div class="know-text"><p>Diseño de paginas web, usando Html, Css y Js combinandolos con Sass. Ademas el uso de distintas librerias es un punto interes. </p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="0.8s"><div class="know-icon icon-mobile"><h2 class="know-title">DISEÑO RESPONSIVE</h2>
             <div class="know-text"><p>Adaptamiento de los proyectos a diferentes resoluciones, a traves del uso de Media-Querys dentro del archivo Css.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="1s"><div class="know-icon SQL icon-database"><h2 class="know-title">LENGUAJE SQL</h2>
+        <div class=" wow know-grid" data-wow-delay="1s"><div class="know-icon smll icon-database"><h2 class="know-title">LENGUAJE SQL</h2>
             <div class="know-text"><p>Conocimientos basicos de una BBDD y diferentes SGBD, como Oracle o MySql, ademas de la manipulación de los distintos datos almacaneados.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="1.2s"><div class="know-icon icon-language"><h2 class="know-title">IDIOMA</h2>
+        <div class=" wow know-grid" data-wow-delay="1.2s"><div class="know-icon smll icon-language"><h2 class="know-title">IDIOMA</h2>
                 <div class="know-text"><p>Facilidad a la hora de trabajar con terminologias en ingles, asi como la mayoria de softwares que funcionan con la lengua inglesa.</p></div></div></div>
         </div>
     </div>
-     <!--SLIDER-PROYECS-->
-     <div class="container-proyects  shadow3d">
-         <h1 class="container-proyects_title titles title-L">PROYECTOS</h1>
+     <!--SLIDER PROYECS-->
+     <div class="container-proyects">
+         <h1 class="container-proyects_title titles title-L" id="proyects">PROYECTOS</h1>
          <div class="slider-container allProyects">
              <div class="name-p ani-next-photo allProyects_1 "></div>   
              <div class="name-p ani-next-photo allProyects_2 "></div> 
@@ -102,36 +129,28 @@
             <span class="barras_bar" onclick="positionSlide(6)"></span>
         </div>
      </div>
-     <!--CORSES-->
-     <div class="container-courses  shadow3d">
-         <h1 class="container-courses_title titles title-R">CURSOS</h1>
-         <div class="courses-list">
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-              <div class="course-name">Mensaje 1</div>
-          </div>
-     </div>
-    <!--FOOTER-->
-    <div class="main-footer  shadow3d">
+   
+    <!--CONTACT ME-->
+    <div class="container-footer" id="contact">
+        <div class="section-footer_A">
             <a href="#" class="footer-botons icon-linkedin-square"></a>
             <a href="#" class="footer-botons icon-github-square"></a>
             <a class="footer-botons icon-envelope" href="mailto:sergiovencillon10@gmail.com"></a>
+        </div>
+        <div class="section-footer_B">
+         <h1>Made with </h1>
+         <img src="Images/htmlIcon.png" alt="">
+         <img src="Images/cssIcon.png" alt="">
+         <img src="Images/jsIcon.png" alt="">
+        </div>
     </div>
+
+    <!--ICONO FLECHA HACIA ARRIBA-->
+    <div class=" container-icon-up"><a class="icon-arrow-up" href="#index"></a></div>
     
     <script src="Js/javascript.js"></script>
     <script src="Js/wow.js"></script>
 </body>
-<!--LINEA DEL TIEMPO<a href='https://www.freepik.es/vectores/flecha'>Vector de Flecha creado por macrovector - www.freepik.es</a>
+<!--LINEA DEL TIEMPO<a href="https://www.vecteezy.com/free-vector/timeline">Timeline Vectors by Vecteezy</a>
 <a href='https://www.freepik.es/vectores/infografia'>Vector de Infografía creado por katemangostar - www.freepik.es</a>-->
 </html>
