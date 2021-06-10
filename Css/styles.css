@@ -354,6 +354,8 @@ template {
 body {
   font-size: 14px;
   position: relative;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 /* ESTILOS DE LA BARRA DE SCROLL */
@@ -435,7 +437,7 @@ body {
 
 .container-footer {
   width: 86%;
-  height: 400px;
+  height: 228.5714285714px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -444,21 +446,48 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container-footer_title {
-  position: absolute;
-  right: 150px;
-  top: 50px;
-}
 
 .section-footer_A {
   width: 100%;
   height: 100%;
-  background-color: red;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .section-footer_B {
   width: 100%;
   height: 100%;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-footer_C {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-footer_C p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.section-footer_D {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-footer_title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-top: 9%;
+  color: #222121;
 }
 
 .main-header {
@@ -467,7 +496,6 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
 }
 
 .container-header {
@@ -590,6 +618,7 @@ body {
   margin-left: auto;
 }
 
+/*SECCION CONTENEDOR PROYECTOS*/
 .container-proyects {
   width: 86%;
   height: 800px;
@@ -613,7 +642,7 @@ body {
   height: 65%;
   position: relative;
   transition: 2s;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   padding: 0;
   overflow: hidden;
 }
@@ -641,7 +670,7 @@ body {
   display: flex;
   justify-content: center;
   bottom: 0;
-  margin-bottom: 25px;
+  margin-bottom: 3%;
 }
 
 /*ANIMACION OPACIDAD DE FOTO*/
@@ -684,18 +713,12 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  justify-content: space-between;
   overflow-y: scroll;
   background-color: white;
 }
 
 .course-name {
-  height: auto;
-  width: auto;
-  padding: 4px;
-  color: #222121;
-  margin: 30px;
-  font-size: 32px;
+  margin-left: 50px;
 }
 
 .container-exp {
@@ -730,12 +753,13 @@ body {
   font-size: 14px;
   padding: 7px 10px;
   margin: 6px;
+  font-family: "Questrial", sans-serif;
 }
 
 /*TEXTO DE PORTADA*/
 .my_name {
   font-family: "Pacifico", cursive;
-  font-size: 64px;
+  font-size: 70.4px;
 }
 
 .name {
@@ -746,14 +770,8 @@ body {
 }
 
 .profession {
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Questrial", sans-serif;
-}
-
-.iconos-cover a {
-  text-decoration: none;
-  font-size: 32px;
-  margin: 10px;
 }
 
 /*DISEÑO TITULOS DE LA PAGINA*/
@@ -789,6 +807,37 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+.course-title {
+  font-size: 42px;
+  color: #f0b262;
+  font-family: "Questrial", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.course-name p {
+  font-size: 28px;
+  text-decoration: none;
+  color: #222121;
+  display: inline-block;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.more-info {
+  text-decoration: none;
+  color: #222121;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
 /*CONOCIMIENTOS*/
 .know-title {
   font-size: 24px;
@@ -796,19 +845,85 @@ body {
 }
 
 /*FOOTER*/
-.footer-botons {
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+/*ICONOS DE LA SECCION DE CONTACTOS*/
+.icon-contact {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-bottom: 2%;
   text-decoration: none;
-  font-size: 2.5em;
-  /*agregar clase a botones portada*/
+  color: black;
+}
+.icon-contact_mail {
+  text-decoration: none;
+  color: black;
+}
+.icon-contact p {
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  margin-left: 20px;
 }
 
-/*FLECHA PARA SUBIR*/
+/* SECCION DESCUBRE MAS SOBRE MI */
+.icon-des {
+  font-size: 24px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 40%;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+.icon-des p {
+  margin: 0;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.icon-des_follow {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/*SECCION ACERCA DE ESTE PROYECTO*/
+.madeWith {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.madeWith_JS {
+  width: 34px;
+  height: 34px;
+}
+
+.link-flaticon {
+  text-decoration: none;
+  color: black;
+}
+
+/*SECCION OTROS RECURSOS*/
+.resources {
+  text-decoration: none;
+  color: #222121;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 38%;
+  font-size: 16px;
+}
+
+/*FLECHA PARA SUBIR AL INICIO DE LA PAGINA*/
 .container-icon-up {
   width: 50px;
   height: 50px;
   position: absolute;
   right: 28px;
-  bottom: 30px;
+  bottom: 0px;
   background-color: #222121;
   display: flex;
   justify-content: center;
@@ -841,7 +956,22 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.footer-botons:hover {
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+/*CURSOS*/
+.course-name a:hover {
+  color: #f0b262;
+}
+
+/*FOOTER*/
+.link-footer:hover {
+  color: #f0b262;
+}
+
+/*FLECHA PARA IR AL INICIO DE PAGINA*/
+.container-icon-up a:hover {
   color: #fffdfd;
 }
 
@@ -999,5 +1129,5 @@ body {
 
 /*FOOTER*/
 .footer-botons {
-  color: #f0b262;
+  color: #222121;
 }

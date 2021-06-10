@@ -17,7 +17,22 @@
     background-color: rgb(0, 0,0 , 0.5);
 }
 
+     /*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
 
-.footer-botons:hover{
+.course-name a:hover{
+color: $secundary-color;
+}
+
+/*FOOTER*/
+.link-footer{
+    
+    &:hover{
+        color: $secundary-color;
+    }
+}
+
+/*FLECHA PARA IR AL INICIO DE PAGINA*/
+
+.container-icon-up a:hover{
     color: $white-color;
 }

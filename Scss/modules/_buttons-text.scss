@@ -6,12 +6,13 @@
     font-size: $s;
     padding: 7px 10px;
     margin: 6px;
+    font-family: 'Questrial', sans-serif;
 }
 
 /*TEXTO DE PORTADA*/
 .my_name {
     font-family: 'Pacifico', cursive;
-    font-size: $xxxl * 2;
+    font-size: $xxxl * 2.2;
     
 }
 .name{
@@ -21,15 +22,10 @@
     font-family: 'Questrial', sans-serif;
 }
 .profession{
-    font-size: $xxl;
+    font-size: $xl;
     font-family: 'Questrial', sans-serif;
 }
 
-.iconos-cover a{
-    text-decoration: none;
-    font-size: $xxxl;
-    margin: 10px;
-}
 
 /*DISEÑO TITULOS DE LA PAGINA*/
 
@@ -68,6 +64,36 @@ font-family: 'Questrial', sans-serif;
     font-family: 'Questrial', sans-serif;
 }
 } 
+              /*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
+
+.course-title{
+font-size: $l * 2.1;
+color: $secundary-color;
+font-family: 'Questrial', sans-serif;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.course-name p{
+font-size: $xxl;
+text-decoration: none;
+color: $dark-color;
+display: inline-block;
+margin: 0;
+margin-top: 30px;
+
+}
+
+.more-info{
+    text-decoration: none;
+    color: $dark-color;
+    font-size: $l;
+    margin-left: 30px;
+}
+
+
 /*CONOCIMIENTOS*/
 .know-title{
     font-size: $xl;
@@ -76,14 +102,81 @@ font-family: 'Questrial', sans-serif;
   
    
 
-/*FOOTER*/
+                 /*FOOTER*/ /*FOOTER*//*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
 
-.footer-botons{
+
+/*ICONOS DE LA SECCION DE CONTACTOS*/
+.icon-contact{
+    font-size: $xl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-bottom: 2%;
     text-decoration: none;
-    font-size: 2.5em; /*agregar clase a botones portada*/
+    color: black;
+    &_mail{
+        text-decoration: none;
+        color: black;
+    }
+    & p{
+        font-size: $m;
+        display: inline-block;
+        margin: 0;
+        margin-left: 20px;
+    }
 }
 
-/*FLECHA PARA SUBIR*/
+/* SECCION DESCUBRE MAS SOBRE MI */
+.icon-des{
+        font-size: $xl;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 40%;
+        text-decoration: none;
+        color: black;
+        margin-top: 5px;
+        & p{
+            margin: 0;
+            font-size: $m;
+            margin-left: 10px;
+        }
+        &_follow{
+            font-size: $m;
+            margin-bottom: 10px;
+        }
+}
+
+/*SECCION ACERCA DE ESTE PROYECTO*/
+.madeWith{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    &_JS{
+        width: 34px;
+        height: 34px;
+    }
+}
+.link-flaticon{
+    text-decoration: none;
+    color: black;
+}
+
+/*SECCION OTROS RECURSOS*/
+.resources{
+    text-decoration: none;
+    color: $dark-color;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 38%;
+    font-size: $m;
+}
+
+
+
+
+
+/*FLECHA PARA SUBIR AL INICIO DE LA PAGINA*/
 
 .container-icon-up{
 
@@ -91,7 +184,7 @@ font-family: 'Questrial', sans-serif;
     height: 50px;
     position: absolute;
     right: 28px;
-    bottom: 30px;
+    bottom: 0px;
     background-color:$dark-color;
     display: flex;
     justify-content: center;

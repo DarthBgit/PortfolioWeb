@@ -25,17 +25,12 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: space-between;
     overflow-y: scroll;
     background-color: $white-background;
     
   
 }
+
 .course-name{
-	height: auto;
-    width: auto;
-    padding:4px;
-	color: $dark-color;
-    margin: 30px;
-    font-size: $xxxl;
+    margin-left: 50px;
 }

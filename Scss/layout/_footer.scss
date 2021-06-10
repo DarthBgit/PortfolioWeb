@@ -1,6 +1,6 @@
 .container-footer{
     width: $margenes;
-    height:$sections/2;
+    height:$sections/3.5;
     margin-left: auto;   
     margin-right: auto;
     background-color: $white-background;
@@ -8,13 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    &_title{
-        
-        position: absolute;
-        right: $margen-title-lat;
-        top: $margen-title-sup;
-}
 }
 
 .section-footer{
@@ -22,14 +15,49 @@
     &_A{
         width: 100%;
         height: 100%;
-        background-color: red;
-
+        background-color: $white-background;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
 
     }
     &_B{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start
+    }
+    &_C{
         width: 100%;
         height: 100%;
-        background-color: aqua;
+        background-color: $white-background;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & p{
+            font-size: $m;
+            margin-top: 5px;
+        }
     }
+    &_D{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    &_title {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: $m;
+        margin-bottom: 25px;
+        margin-top: 9%;
+        color: $dark-color;
+        }
+    
 }
+
+
 
