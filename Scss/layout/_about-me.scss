@@ -1,3 +1,5 @@
+/*CONTENEDOR DE SECCION ACERCA DE MI*/
+
 .container-about{
     width: $margenes;
     height: $sections;
@@ -7,7 +9,8 @@
 
 }
 
-/*SECCION PARTE IZQUIERDA*/
+/*PARTE IZQUIERDA*/
+
 .am-section-a{
     width: 60%;
     height: 100%;
@@ -17,11 +20,6 @@
     align-items: center;
     position: relative;
     
-    &_title{
-        position: absolute;
-        left: $margen-title-lat;
-        top: $margen-title-sup;
-    }
     &_containertext{
         width: 70%;
         height: 200px;
@@ -38,7 +36,7 @@
     bottom: 50px;
     cursor: pointer;
 } 
-/*SECCION PARTE DERECHA*/
+/*PARTE DERECHA*/
 
 .am-section-b{
 width: 40%;

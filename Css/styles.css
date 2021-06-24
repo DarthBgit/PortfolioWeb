@@ -374,6 +374,7 @@ body {
   background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
+/*CONTENEDOR DE SECCION ACERCA DE MI*/
 .container-about {
   width: 86%;
   height: 800px;
@@ -382,7 +383,7 @@ body {
   display: flex;
 }
 
-/*SECCION PARTE IZQUIERDA*/
+/*PARTE IZQUIERDA*/
 .am-section-a {
   width: 60%;
   height: 100%;
@@ -392,16 +393,11 @@ body {
   align-items: center;
   position: relative;
 }
-.am-section-a_title {
-  position: absolute;
-  left: 150px;
-  top: 50px;
-}
 .am-section-a_containertext {
   width: 70%;
   height: 200px;
   position: absolute;
-  left: 150px;
+  left: 120px;
   top: 200px;
 }
 
@@ -412,7 +408,7 @@ body {
   cursor: pointer;
 }
 
-/*SECCION PARTE DERECHA*/
+/*PARTE DERECHA*/
 .am-section-b {
   width: 40%;
   height: 100%;
@@ -510,6 +506,7 @@ body {
   align-items: center;
 }
 
+/*CONTENEDOR DE LA SECCION DESCRIPCION*/
 .container-picture_description {
   width: 100%;
   height: 100%;
@@ -518,22 +515,32 @@ body {
   justify-content: center;
 }
 
+/* DIV DE LA FOTO*/
 .picture-cover {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  /*&_img{
+      width: 100%;
+      height: 100%;
+      background:url(../../Images/yoTop.png);
+      background-repeat: no-repeat;
+      background-size: 97%;
+      background-position: 10PX 100px;
+  }*/
 }
 .picture-cover_img {
   width: 100%;
   height: 100%;
-  background: url(../../Images/yoTop.png);
+  background: url(../../Images/ichigo.png);
+  background-size: 200%;
   background-repeat: no-repeat;
-  background-size: 97%;
-  background-position: 10PX 100px;
+  background-position: -200px;
 }
 
+/*CONTENEDOR DE MI DESCRIPCION*/
 .description-cover {
   width: 90%;
   height: 100%;
@@ -542,14 +549,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 50px;
-}
-
-.iconos-cover {
-  width: 100%;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .container-know {
@@ -561,7 +560,7 @@ body {
 }
 .container-know_title {
   position: absolute;
-  right: 150px;
+  right: 120px;
   top: 50px;
 }
 
@@ -569,7 +568,7 @@ body {
   width: 100%;
   height: 75%;
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -632,13 +631,13 @@ body {
 }
 .container-proyects_title {
   position: absolute;
-  left: 150px;
+  left: 120px;
   top: 50px;
 }
 
 /*SLIDER*/
 .slider-container {
-  width: 70%;
+  width: 82%;
   height: 65%;
   position: relative;
   transition: 2s;
@@ -700,12 +699,12 @@ body {
 }
 .container-courses_title {
   position: absolute;
-  left: 150px;
+  left: 120px;
   top: 50px;
 }
 
 .courses-list {
-  width: 80%;
+  width: 82%;
   height: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -733,7 +732,7 @@ body {
 }
 .container-exp_title {
   position: absolute;
-  right: 150px;
+  right: 120px;
   top: 50px;
 }
 
@@ -790,6 +789,19 @@ body {
 }
 
 /*ABOUT ME*/
+/*ABOUT ME*/
+/*ABOUT ME*/
+/*ABOUT ME*/
+/*ABOUT ME*/
+.am-section-a_title {
+  position: absolute;
+  left: 120px;
+  top: 50px;
+}
+.am-section-a_text {
+  font-size: 16px;
+  font-family: "Questrial", sans-serif;
+}
 .am-section-a_button-cv {
   font-size: 20px;
   text-decoration: none;
@@ -800,10 +812,6 @@ body {
   align-items: center;
   border-radius: 20px;
   border: 1px solid black;
-  font-family: "Questrial", sans-serif;
-}
-.am-section-a_text {
-  font-size: 16px;
   font-family: "Questrial", sans-serif;
 }
 
@@ -921,9 +929,9 @@ body {
 .container-icon-up {
   width: 50px;
   height: 50px;
-  position: absolute;
+  position: fixed;
   right: 28px;
-  bottom: 0px;
+  bottom: 10px;
   background-color: #222121;
   display: flex;
   justify-content: center;
