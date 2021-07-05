@@ -1,7 +1,7 @@
+//CONTENEDOR
 .container-courses{
     width: $margenes;
     height: $sections;
-    background-color: $dark-background;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -15,7 +15,7 @@
         top: $margen-title-sup;
 }
 }
-
+//LISTAS DE CURSOS
 .courses-list{
     width: 82%;
     height: 60%;
@@ -25,12 +25,8 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    overflow-y: scroll;
-    background-color: $white-background;
-    
-  
+    overflow-y: scroll;   //HACE APARECER LA BARRA DE SCROLL DENTRO DE UN DIV
 }
-
 .course-name{
     margin-left: 50px;
 }

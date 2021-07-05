@@ -1,3 +1,10 @@
+//BODY   BODY //
+
+//FONDO
+.body-theme{
+background-color: $background-body;
+}
+
 /* SIN BARRA DE SCROLL 
 .body-cover_page{
    
@@ -7,123 +14,157 @@
 }*/
 
 
-/*FONDO DEL BODY*/ 
-.body-theme{
-background-color: $background-body;
 
-}
-/*FONDO PORTADA*/
 
-.primary-theme{
-    width: $margenes;
-    height: 680px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:  $white-background; 
-    background-size: cover;
-}
-
+   // HEADER    HEADER  //
+   
+// FONDO DEL HEADER
 .main-header{
     background-color: $dark-color;
 }
-
-
-/* Botones del header */
+// BOTONES LETRAS DEL HEADER
 .header_botons{
     
-    color: $secundary-color;
-   
+    color: $secundary-color;   
 }
 
-/*TEXTO DE PORTADA*/
 
+
+
+   // PICTURE AND DESCRIPTION //
+
+// FONDO COLOR 
+.container-pd{
+   
+    background-color:  $white-background; 
+}
+//COLOR DE SERGIO
 .my_name{
     color:$secundary-color;
 }
+//COLOR DE TEXTO
 .name{
-    color: rgb(7, 7, 7);
-}
-.profession{
-    color: rgb(2, 2, 2);
-}
-.iconos-cover a{
     color: $dark-color;
 }
-/*TITULOS*/
+//COLOR PROFESION
+.profession{
+    color: $dark-color;
+}
+
+
+//     TITULOS DE LAS SECCIONES 
+
 .title-L{
     color: $white-color;
 }
 .title-R{
     color: $dark-color;
 }
-/*ACERCA DE MI*/
+
+
+
+
+    //  ABOUT ME    ABOUT ME    ABOUT ME  //
+
+// FONDO COLOR
 .container-about{
     background-color: $dark-color;
 }
 
-/*EXPERIENCIA*/
-.container-exp{
+
+
+
+    //   TIME LINE      TIME LINE   //
+
+//FONDO COLOR
+.container-tl{
     background-color: $white-background;
 }
-
-
-
+//COLOR BOTON CV
 .am-section-a_button-cv{
     background-color: $secundary-color;
-    color: $white-color;
-    
+    color: $white-color;    
 }
+//COLOR TEXTO
 .am-section-a_text{
-        color: $white-color;
+    color: $white-color;
     }
 
-/*CONOCIMIENTOS*/    
+
+
+    // COURSES   COURSES //
+
+//COLOR CONTENEDOR
+.container-courses{
+    background-color: $dark-background;
+       }    
+//COLOR FONDO       
+.courses-list{
+     background-color: $white-background;       
+    }
+//COLOR TITULO
+.course-title{
+    color: $secundary-color;
+             }
+//COLOR NOMBRES    
+.course-name p{
+    text-decoration: none;
+    color: $dark-color;      
+                }
+//COLOR ICONO MAS INFO        
+.more-info{
+    text-decoration: none;
+    color: $dark-color;
+        }
+
+
+
+
+    //   KNOWLEDGE    KNOWLEDGE   //    
+
+//COLOR FONDO
 .container-know{
     background-color: $white-background;
 }
+//COLOR TITULOS
 .know-title{
     color: $dark-color;
 }
+//COLOR TEXTO
+.know-text P{
+   color: $dark-color;
+}
+//COLOR ICONOS
 .know-icon{
-    color: $dark-color;
-
+    color: $secundary-color;
 }
 
-/*SLIDER PROYECTS*/
 
-.but-dir{
+
+
+    //   SLIDER PROYECTS    //
+
+//COLOR BOTONES DIRECCIONES
+.button-dir{
     color: $dark-color;
-    display: inline-block;
-    background-color: transparent;
-    padding: 20px;
-    cursor: pointer;
-    outline: none; /*elimina el radius-border por defecto del button*/
-    border: 0;    
+    background-color: transparent;   
 }
+//COLOR DE LAS BARRAS INFERIORES
 .barras{
     &_bar{
-        cursor: pointer;
-        height: 3px;
-        width: 25px;
-        margin: 0 2px;
         background-color: $white-color;
-        display: inline-block;
-        margin-left: 3px;
     }
     &_active{
         background-color: $secundary-color;
     }
 }
-
-/* IMAGENES PROYECTOS DEL SLIDER*/
-
+//IMAGENES 
 .allProyects{
     &_1{
         background: red;
         width: 101%;
         height: 101%;
-        position: absolute;
-       
+        position: absolute;       
     }
     &_2{
         background:rgb(130, 130, 201);
@@ -153,8 +194,48 @@ background-color: $background-body;
 }
 
 
-/*FOOTER*/
 
-.footer-botons{
+
+    //   CONTACT ME     CONTACT ME//
+
+//COLOR TEXTO E ICONOS (CONTACTAME)
+.icon-contact{
+    text-decoration: none;
+    color: black;
+    &_mail{
+        text-decoration: none;
+        color: black;
+    }
+    & p{
+        
+        color:$dark-color;      
+    }
+}
+//COLOR TEXTO E ICONOS (DESCUBRE MAS SOBRE MI)
+.icon-des{
+    text-decoration: none;
+    color: black;    
+}
+//COLOR LINK FLATICON (ACERCA DE ESTE PROYECTO)
+.link-flaticon{
+    text-decoration: none;
+    color: black;
+}
+//COLOR TEXTOS (OTROS RECURSOS)
+.resources{
+    text-decoration: none;
     color: $dark-color;
 }
+
+
+
+     //  FLECHA UP     FLECHA UP    //
+
+.container-icon-up{
+
+    background-color:$dark-color;
+    & a{
+        text-decoration: none;
+        color: $secundary-color;
+    }
+    }

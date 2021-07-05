@@ -1,5 +1,7 @@
 
-/* Botones del header */
+   // HEADER    HEADER //
+
+//BOTONES HEADER
 .header_botons{
     cursor: pointer;
     text-decoration: none;
@@ -9,29 +11,39 @@
     font-family: 'Questrial', sans-serif;
 }
 
-/*TEXTO DE PORTADA*/
+
+
+
+    // PICTURE AND DESCRIPTION //
+
+// MI NOMBRE //
 .my_name {
     font-family: 'Pacifico', cursive;
     font-size: $xxxl * 2.2;
-    
 }
+// TEXTO
 .name{
     font-size: $xxxl * 1.8;
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Questrial', sans-serif;
 }
+//PROFESION
 .profession{
     font-size: $xl;
     font-family: 'Questrial', sans-serif;
 }
 
 
-/*DISEÑO TITULOS DE LA PAGINA*/
+
+
+    // TITULOS DE LAS SECCIONES  //
 
 .titles{
 font-size: $xxxxl * 1.3;
 font-family: 'Questrial', sans-serif;
+
+//BARRA INFERIOR TITULOS SECCIONES
 &::after{
     content: "";
     height: 5px;
@@ -39,14 +51,16 @@ font-family: 'Questrial', sans-serif;
     background-color: $secundary-color;
     position: absolute;
     left: calc(50% - 100px);
-    bottom: -10px;
-    
-}
-}
-              /*ABOUT ME*//*ABOUT ME*//*ABOUT ME*//*ABOUT ME*//*ABOUT ME*/
+    bottom: -10px;    
+}}
 
-.am-section-a{
-    
+
+
+
+    // ABOUT ME    ABOUT ME //
+
+//TEXTOS Y BOTONES DE LA SECCION A     
+.am-section-a{    
     &_title{
         position: absolute;
         left: $margen-title-lat;
@@ -65,49 +79,75 @@ font-family: 'Questrial', sans-serif;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    border: 1px solid black;
     font-family: 'Questrial', sans-serif;
 } 
 }
-              /*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
 
+
+
+
+
+    // COURSES  COURSES //
+
+//TITULO 
 .course-title{
 font-size: $l * 2.1;
-color: $secundary-color;
 font-family: 'Questrial', sans-serif;
 margin-left: auto;
 margin-right: auto;
 margin-top: 50px;
 margin-bottom: 20px;
 }
-
+//NOMBRES CURSOS
 .course-name p{
 font-size: $xxl;
-text-decoration: none;
-color: $dark-color;
 display: inline-block;
 margin: 0;
 margin-top: 30px;
-
 }
-
+//ICONO DE MAS INFO
 .more-info{
-    text-decoration: none;
-    color: $dark-color;
     font-size: $l;
     margin-left: 30px;
 }
 
 
-                     /*CONOCIMIENTOS*/
+
+
+    // KNOWLEDGE    KNOWLEDGE //
 .know-title{
     font-size: $xl;
     font-family: 'Questrial', sans-serif;
 }   
+
+
+
+
+    //   SLIDER PROYECTS    //
+
+// COLOR BOTONES DIRECCIONES
+.button-dir{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    outline: none; /*elimina el radius-border por defecto del button*/
+    border: 0;    
+}
+.barras{
+    &_bar{
+        cursor: pointer;
+        height: 3px;
+        width: 25px;
+        margin: 0 2px;
+        display: inline-block;
+        margin-left: 3px;
+    }
+}
   
    
 
-                 /*FOOTER*/ /*FOOTER*//*FOOTER*/ /*FOOTER*/ /*FOOTER*/ 
+
+    // CONTACT ME     CONTACT ME //
 
 
 /*ICONOS DE LA SECCION DE CONTACTOS*/
@@ -118,12 +158,6 @@ margin-top: 30px;
     justify-content: space-between;
     margin-left: 20%;
     margin-bottom: 2%;
-    text-decoration: none;
-    color: black;
-    &_mail{
-        text-decoration: none;
-        color: black;
-    }
     & p{
         font-size: $m;
         display: inline-block;
@@ -132,14 +166,13 @@ margin-top: 30px;
     }
 }
 
-/* SECCION DESCUBRE MAS SOBRE MI */
+// TEXTOS E ICONOS (DESCUBRE MAS SOBRE MI)
 .icon-des{
         font-size: $xl;
         display: flex;
         align-items: flex-start;
-        margin-left: 40%;
+        margin-left: 36%;
         text-decoration: none;
-        color: black;
         margin-top: 5px;
         & p{
             margin: 0;
@@ -152,7 +185,7 @@ margin-top: 30px;
         }
 }
 
-/*SECCION ACERCA DE ESTE PROYECTO*/
+// TEXTOS ACERCA DE ESTE PROYECTO/
 .madeWith{
     width: 30px;
     height: 30px;
@@ -162,15 +195,10 @@ margin-top: 30px;
         height: 34px;
     }
 }
-.link-flaticon{
-    text-decoration: none;
-    color: black;
-}
 
-/*SECCION OTROS RECURSOS*/
+// TEXTOS OTROS RECURSOS
 .resources{
     text-decoration: none;
-    color: $dark-color;
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 38%;
@@ -181,22 +209,19 @@ margin-top: 30px;
 
 
 
-/*FLECHA PARA SUBIR AL INICIO DE LA PAGINA*/
+    // BOTON UP    BOTON UP //
 
+// ESTILOS
 .container-icon-up{
-
     width: 50px;
     height: 50px;
     position: fixed;
     right: 28px;
     bottom: 10px;
-    background-color:$dark-color;
     display: flex;
     justify-content: center;
     align-items: center;
     & a{
-        text-decoration: none;
-        color: $secundary-color;
         font-size: $xxl;
         width: auto;
         height: auto;

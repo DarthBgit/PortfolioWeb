@@ -1,12 +1,16 @@
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 
-.container-picture_description{
+.container-pd{
+width: $margenes;
+height: 680px;
+margin-left: auto;
+margin-right: auto;
+&_description{
     width: 100%;
     height: 100%;
-   /* background-color: white;*/
     display: flex;
     justify-content: center;
-}
+}}
 
 /* DIV DE LA FOTO*/
 .picture-cover{

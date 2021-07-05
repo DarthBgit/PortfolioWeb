@@ -374,7 +374,6 @@ body {
   background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
-/*CONTENEDOR DE SECCION ACERCA DE MI*/
 .container-about {
   width: 86%;
   height: 800px;
@@ -383,7 +382,6 @@ body {
   display: flex;
 }
 
-/*PARTE IZQUIERDA*/
 .am-section-a {
   width: 60%;
   height: 100%;
@@ -408,7 +406,6 @@ body {
   cursor: pointer;
 }
 
-/*PARTE DERECHA*/
 .am-section-b {
   width: 40%;
   height: 100%;
@@ -431,59 +428,29 @@ body {
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);
 }
 
-.container-footer {
+.container-tl {
   width: 86%;
-  height: 228.5714285714px;
-  margin-left: auto;
+  height: 800px;
   margin-right: auto;
-  background-color: white;
+  margin-left: auto;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+.container-tl_title {
+  position: absolute;
+  right: 120px;
+  top: 50px;
 }
 
-.section-footer_A {
+.section-tl {
   width: 100%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.section-footer_B {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.section-footer_C {
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.section-footer_C p {
-  font-size: 16px;
-  margin-top: 5px;
-}
-.section-footer_D {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.section-footer_title {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 16px;
-  margin-bottom: 25px;
-  margin-top: 9%;
-  color: #222121;
+  height: 70%;
+  background: url(../../Images/tline2.jpg) center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
 }
 
 .main-header {
@@ -507,10 +474,15 @@ body {
 }
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
-.container-picture_description {
+.container-pd {
+  width: 86%;
+  height: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-pd_description {
   width: 100%;
   height: 100%;
-  /* background-color: white;*/
   display: flex;
   justify-content: center;
 }
@@ -689,7 +661,6 @@ body {
 .container-courses {
   width: 86%;
   height: 800px;
-  background-color: #222121;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -713,39 +684,67 @@ body {
   align-items: flex-start;
   flex-direction: column;
   overflow-y: scroll;
-  background-color: white;
 }
 
 .course-name {
   margin-left: 50px;
 }
 
-.container-exp {
+.container-footer {
   width: 86%;
-  height: 800px;
-  margin-right: auto;
+  height: 228.5714285714px;
   margin-left: auto;
+  margin-right: auto;
+  background-color: white;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-}
-.container-exp_title {
-  position: absolute;
-  right: 120px;
-  top: 50px;
+  align-items: center;
 }
 
-.section-exp {
+.section-footer_A {
   width: 100%;
-  height: 70%;
-  background: url(../../Images/tline2.jpg) center;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  margin-bottom: 5%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-footer_B {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-footer_C {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-footer_C p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.section-footer_D {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-footer_title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  margin-bottom: 25px;
+  margin-top: 9%;
+  color: #222121;
 }
 
-/* Botones del header */
 .header_botons {
   cursor: pointer;
   text-decoration: none;
@@ -755,7 +754,6 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
-/*TEXTO DE PORTADA*/
 .my_name {
   font-family: "Pacifico", cursive;
   font-size: 70.4px;
@@ -773,7 +771,6 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
-/*DISEÑO TITULOS DE LA PAGINA*/
 .titles {
   font-size: 46.8px;
   font-family: "Questrial", sans-serif;
@@ -788,11 +785,6 @@ body {
   bottom: -10px;
 }
 
-/*ABOUT ME*/
-/*ABOUT ME*/
-/*ABOUT ME*/
-/*ABOUT ME*/
-/*ABOUT ME*/
 .am-section-a_title {
   position: absolute;
   left: 120px;
@@ -811,18 +803,11 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  border: 1px solid black;
   font-family: "Questrial", sans-serif;
 }
 
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
 .course-title {
   font-size: 42px;
-  color: #f0b262;
   font-family: "Questrial", sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -832,31 +817,39 @@ body {
 
 .course-name p {
   font-size: 28px;
-  text-decoration: none;
-  color: #222121;
   display: inline-block;
   margin: 0;
   margin-top: 30px;
 }
 
 .more-info {
-  text-decoration: none;
-  color: #222121;
   font-size: 20px;
   margin-left: 30px;
 }
 
-/*CONOCIMIENTOS*/
 .know-title {
   font-size: 24px;
   font-family: "Questrial", sans-serif;
 }
 
-/*FOOTER*/
-/*FOOTER*/
-/*FOOTER*/
-/*FOOTER*/
-/*FOOTER*/
+.button-dir {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  outline: none;
+  /*elimina el radius-border por defecto del button*/
+  border: 0;
+}
+
+.barras_bar {
+  cursor: pointer;
+  height: 3px;
+  width: 25px;
+  margin: 0 2px;
+  display: inline-block;
+  margin-left: 3px;
+}
+
 /*ICONOS DE LA SECCION DE CONTACTOS*/
 .icon-contact {
   font-size: 24px;
@@ -865,12 +858,6 @@ body {
   justify-content: space-between;
   margin-left: 20%;
   margin-bottom: 2%;
-  text-decoration: none;
-  color: black;
-}
-.icon-contact_mail {
-  text-decoration: none;
-  color: black;
 }
 .icon-contact p {
   font-size: 16px;
@@ -879,14 +866,12 @@ body {
   margin-left: 20px;
 }
 
-/* SECCION DESCUBRE MAS SOBRE MI */
 .icon-des {
   font-size: 24px;
   display: flex;
   align-items: flex-start;
-  margin-left: 40%;
+  margin-left: 36%;
   text-decoration: none;
-  color: black;
   margin-top: 5px;
 }
 .icon-des p {
@@ -899,7 +884,6 @@ body {
   margin-bottom: 10px;
 }
 
-/*SECCION ACERCA DE ESTE PROYECTO*/
 .madeWith {
   width: 30px;
   height: 30px;
@@ -910,36 +894,25 @@ body {
   height: 34px;
 }
 
-.link-flaticon {
-  text-decoration: none;
-  color: black;
-}
-
-/*SECCION OTROS RECURSOS*/
 .resources {
   text-decoration: none;
-  color: #222121;
   margin-top: 5px;
   margin-bottom: 10px;
   margin-left: 38%;
   font-size: 16px;
 }
 
-/*FLECHA PARA SUBIR AL INICIO DE LA PAGINA*/
 .container-icon-up {
   width: 50px;
   height: 50px;
   position: fixed;
   right: 28px;
   bottom: 10px;
-  background-color: #222121;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container-icon-up a {
-  text-decoration: none;
-  color: #f0b262;
   font-size: 28px;
   width: auto;
   height: auto;
@@ -983,6 +956,10 @@ body {
   color: #fffdfd;
 }
 
+.body-theme {
+  background-color: #f0d29c;
+}
+
 /* SIN BARRA DE SCROLL 
 .body-cover_page{
 
@@ -990,48 +967,30 @@ body {
         display: none;
     }
 }*/
-/*FONDO DEL BODY*/
-.body-theme {
-  background-color: #f0d29c;
-}
-
-/*FONDO PORTADA*/
-.primary-theme {
-  width: 86%;
-  height: 680px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: white;
-  background-size: cover;
-}
-
 .main-header {
   background-color: #222121;
 }
 
-/* Botones del header */
 .header_botons {
   color: #f0b262;
 }
 
-/*TEXTO DE PORTADA*/
+.container-pd {
+  background-color: white;
+}
+
 .my_name {
   color: #f0b262;
 }
 
 .name {
-  color: #070707;
-}
-
-.profession {
-  color: #020202;
-}
-
-.iconos-cover a {
   color: #222121;
 }
 
-/*TITULOS*/
+.profession {
+  color: #222121;
+}
+
 .title-L {
   color: #fffdfd;
 }
@@ -1040,13 +999,11 @@ body {
   color: #222121;
 }
 
-/*ACERCA DE MI*/
 .container-about {
   background-color: #222121;
 }
 
-/*EXPERIENCIA*/
-.container-exp {
+.container-tl {
   background-color: white;
 }
 
@@ -1059,7 +1016,28 @@ body {
   color: #fffdfd;
 }
 
-/*CONOCIMIENTOS*/
+.container-courses {
+  background-color: #222121;
+}
+
+.courses-list {
+  background-color: white;
+}
+
+.course-title {
+  color: #f0b262;
+}
+
+.course-name p {
+  text-decoration: none;
+  color: #222121;
+}
+
+.more-info {
+  text-decoration: none;
+  color: #222121;
+}
+
 .container-know {
   background-color: white;
 }
@@ -1068,36 +1046,26 @@ body {
   color: #222121;
 }
 
-.know-icon {
+.know-text P {
   color: #222121;
 }
 
-/*SLIDER PROYECTS*/
-.but-dir {
+.know-icon {
+  color: #f0b262;
+}
+
+.button-dir {
   color: #222121;
-  display: inline-block;
   background-color: transparent;
-  padding: 20px;
-  cursor: pointer;
-  outline: none;
-  /*elimina el radius-border por defecto del button*/
-  border: 0;
 }
 
 .barras_bar {
-  cursor: pointer;
-  height: 3px;
-  width: 25px;
-  margin: 0 2px;
   background-color: #fffdfd;
-  display: inline-block;
-  margin-left: 3px;
 }
 .barras_active {
   background-color: #f0b262;
 }
 
-/* IMAGENES PROYECTOS DEL SLIDER*/
 .allProyects_1 {
   background: red;
   width: 101%;
@@ -1135,7 +1103,37 @@ body {
   position: absolute;
 }
 
-/*FOOTER*/
-.footer-botons {
+.icon-contact {
+  text-decoration: none;
+  color: black;
+}
+.icon-contact_mail {
+  text-decoration: none;
+  color: black;
+}
+.icon-contact p {
   color: #222121;
+}
+
+.icon-des {
+  text-decoration: none;
+  color: black;
+}
+
+.link-flaticon {
+  text-decoration: none;
+  color: black;
+}
+
+.resources {
+  text-decoration: none;
+  color: #222121;
+}
+
+.container-icon-up {
+  background-color: #222121;
+}
+.container-icon-up a {
+  text-decoration: none;
+  color: #f0b262;
 }
