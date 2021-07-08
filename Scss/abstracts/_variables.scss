@@ -13,14 +13,16 @@ $xss: 4px;
 /* Colores */
 $dark-color: rgb(34, 33, 33);
 $white-color: rgb(255, 253, 253);
-$secundary-color:rgb(240, 178, 98);
+$secundary-color:rgb(255, 179, 80);
 $white-background: rgb(255, 255, 255);
 $dark-background: rgb(34, 33, 33);
-$background-body: rgb(240, 210, 156);
+$dark-background: rgb(8, 8, 8);
+$background-body: rgb(218, 214, 214);
 
-/*SEPARACION DE LOS COSTADOS*/
+/*MARGENES Y DIMENSIONES*/
 $margenes: 86%;
 $margenes-body:3%;
 $margen-title-sup:50px;
 $margen-title-lat:120px;
 $sections:800px;
+$maxWidht:1536px;/*Ancho maximo permitido*/

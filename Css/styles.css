@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*Tamanyos de fuentes*/
 /* Colores */
-/*SEPARACION DE LOS COSTADOS*/
+/*MARGENES Y DIMENSIONES*/
+/*Ancho maximo permitido*/
 /*NORMALIZE: Normalize es un fichero CSS que apenas ocupa 8 KB, cuyo principal objetivo es mantener los estilos 
 similares en los navegadores, ya que cada uno agrega sus propios estilos por defecto, por ejemplo te suelen agregar 
 distintos paddings, margins, font-sizes,etc.26 mar. 2015 */
@@ -366,15 +367,16 @@ body {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
-  background-color: #222121;
+  background-color: #080808;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #f0b262;
+  background-color: #ffb350;
   background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
 .container-about {
+  max-width: 1536px;
   width: 86%;
   height: 800px;
   margin-left: auto;
@@ -429,6 +431,7 @@ body {
 }
 
 .container-tl {
+  max-width: 1536px;
   width: 86%;
   height: 800px;
   margin-right: auto;
@@ -454,6 +457,7 @@ body {
 }
 
 .main-header {
+  max-width: 1536px;
   width: 86%;
   height: 40px;
   position: relative;
@@ -475,8 +479,9 @@ body {
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 .container-pd {
+  max-width: 1536px;
   width: 86%;
-  height: 680px;
+  height: 640px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -494,24 +499,29 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /*&_img{
-      width: 100%;
-      height: 100%;
-      background:url(../../Images/yoTop.png);
-      background-repeat: no-repeat;
-      background-size: 97%;
-      background-position: 10PX 100px;
-  }*/
-}
-.picture-cover_img {
-  width: 100%;
-  height: 100%;
-  background: url(../../Images/ichigo.png);
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position: -200px;
+  position: relative;
+  position: relative;
+  overflow: hidden;
 }
 
+.photo {
+  position: absolute;
+  max-width: 600px;
+  max-height: 480px;
+  width: auto;
+  height: auto;
+  bottom: -50px;
+  right: 50px;
+}
+
+/*&_img{
+    width: 100%;
+    height: 100%;
+    background:url(../../Images/yoTop.png);
+    background-repeat: no-repeat;
+    background-size: 97%;
+    background-position: 10PX 100px;
+}*/
 /*CONTENEDOR DE MI DESCRIPCION*/
 .description-cover {
   width: 90%;
@@ -524,6 +534,7 @@ body {
 }
 
 .container-know {
+  max-width: 1536px;
   width: 86%;
   height: 800px;
   margin-right: auto;
@@ -591,9 +602,10 @@ body {
 
 /*SECCION CONTENEDOR PROYECTOS*/
 .container-proyects {
+  max-width: 1536px;
   width: 86%;
   height: 800px;
-  background-color: #222121;
+  background-color: #080808;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -659,6 +671,7 @@ body {
   }
 }
 .container-courses {
+  max-width: 1536px;
   width: 86%;
   height: 800px;
   margin-left: auto;
@@ -691,6 +704,7 @@ body {
 }
 
 .container-footer {
+  max-width: 1536px;
   width: 86%;
   height: 228.5714285714px;
   margin-left: auto;
@@ -760,7 +774,7 @@ body {
 }
 
 .name {
-  font-size: 57.6px;
+  font-size: 54.4px;
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Questrial", sans-serif;
@@ -779,7 +793,7 @@ body {
   content: "";
   height: 5px;
   width: 200px;
-  background-color: #f0b262;
+  background-color: #ffb350;
   position: absolute;
   left: calc(50% - 100px);
   bottom: -10px;
@@ -928,7 +942,7 @@ body {
 }
 
 .iconos-cover a:hover {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 /*HOVER FLECHAS SLIDER*/
@@ -943,12 +957,12 @@ body {
 /*CURSOS*/
 /*CURSOS*/
 .course-name a:hover {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 /*FOOTER*/
 .link-footer:hover {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 /*FLECHA PARA IR AL INICIO DE PAGINA*/
@@ -957,7 +971,7 @@ body {
 }
 
 .body-theme {
-  background-color: #f0d29c;
+  background-color: #dad6d6;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -968,19 +982,21 @@ body {
     }
 }*/
 .main-header {
-  background-color: #222121;
+  background-color: #080808;
 }
 
 .header_botons {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 .container-pd {
-  background-color: white;
+  background: url(../../Images/luca-bravo-SRjZtxsK3Os-unsplash.jpg);
+  background-size: 2200px;
+  background-repeat: no-repeat;
 }
 
 .my_name {
-  color: #f0b262;
+  color: #fffdfd;
 }
 
 .name {
@@ -1000,7 +1016,7 @@ body {
 }
 
 .container-about {
-  background-color: #222121;
+  background-color: #080808;
 }
 
 .container-tl {
@@ -1008,7 +1024,7 @@ body {
 }
 
 .am-section-a_button-cv {
-  background-color: #f0b262;
+  background-color: #ffb350;
   color: #fffdfd;
 }
 
@@ -1017,7 +1033,7 @@ body {
 }
 
 .container-courses {
-  background-color: #222121;
+  background-color: #080808;
 }
 
 .courses-list {
@@ -1025,7 +1041,7 @@ body {
 }
 
 .course-title {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 .course-name p {
@@ -1051,7 +1067,7 @@ body {
 }
 
 .know-icon {
-  color: #f0b262;
+  color: #ffb350;
 }
 
 .button-dir {
@@ -1063,7 +1079,7 @@ body {
   background-color: #fffdfd;
 }
 .barras_active {
-  background-color: #f0b262;
+  background-color: #ffb350;
 }
 
 .allProyects_1 {
@@ -1131,9 +1147,9 @@ body {
 }
 
 .container-icon-up {
-  background-color: #222121;
+  background-color: #080808;
 }
 .container-icon-up a {
   text-decoration: none;
-  color: #f0b262;
+  color: #ffb350;
 }

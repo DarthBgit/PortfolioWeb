@@ -2,6 +2,7 @@
 /*SECCION CONTENEDOR PROYECTOS*/
 
 .container-proyects{
+    max-width: $maxWidht;
     width: $margenes;
     height: $sections;
     background-color: $dark-background;

@@ -20,7 +20,7 @@ background-color: $background-body;
    
 // FONDO DEL HEADER
 .main-header{
-    background-color: $dark-color;
+    background-color: $dark-background;
 }
 // BOTONES LETRAS DEL HEADER
 .header_botons{
@@ -34,13 +34,16 @@ background-color: $background-body;
    // PICTURE AND DESCRIPTION //
 
 // FONDO COLOR 
+
 .container-pd{
    
-    background-color:  $white-background; 
+    background: url(../../Images/luca-bravo-SRjZtxsK3Os-unsplash.jpg);
+    background-size: 2200px;
+    background-repeat: no-repeat; 
 }
 //COLOR DE SERGIO
 .my_name{
-    color:$secundary-color;
+    color:$white-color;
 }
 //COLOR DE TEXTO
 .name{
@@ -68,7 +71,7 @@ background-color: $background-body;
 
 // FONDO COLOR
 .container-about{
-    background-color: $dark-color;
+    background-color: $dark-background;
 }
 
 
@@ -233,7 +236,7 @@ background-color: $background-body;
 
 .container-icon-up{
 
-    background-color:$dark-color;
+    background-color:$dark-background;
     & a{
         text-decoration: none;
         color: $secundary-color;
