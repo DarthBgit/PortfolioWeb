@@ -356,7 +356,6 @@ body {
   font-size: 14px;
   position: relative;
   margin-bottom: 3%;
-  margin-top: 3%;
 }
 
 /* ESTILOS DE LA BARRA DE SCROLL */
@@ -990,7 +989,7 @@ body {
 }
 
 .container-pd {
-  background: url(../../Images/luca-bravo-SRjZtxsK3Os-unsplash.jpg);
+  background: url(../../Images/luca-copia.jpg);
   background-size: 2200px;
   background-repeat: no-repeat;
 }
