@@ -1,17 +1,22 @@
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 
 .container-pd{
+@media screen and (max-width: $ultraHD){        
+    
 max-width: $maxWidht;
 width: $margenes;
-height: 640px;
+height: 700px;
 margin-left: auto;
 margin-right: auto;
-&_description{
+   &_description{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-}}
+    justify-content: center;}
+}
+}
+
+
 
 /* DIV DE LA FOTO*/
 .picture-cover{

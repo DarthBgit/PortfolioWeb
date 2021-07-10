@@ -13,11 +13,11 @@
 
     &_section{
         height: 100%;
-        width: 60%;
+        max-width: 1100px;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+        margin-right: 18px;    }
     
 }
 
