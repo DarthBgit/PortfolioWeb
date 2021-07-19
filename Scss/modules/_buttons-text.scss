@@ -122,12 +122,21 @@ margin-top: 30px;
     //   SLIDER PROYECTS    //
 
 // COLOR BOTONES DIRECCIONES
-.button-dir{
-    display: inline-block;
-    padding: 20px;
+.icons-arrow{
+    width: auto;
+    height: auto;
+    font-size: $xxxl * 1.5;
+    position: absolute;
     cursor: pointer;
-    outline: none; /*elimina el radius-border por defecto del button*/
-    border: 0;    
+    color: $secundary-color;
+    &_right{
+    right: 8%;
+    bottom: 35%;   
+    }
+    &_left{
+    left: 8%;
+    bottom: 35%;  
+    }
 }
 .barras{
     &_bar{
