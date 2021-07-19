@@ -21,7 +21,7 @@ function positionSlide(n){
 
 function showSlides(n){
   let i;
-  let slides = document.getElementsByClassName("name-p")
+  let slides = document.getElementsByClassName("position-bar")
   let barras = document.getElementsByClassName("barras_bar")
 
   if(n > slides.length){
@@ -43,7 +43,7 @@ function showSlides(n){
   /* CAMBIO AUTOMATICO DE IMAGENES*/
   
   setInterval(function time(){
-  showSlides(index += 1)},50000)
+  showSlides(index += 1)},500000)
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 

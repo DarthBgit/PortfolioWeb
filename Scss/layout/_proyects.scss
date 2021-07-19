@@ -22,29 +22,28 @@
 /*SLIDER*/
 
 .slider-container{
-    width: 82%;
-    height: 65%;
+    width: 75%;
+    height: 58%;
     position: relative;
     transition: 2s;
     margin-bottom: 80px;
     padding: 0;
     overflow: hidden;
-}
-.name-p{
-    transition: 2s;
+    background-color: white;
 }
 
-/* FLECHAS DEL SLIDER */
+
+/* FLECHAS DEL SLIDER 
 .directions{
-    width: 100%;
-    height: 100%;
+    width: 83%;
+    height: 115%;
     position: absolute;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: $xl;
-}
+}*/
 
 /*BARRAS INFERIORES DEL SLIDER*/
 .barras{
@@ -59,7 +58,7 @@
 
 
 /*ANIMACION OPACIDAD DE FOTO*/
-.ani-next-photo{
+.animation-opacity{
     animation-name:ani;
     animation-duration: 3s;
 }

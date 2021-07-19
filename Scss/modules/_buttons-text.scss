@@ -16,12 +16,8 @@
 
     // PICTURE AND DESCRIPTION //
 
-// MI NOMBRE //
-.my_name {
-    font-family: 'Pacifico', cursive;
-    font-size: $xxxl * 2.2;
-}
-// TEXTO
+
+// NOMBRE
 .name{
     font-size: $xxxl * 1.7;
     margin-bottom: 0;
@@ -227,4 +223,27 @@ margin-top: 30px;
         height: auto;
 
     }
+    }
+
+
+
+
+// SECCION DE DESPEDIDA
+   
+.despedida{
+    font-family: 'Questrial', sans-serif;
+    color: $background-body;
+    animation-name:change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3ms;
+   
+    }
+    @keyframes change{
+        from{
+            color: $secundary-color;
+        }
+        to{
+            color: $white-color;
+        };
     }

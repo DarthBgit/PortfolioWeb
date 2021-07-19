@@ -1,0 +1,12 @@
+
+.gb{
+    max-width: $maxWidht;
+    width: $margenes;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: $dark-background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

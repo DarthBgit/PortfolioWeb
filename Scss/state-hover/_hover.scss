@@ -12,9 +12,8 @@
 }
 
 /*HOVER FLECHAS SLIDER*/
-.directions button:hover{
+.icons-arrow:hover{
     color: $white-color;
-    background-color: rgb(0, 0,0 , 0.5);
 }
 
      /*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
@@ -28,6 +27,7 @@ color: $secundary-color;
     
     &:hover{
         color: $secundary-color;
+        background-color: rgba(255, 255, 255, 0.678);
     }
 }
 

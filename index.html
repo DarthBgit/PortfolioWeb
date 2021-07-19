@@ -98,36 +98,47 @@
     <div class="container-know">
         <h1 class="container-know_title titles title-R" id="knowledge">CONOCIMIENTOS</h1>
         <div class="section-know">
-        <div class=" wow know-grid" data-wow-delay="0.2s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO WEB</h2>
+        <div class=" wow know-grid" data-wow-delay="0.2s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO APPS WEB</h2>
             <div class="know-text"><p>Capacidad de implementar tecnologias de front-end y back-end para el desarrollo de una pagina web.</p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="0.4s"><div class="know-icon icon-book "><h2 class="know-title">LENGUAJES DE PROGRAMACIÓN</h2>
-            <div class="know-text"><p>Conocimiento en los lenguajes de programación de Java, Kotlin y C#.</p></div></div></div>
+            <div class="know-text"><p>Conocimiento de los lenguajes de programación Java, Kotlin, C# entre otros.</p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="0.6s"><div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"><h2 class="know-title">DISEÑO WEB</h2>
-            <div class="know-text"><p>Diseño de paginas web, usando Html, Css y Js combinandolos con Sass. Ademas el uso de distintas librerias es un punto interes. </p></div></div></div>
+            <div class="know-text"><p>Maquetación de paginas web, usando Html, Css con Sass y Js. </p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="0.8s"><div class="know-icon icon-mobile"><h2 class="know-title">DISEÑO RESPONSIVE</h2>
-            <div class="know-text"><p>Adaptamiento de los proyectos a diferentes resoluciones, a traves del uso de Media-Querys dentro del archivo Css.</p></div></div></div>
+            <div class="know-text"><p>Adaptamiento de los proyectos a diferentes resoluciones.</p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="1s"><div class="know-icon smll icon-database"><h2 class="know-title">LENGUAJE SQL</h2>
-            <div class="know-text"><p>Conocimientos basicos de una BBDD y diferentes SGBD, como Oracle o MySql, ademas de la manipulación de los distintos datos almacaneados.</p></div></div></div>
+            <div class="know-text"><p>Conocimientos basicos de una BBDD y diferentes SGBD, como Oracle o MySql.</p></div></div></div>
         <div class=" wow know-grid" data-wow-delay="1.2s"><div class="know-icon smll icon-language"><h2 class="know-title">IDIOMA</h2>
-                <div class="know-text"><p>Facilidad a la hora de trabajar con terminologias en ingles, asi como la mayoria de softwares que funcionan con la lengua inglesa.</p></div></div></div>
+                <div class="know-text"><p>Facilidad a la hora de trabajar con los diferentes softwares en ingles.</p></div></div></div>
         </div>
     </div>
      <!--SLIDER PROYECS-->
-     <div class="container-proyects">
-         <h1 class="container-proyects_title titles title-L" id="proyects">PROYECTOS</h1>
-         <div class="slider-container allProyects">
-             <div class="name-p ani-next-photo allProyects_1 "></div>   
-             <div class="name-p ani-next-photo allProyects_2 "></div> 
-             <div class="name-p ani-next-photo allProyects_3 "></div> 
-             <div class="name-p ani-next-photo allProyects_4 "></div> 
-             <div class="name-p ani-next-photo allProyects_5 "></div> 
-             <div class="name-p ani-next-photo allProyects_6 "></div> 
-             <div class="directions" id="directions">
-                <button class="button-dir" onclick="nextSlide(-1)">&#10094;</a>
-                <button class="button-dir" onclick="nextSlide(1)">&#10095;</a>
-               </div>
+     <div class="container-proyects" id="proyects">
+         <h1 class="container-proyects_title titles title-L">PROYECTOS</h1>
+         <div class="icons-arrow icons-arrow_right icon-angle-right" onclick="nextSlide(1)"></div>
+         <div class="icons-arrow icons-arrow_left icon-angle-left" onclick="nextSlide(-1)"></div>
+         <div class="slider-container">
+             <!--DIV SLIDER 1-->
+            <div class=" animation-opacity allProyects allProyects_1 position-bar">
+                <video autoplay loop muted class="vid-pro">
+                <source src="Images/gogreen.mp4">
+                </video>
+                <div class="develop-pro">
+                    <h1 class="develop-pro_text">DESARROLLADO CON</h1>
+                    <object class="develop-pro_icons" data="Images/html.svG" type="image/svg+xml"></object>
+                    <object class="develop-pro_icons" data="Images/sass-1.svg" type="image/svg+xml"></object>                   
+                    <object class="develop-pro_icons" data="Images/logo-javascript.svg" type="image/svg+xml"></object>                     
+                </div>
+             </div>   
+
+             <div class="animation-opacity allProyects allProyects_2 position-bar"></div> 
+             <div class="animation-opacity allProyects allProyects_3 position-bar"></div> 
+             <div class="animation-opacity allProyects allProyects_4 position-bar"></div> 
+             <div class="animation-opacity allProyects allProyects_5 position-bar"></div> 
+             <div class="animation-opacity allProyects allProyects_6 position-bar"></div> 
+            
          </div>
-        
+         
         <div class="barras">
             <span class="barras_bar barras_active" onclick="positionSlide(1)"></span>
             <span class="barras_bar" onclick="positionSlide(2)"></span>
@@ -184,8 +195,12 @@
     
     <script src="Js/javascript.js"></script>
     <script src="Js/wow.js"></script>
+    
+    <!--GOODBYE-->
+    <div class="gb">
+    <h1 class="despedida">MUCHAS GRACIAS POR LA VISITA</h1>
+    </div>
 
-    <h1 class="despedida">MUCHAS GRACIAS POR VISITAR MI WEB</h1>
 </body>
 </html>
 <!---->
