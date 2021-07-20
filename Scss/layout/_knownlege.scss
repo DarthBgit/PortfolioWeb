@@ -32,6 +32,9 @@
     animation-duration: 3s;
     animation-fill-mode: forwards;
     transform: scale(0.001);
+    @media screen and (max-width: $FHD){ 
+        display: none;
+    }
     }
     @keyframes agrandar{
         0%{

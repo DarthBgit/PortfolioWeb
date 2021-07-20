@@ -40,6 +40,9 @@ background-color: $background-body;
     background: url(../../Images/luca.jpg);
     background-size: 1800px;
     background-repeat: no-repeat; 
+    @media screen and (max-width: $FHD){ 
+        background-size: 1470px;
+    }
 }
 
 //COLOR DE TEXTO

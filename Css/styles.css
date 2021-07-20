@@ -462,6 +462,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (max-width: 1470px) {
+  .main-header {
+    height: 30px;
+  }
+}
 
 .container-header {
   display: flex;
@@ -492,6 +497,11 @@ body {
     justify-content: center;
   }
 }
+@media screen and (max-width: 1470px) {
+  .container-pd {
+    height: 600px;
+  }
+}
 
 /* DIV DE LA FOTO*/
 .picture-cover {
@@ -513,6 +523,12 @@ body {
   height: auto;
   bottom: -50px;
   right: 50px;
+}
+@media screen and (max-width: 1470px) {
+  .photo {
+    max-width: 500px;
+    max-height: 400px;
+  }
 }
 
 /*&_img{
@@ -567,6 +583,11 @@ body {
   animation-duration: 3s;
   animation-fill-mode: forwards;
   transform: scale(0.001);
+}
+@media screen and (max-width: 1470px) {
+  .know-grid {
+    display: none;
+  }
 }
 
 @keyframes agrandar {
@@ -809,10 +830,20 @@ body {
   margin-top: 0;
   font-family: "Questrial", sans-serif;
 }
+@media screen and (max-width: 1470px) {
+  .name {
+    font-size: 41.6px;
+  }
+}
 
 .profession {
   font-size: 24px;
   font-family: "Questrial", sans-serif;
+}
+@media screen and (max-width: 1470px) {
+  .profession {
+    font-size: 20px;
+  }
 }
 
 .titles {
@@ -1040,6 +1071,11 @@ body {
   background: url(../../Images/luca.jpg);
   background-size: 1800px;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 1470px) {
+  .container-pd {
+    background-size: 1470px;
+  }
 }
 
 .name {
