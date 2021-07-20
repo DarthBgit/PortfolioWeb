@@ -54,7 +54,12 @@ font-family: 'Questrial', sans-serif;
     position: absolute;
     left: calc(50% - 100px);
     bottom: -10px;    
-}}
+    
+}
+@media screen and (max-width: $FHD){ 
+    font-size: $xxxxl * 1.1;
+}
+}
 
 
 

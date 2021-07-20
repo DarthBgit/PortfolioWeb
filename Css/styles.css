@@ -376,7 +376,7 @@ body {
 .container-about {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -858,6 +858,11 @@ body {
   position: absolute;
   left: calc(50% - 100px);
   bottom: -10px;
+}
+@media screen and (max-width: 1470px) {
+  .titles {
+    font-size: 39.6px;
+  }
 }
 
 .am-section-a_title {
