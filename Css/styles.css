@@ -431,7 +431,7 @@ body {
 .container-tl {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -553,7 +553,7 @@ body {
 .container-know {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
@@ -626,7 +626,7 @@ body {
 .container-proyects {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   background-color: #222121;
   margin-left: auto;
   margin-right: auto;
@@ -691,7 +691,7 @@ body {
 .container-courses {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -724,7 +724,7 @@ body {
 .container-footer {
   max-width: 1536px;
   width: 86%;
-  height: 800px;
+  height: 805px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -907,13 +907,21 @@ body {
   font-family: "Questrial", sans-serif;
 }
 
-.button-dir {
-  display: inline-block;
-  padding: 20px;
+.icons-arrow {
+  width: auto;
+  height: auto;
+  font-size: 48px;
+  position: absolute;
   cursor: pointer;
-  outline: none;
-  /*elimina el radius-border por defecto del button*/
-  border: 0;
+  color: #719ac9;
+}
+.icons-arrow_right {
+  right: 8%;
+  bottom: 35%;
+}
+.icons-arrow_left {
+  left: 8%;
+  bottom: 35%;
 }
 
 .barras_bar {
@@ -1184,33 +1192,9 @@ body {
   width: 150px;
   height: 150px;
 }
-.develop-pro_text {
-  position: absolute;
-  color: #fffdfd;
-  right: 35%;
-  top: 20;
-  font-size: 32px;
-}
 
 .allProyects_1:hover .develop-pro {
   transform: scale(1);
-}
-
-.icons-arrow {
-  width: auto;
-  height: auto;
-  font-size: 48px;
-  position: absolute;
-  cursor: pointer;
-  color: #719ac9;
-}
-.icons-arrow_right {
-  right: 8%;
-  bottom: 35%;
-}
-.icons-arrow_left {
-  left: 8%;
-  bottom: 35%;
 }
 
 .icon-contact {

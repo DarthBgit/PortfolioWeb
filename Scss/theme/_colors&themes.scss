@@ -158,8 +158,6 @@ background-color: $background-body;
         background-color: $secundary-color;
     }
 }
-//VIDEOS DE LOS PROYECTOS
-
 
 .allProyects{
 
@@ -190,38 +188,11 @@ background-color: $background-body;
         width: 150px;
         height: 150px;
     }
-    &_text{
-        position: absolute;
-        color: $white-color;
-       right: 35%;
-       top: 20;
-       font-size: $xxxl;
-    }
 }
 .allProyects_1:hover .develop-pro{
      transform: scale(1);
 
 }
-
-.icons-arrow{
-    width: auto;
-    height: auto;
-    font-size: $xxxl * 1.5;
-    position: absolute;
-    cursor: pointer;
-    color: $secundary-color;
-    &_right{
-    right: 8%;
-    bottom: 35%;   
-    }
-    &_left{
-    left: 8%;
-    bottom: 35%;  
-    }
-}
-
-
-
 
     //   CONTACT ME     CONTACT ME//
 
