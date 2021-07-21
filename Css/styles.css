@@ -381,6 +381,11 @@ body {
   margin-right: auto;
   display: flex;
 }
+@media screen and (max-width: 1470px) {
+  .container-about {
+    height: 650px;
+  }
+}
 
 .am-section-a {
   width: 60%;
@@ -410,6 +415,8 @@ body {
   width: 40%;
   height: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .am-section-b_image {
   width: 100%;
@@ -419,6 +426,11 @@ body {
   background-size: 670px;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 1470px) {
+  .am-section-b_image {
+    background-size: 540px;
+  }
+}
 
 .am-section-b_image::after {
   content: "";
@@ -426,6 +438,12 @@ body {
   width: 100%;
   height: 100%;
   background-image: radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);
+}
+@media screen and (max-width: 1470px) {
+  .am-section-b_image::after {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .container-tl {
@@ -438,6 +456,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+@media screen and (max-width: 1470px) {
+  .container-tl {
+    height: 650px;
+  }
 }
 .container-tl_title {
   position: absolute;
@@ -558,6 +581,11 @@ body {
   margin-left: auto;
   position: relative;
 }
+@media screen and (max-width: 1470px) {
+  .container-know {
+    height: 650px;
+  }
+}
 .container-know_title {
   position: absolute;
   right: 120px;
@@ -566,9 +594,9 @@ body {
 
 .section-know {
   width: 100%;
-  height: 75%;
+  height: 68%;
   position: absolute;
-  bottom: 50px;
+  bottom: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -576,7 +604,7 @@ body {
 .know-grid {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   animation-name: agrandar;
@@ -586,7 +614,7 @@ body {
 }
 @media screen and (max-width: 1470px) {
   .know-grid {
-    display: none;
+    justify-content: flex-start;
   }
 }
 
@@ -601,18 +629,37 @@ body {
 .know-icon {
   font-size: 64px;
 }
+@media screen and (max-width: 1470px) {
+  .know-icon {
+    font-size: 41.6px;
+  }
+}
 
 /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
 .smll {
   font-size: 44.8px;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1470px) {
+  .smll {
+    font-size: 35.2px;
+    margin-top: 5px;
+  }
 }
 
 /*descripcion */
 .know-icon p {
+  width: 50%;
+  margin: auto;
   font-size: 14px;
   font-family: "Questrial", sans-serif;
   color: black;
+}
+@media screen and (max-width: 1470px) {
+  .know-icon p {
+    font-size: 12px;
+    width: 60%;
+  }
 }
 
 .know-text {
@@ -620,6 +667,12 @@ body {
   height: 35%;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (max-width: 1470px) {
+  .know-text {
+    width: 200px;
+    margin-top: 20px;
+  }
 }
 
 /*SECCION CONTENEDOR PROYECTOS*/
@@ -698,6 +751,11 @@ body {
   position: relative;
   display: flex;
   align-items: flex-end;
+}
+@media screen and (max-width: 1470px) {
+  .container-courses {
+    height: 650px;
+  }
 }
 .container-courses_title {
   position: absolute;
@@ -894,12 +952,22 @@ body {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1470px) {
+  .course-title {
+    font-size: 30px;
+  }
+}
 
 .course-name p {
   font-size: 28px;
   display: inline-block;
   margin: 0;
   margin-top: 30px;
+}
+@media screen and (max-width: 1470px) {
+  .course-name p {
+    font-size: 24px;
+  }
 }
 
 .more-info {
@@ -910,6 +978,11 @@ body {
 .know-title {
   font-size: 24px;
   font-family: "Questrial", sans-serif;
+}
+@media screen and (max-width: 1470px) {
+  .know-title {
+    font-size: 20px;
+  }
 }
 
 .icons-arrow {

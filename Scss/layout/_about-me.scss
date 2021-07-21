@@ -7,6 +7,9 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    @media screen and (max-width: $FHD){ 
+        height: $sectionsFHD;
+    }
 }
 //PARTE IZQUIERDA
 .am-section-a{
@@ -38,6 +41,8 @@
 width: 40%;
 height: 100%;   
 position: relative;
+display: flex;
+justify-content: center;
 //ESTILOS DE LA IMAGEN 
 &_image{
     width: 100%;
@@ -46,6 +51,10 @@ position: relative;
     background-position: cover;
     background-size: 670px;
     background-repeat: no-repeat;
+    @media screen and (max-width: $FHD){ 
+        background-size: 540px;
+    }
+  
 }    
 }
 //DEGRADADO DE LA IMAGEN 
@@ -54,7 +63,11 @@ position: relative;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);;
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);
+    @media screen and (max-width: $FHD){ 
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
