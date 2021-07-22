@@ -9,6 +9,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &_title{
+        position: absolute;
+        left: $margen-title-lat;
+        top: $margen-title-sup;
+        @media screen and (max-width: $FHD){ 
+            left: $margen-title-lat-FHD;
+            top: $margen-title-sup-FHD;
+            }
+        }
+    @media screen and (max-width: $FHD){ 
+        height: $sectionsFHD;
+        }
 }
 .footer-up{
     position: absolute;
@@ -21,6 +33,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: $FHD){ 
+        height: 200px;
+        }
 }
 .footer-down{
     position: absolute;
@@ -33,6 +48,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: $FHD){ 
+        height: 200px;
+        }
 }
 
 .section-footer{
@@ -80,6 +98,9 @@
         margin-bottom: 25px;
         margin-top: 9%;
         color: $dark-color;
+        @media screen and (max-width: $FHD){ 
+            font-size: $l;
+            }
         }
     
 }

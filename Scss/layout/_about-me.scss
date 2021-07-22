@@ -21,20 +21,29 @@
     align-items: center;
     position: relative;
     
+    
     &_containertext{
         width: 70%;
         height: 200px;
         position: absolute;
         left: $margen-title-lat;  
-        top: 200px;   
+        top: 200px;  
+    @media screen and (max-width: $FHD){ 
+        left: $margen-title-lat-FHD;
+        top: 160px;
+        } 
     }   
-}
+    }   
+    
+
+
 //POSICION BOTON CV
 .am-section-a_button-cv{
     position: absolute;
     left: 40%;
     bottom: 50px;
     cursor: pointer;
+
 } 
 //PARTE DERECHA
 .am-section-b{

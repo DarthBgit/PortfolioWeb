@@ -17,10 +17,14 @@
         position: absolute;
         left: $margen-title-lat;
         top: $margen-title-sup;
+        @media screen and (max-width: $FHD){ 
+            left: $margen-title-lat-FHD;
+            top: $margen-title-sup-FHD;
+            }
 }
 }
-//LISTAS DE CURSOS
-.courses-list{
+//CONTENEDOR LISTAS DE CURSOS
+.courses-list-container{
     width: 82%;
     height: 60%;
     margin-left: auto;
@@ -30,6 +34,9 @@
     align-items: flex-start;
     flex-direction: column;
     overflow-y: scroll;   //HACE APARECER LA BARRA DE SCROLL DENTRO DE UN DIV
+    @media screen and (max-width: $FHD){ 
+    height: 55%;
+    }
 }
 .course-name{
     margin-left: 50px;

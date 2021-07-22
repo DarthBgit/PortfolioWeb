@@ -14,6 +14,10 @@
             position: absolute;
             right: $margen-title-lat;
             top: $margen-title-sup;
+        @media screen and (max-width: $FHD){ 
+            right: $margen-title-lat-FHD;
+            top: $margen-title-sup-FHD;
+                }
     }
 }
 

@@ -54,6 +54,11 @@ font-family: 'Questrial', sans-serif;
     position: absolute;
     left: calc(50% - 100px);
     bottom: -10px;    
+    @media screen and (max-width: $FHD){ 
+    height: 4px;
+    width: 170px;
+    left: calc(50% - 85px) ;
+    }
     
 }
 @media screen and (max-width: $FHD){ 
@@ -72,10 +77,17 @@ font-family: 'Questrial', sans-serif;
         position: absolute;
         left: $margen-title-lat;
         top: $margen-title-sup;
+        @media screen and (max-width: $FHD){ 
+        left: $margen-title-lat-FHD;
+        top: $margen-title-sup-FHD;
+        }
     }    
     &_text{
         font-size: $m;
         font-family: 'Questrial', sans-serif;
+        @media screen and (max-width: $FHD){ 
+            font-size: $s;
+        }
     }
     &_button-cv{
     font-size: $l;
@@ -87,6 +99,10 @@ font-family: 'Questrial', sans-serif;
     align-items: center;
     border-radius: 20px;
     font-family: 'Questrial', sans-serif;
+    @media screen and (max-width: $FHD){ 
+     font-size: $m;
+     width: 150px;
+    }
 } 
 }
 
@@ -116,6 +132,7 @@ margin: 0;
 margin-top: 30px;
 @media screen and (max-width: $FHD){ 
     font-size: $xl;
+    margin-top: 20px;
 }
 }
 //ICONO DE MAS INFO
@@ -188,6 +205,9 @@ margin-top: 30px;
         display: inline-block;
         margin: 0;
         margin-left: 20px;
+        @media screen and (max-width: $FHD){ 
+            font-size: $s;
+            }
     }
 }
 
@@ -203,10 +223,16 @@ margin-top: 30px;
             margin: 0;
             font-size: $m;
             margin-left: 10px;
+            @media screen and (max-width: $FHD){ 
+            font-size: $s;
+                }
         }
         &_follow{
             font-size: $m;
             margin-bottom: 10px;
+            @media screen and (max-width: $FHD){ 
+            font-size: $s;
+                }
         }
 }
 
@@ -228,6 +254,9 @@ margin-top: 30px;
     margin-bottom: 10px;
     margin-left: 38%;
     font-size: $m;
+    @media screen and (max-width: $FHD){ 
+        font-size: $s;
+        }
 }
 
 
@@ -252,6 +281,9 @@ margin-top: 30px;
         height: auto;
 
     }
+    @media screen and (max-width: $FHD){ 
+        right: 20px;
+        }
     }
 
 
