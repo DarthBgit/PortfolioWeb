@@ -9,6 +9,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: $FHD){ 
+        height: $sectionsFHD;
+        }
+    @media screen and (max-width: $HD){ 
+        width: 100%;
+            }
+    @media screen and (max-width: $tablet){ 
+        height: $sectionsTablet;
+            }
     &_title{
         position: absolute;
         left: $margen-title-lat;
@@ -17,10 +26,12 @@
             left: $margen-title-lat-FHD;
             top: $margen-title-sup-FHD;
             }
+            @media screen and (max-width: $tablet){ 
+                left: $margen-title-lat-tablet;
+                top: $margen-title-sup-tablet;
+                }
         }
-    @media screen and (max-width: $FHD){ 
-        height: $sectionsFHD;
-        }
+  
 }
 .footer-up{
     position: absolute;

@@ -9,6 +9,10 @@
     padding: 7px 10px;
     margin: 6px;
     font-family: 'Questrial', sans-serif;
+    @media screen and (max-width: $tablet){ 
+    font-size:$xs;
+    margin: auto;
+}
 }
 
 
@@ -25,6 +29,9 @@
     font-family: 'Questrial', sans-serif;
     @media screen and (max-width: $FHD){ 
         font-size: $xxxl * 1.3;
+    }
+    @media screen and (max-width: $tablet){ 
+            font-size: $xxxl;
 }
 }
 //PROFESION
@@ -34,6 +41,9 @@
     @media screen and (max-width: $FHD){ 
         font-size: $l;
     }
+    @media screen and (max-width: $tablet){ 
+        font-size: $m;
+}
 }
 
 
@@ -64,6 +74,9 @@ font-family: 'Questrial', sans-serif;
 @media screen and (max-width: $FHD){ 
     font-size: $xxxxl * 1.1;
 }
+@media screen and (max-width: $tablet){ 
+    font-size: $xxl;
+}
 }
 
 
@@ -73,21 +86,16 @@ font-family: 'Questrial', sans-serif;
 
 //TEXTOS Y BOTONES DE LA SECCION A     
 .am-section-a{    
-    &_title{
-        position: absolute;
-        left: $margen-title-lat;
-        top: $margen-title-sup;
-        @media screen and (max-width: $FHD){ 
-        left: $margen-title-lat-FHD;
-        top: $margen-title-sup-FHD;
-        }
-    }    
+    
     &_text{
         font-size: $m;
         font-family: 'Questrial', sans-serif;
         @media screen and (max-width: $FHD){ 
             font-size: $s;
         }
+        @media screen and (max-width: $tablet){ 
+            font-size: $xs;
+            }
     }
     &_button-cv{
     font-size: $l;
@@ -103,6 +111,11 @@ font-family: 'Questrial', sans-serif;
      font-size: $m;
      width: 150px;
     }
+    @media screen and (max-width: $tablet){ 
+        font-size: $xs;
+        width: 100px;
+        height: 30px;
+        }
 } 
 }
 
@@ -123,6 +136,9 @@ margin-bottom: 20px;
 @media screen and (max-width: $FHD){ 
     font-size: $l * 1.5;
 }
+@media screen and (max-width: $tablet){ 
+    font-size: $xl;
+    }
 }
 //NOMBRES CURSOS
 .course-name p{
@@ -134,11 +150,17 @@ margin-top: 30px;
     font-size: $xl;
     margin-top: 20px;
 }
+@media screen and (max-width: $tablet){ 
+    font-size: $m;
+    }
 }
 //ICONO DE MAS INFO
 .more-info{
     font-size: $l;
     margin-left: 30px;
+    @media screen and (max-width: $tablet){ 
+        font-size: $s;
+        }
 }
 
 
@@ -284,6 +306,9 @@ margin-top: 30px;
     @media screen and (max-width: $FHD){ 
         right: 20px;
         }
+    @media screen and (max-width: $HD){ 
+        display: none;
+            }    
     }
 
 

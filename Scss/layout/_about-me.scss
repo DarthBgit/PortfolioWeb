@@ -7,9 +7,31 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    position: relative;
     @media screen and (max-width: $FHD){ 
         height: $sectionsFHD;
     }
+    @media screen and (max-width: $HD){ 
+        width: 100%;
+    }
+    @media screen and (max-width: $tablet){ 
+        height: $sectionsTablet;
+}
+&_title{
+        
+    position: absolute;
+    left: $margen-title-lat;
+    top: $margen-title-sup;
+    @media screen and (max-width: $FHD){ 
+        left: $margen-title-lat-FHD;
+        top: $margen-title-sup-FHD;
+        }
+    @media screen and (max-width: $tablet){ 
+            left: $margen-title-lat-tablet;
+            top: $margen-title-sup-tablet;
+            }
+}
+    
 }
 //PARTE IZQUIERDA
 .am-section-a{
@@ -32,6 +54,10 @@
         left: $margen-title-lat-FHD;
         top: 160px;
         } 
+     @media screen and (max-width: $tablet){ 
+            left: $margen-title-lat-tablet;
+            top: 120px;
+            }
     }   
     }   
     
@@ -43,6 +69,9 @@
     left: 40%;
     bottom: 50px;
     cursor: pointer;
+    @media screen and (max-width: $tablet){ 
+        left: 33%;
+        }
 
 } 
 //PARTE DERECHA
@@ -63,6 +92,10 @@ justify-content: center;
     @media screen and (max-width: $FHD){ 
         background-size: 540px;
     }
+    @media screen and (max-width: $tablet){ 
+      
+        background-size: 410px;
+        }
   
 }    
 }

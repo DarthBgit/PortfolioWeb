@@ -17,6 +17,11 @@ margin-right: auto;
 @media screen and (max-width: $FHD){ 
     height: 600px;
 }
+@media screen and (max-width: $HD){ 
+    width: 100%;
+}
+@media screen and (max-width: $tablet){ 
+    height: 450px;}
 }
 
 
@@ -44,6 +49,10 @@ margin-right: auto;
             max-width: 500px;
             max-height: 400px;
         }
+        @media screen and (max-width: $tablet){ 
+            max-width: 430px;
+            max-height: 330px;
+}
     }
     /*&_img{
         width: 100%;
