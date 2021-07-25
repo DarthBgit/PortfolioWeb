@@ -754,6 +754,11 @@ body {
     font-size: 41.6px;
   }
 }
+@media screen and (max-width: 977px) {
+  .know-icon {
+    font-size: 32px;
+  }
+}
 
 /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
 .smll {
@@ -764,6 +769,11 @@ body {
   .smll {
     font-size: 35.2px;
     margin-top: 5px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .smll {
+    font-size: 28px;
   }
 }
 
@@ -781,6 +791,11 @@ body {
     width: 60%;
   }
 }
+@media screen and (max-width: 977px) {
+  .know-icon p {
+    font-size: 10px;
+  }
+}
 
 .know-text {
   width: 380px;
@@ -792,6 +807,11 @@ body {
   .know-text {
     width: 200px;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .know-text {
+    margin-top: 0;
   }
 }
 
@@ -855,6 +875,12 @@ body {
     width: 70%;
   }
 }
+@media screen and (max-width: 977px) {
+  .slider-container {
+    margin-bottom: 60px;
+    width: 75%;
+  }
+}
 
 /* FLECHAS DEL SLIDER 
 .directions{
@@ -878,7 +904,7 @@ body {
 }
 @media screen and (max-width: 1470px) {
   .barras {
-    margin-bottom: 4%;
+    margin-bottom: 3.5%;
   }
 }
 
@@ -1241,6 +1267,8 @@ body {
 @media screen and (max-width: 977px) {
   .course-title {
     font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 0;
   }
 }
 
@@ -1269,6 +1297,7 @@ body {
 @media screen and (max-width: 977px) {
   .more-info {
     font-size: 14px;
+    margin-left: 10px;
   }
 }
 
@@ -1281,6 +1310,11 @@ body {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 977px) {
+  .know-title {
+    font-size: 14px;
+  }
+}
 
 .icons-arrow {
   width: auto;
@@ -1289,6 +1323,11 @@ body {
   position: absolute;
   cursor: pointer;
   color: #719ac9;
+}
+@media screen and (max-width: 977px) {
+  .icons-arrow {
+    font-size: 28px;
+  }
 }
 .icons-arrow_right {
   right: 8%;
@@ -1306,6 +1345,12 @@ body {
   margin: 0 2px;
   display: inline-block;
   margin-left: 3px;
+}
+@media screen and (max-width: 977px) {
+  .barras_bar {
+    width: 15px;
+    height: 3px;
+  }
 }
 
 /*ICONOS DE LA SECCION DE CONTACTOS*/

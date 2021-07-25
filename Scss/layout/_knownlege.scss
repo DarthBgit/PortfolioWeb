@@ -65,8 +65,10 @@
     font-size: $xxxl * 2; 
     @media screen and (max-width: $FHD){ 
     font-size: $xxxl * 1.3;
-    
     }
+    @media screen and (max-width: $tablet){ 
+        font-size: $xxxl;
+        }
 }
    
     /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
@@ -77,6 +79,9 @@
         font-size: $xxxl *1.1;
         margin-top: 5px;
         }  
+        @media screen and (max-width: $tablet){ 
+            font-size: $xxl;
+            }
         }  
    
 /*descripcion */
@@ -90,6 +95,9 @@
     font-size: $xs;
     width: 60%;
     }
+    @media screen and (max-width: $tablet){ 
+        font-size: $xss;
+        }
 }
 .know-text{
     width: 380px;
@@ -100,4 +108,8 @@
      width: 200px;
      margin-top: 20px;
     }
+    @media screen and (max-width: $tablet){ 
+     margin-top: 0;
+        }
+    
 }

@@ -138,6 +138,8 @@ margin-bottom: 20px;
 }
 @media screen and (max-width: $tablet){ 
     font-size: $xl;
+    margin-top: 25px;
+    margin-bottom: 0;
     }
 }
 //NOMBRES CURSOS
@@ -160,6 +162,7 @@ margin-top: 30px;
     margin-left: 30px;
     @media screen and (max-width: $tablet){ 
         font-size: $s;
+        margin-left: 10px;
         }
 }
 
@@ -173,6 +176,9 @@ margin-top: 30px;
     @media screen and (max-width: $FHD){ 
     font-size: $l;
     }
+    @media screen and (max-width: $tablet){ 
+      font-size: $s;
+        }
 }   
 
 
@@ -188,6 +194,10 @@ margin-top: 30px;
     position: absolute;
     cursor: pointer;
     color: $secundary-color;
+    @media screen and (max-width: $tablet){ 
+       font-size: $xxl;
+        }
+
     &_right{
     right: 8%;
     bottom: 35%;   
@@ -205,6 +215,11 @@ margin-top: 30px;
         margin: 0 2px;
         display: inline-block;
         margin-left: 3px;
+   
+    @media screen and (max-width: $tablet){ 
+        width: 15px;
+        height: 3px;
+        }
     }
 }
   
