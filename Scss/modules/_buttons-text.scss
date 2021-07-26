@@ -33,6 +33,9 @@
     @media screen and (max-width: $tablet){ 
             font-size: $xxxl;
 }
+@media screen and (max-width: $ipad){ 
+    font-size: $xl;
+}
 }
 //PROFESION
 .profession{
@@ -44,6 +47,9 @@
     @media screen and (max-width: $tablet){ 
         font-size: $m;
 }
+@media screen and (max-width: $ipad){ 
+    font-size: $m;
+}
 }
 
 
@@ -54,6 +60,12 @@
 .titles{
 font-size: $xxxxl * 1.3;
 font-family: 'Questrial', sans-serif;
+@media screen and (max-width: $FHD){ 
+    font-size: $xxxxl * 1.1;
+}
+@media screen and (max-width: $tablet){ 
+    font-size: $xxl;
+}
 
 //BARRA INFERIOR TITULOS SECCIONES
 &::after{
@@ -67,17 +79,15 @@ font-family: 'Questrial', sans-serif;
     @media screen and (max-width: $FHD){ 
     height: 4px;
     width: 170px;
-    left: calc(50% - 85px) ;
+    left: calc(50% - 85px);}
+    @media screen and (max-width: $tablet){ 
+        height: 3.5px;
+        width: 120px;
+        left: calc(50% - 60px);
+        bottom: -5px;
     }
-    
-}
-@media screen and (max-width: $FHD){ 
-    font-size: $xxxxl * 1.1;
-}
-@media screen and (max-width: $tablet){ 
-    font-size: $xxl;
-}
-}
+    }
+    }
 
 
 
@@ -237,6 +247,10 @@ margin-top: 30px;
     justify-content: space-between;
     margin-left: 20%;
     margin-bottom: 2%;
+    @media screen and (max-width: $tablet){ 
+        font-size: $m;
+        
+        }
     & p{
         font-size: $m;
         display: inline-block;
@@ -245,31 +259,47 @@ margin-top: 30px;
         @media screen and (max-width: $FHD){ 
             font-size: $s;
             }
+            @media screen and (max-width: $tablet){ 
+                font-size: $xs;
+                }
     }
 }
 
 // TEXTOS E ICONOS (DESCUBRE MAS SOBRE MI)
 .icon-des{
+    
         font-size: $xl;
         display: flex;
         align-items: flex-start;
         margin-left: 36%;
         text-decoration: none;
         margin-top: 5px;
+        justify-content: center;
+        @media screen and (max-width: $tablet){ 
+            font-size: $m;
+                }
         & p{
             margin: 0;
             font-size: $m;
             margin-left: 10px;
             @media screen and (max-width: $FHD){ 
             font-size: $s;
+            margin-top: 3px;}
+            @media screen and (max-width: $tablet){ 
+                font-size: $xs;
+                
                 }
+                
         }
         &_follow{
             font-size: $m;
-            margin-bottom: 10px;
             @media screen and (max-width: $FHD){ 
             font-size: $s;
                 }
+                @media screen and (max-width: $tablet){ 
+                 font-size: $xs;
+                        }    
+            
         }
 }
 
@@ -278,9 +308,17 @@ margin-top: 30px;
     width: 30px;
     height: 30px;
     margin-bottom: 20px;
+    @media screen and (max-width: $tablet){ 
+        width: 18px;
+        height: 18px;
+            }
     &_JS{
         width: 34px;
         height: 34px;
+        @media screen and (max-width: $tablet){ 
+            width: 20px;
+            height: 20px;
+                }
     }
 }
 
@@ -294,9 +332,32 @@ margin-top: 30px;
     @media screen and (max-width: $FHD){ 
         font-size: $s;
         }
+        @media screen and (max-width: $tablet){ 
+            margin-bottom: 0px;
+            font-size: $xs;
+                }
+}
+
+.text-flaticon{
+    @media screen and (max-width: $tablet){ 
+        font-size: $xss;
+            }   
+    &_from{
+        @media screen and (max-width: $tablet){ 
+            
+            font-size: $xss;
+                }
+      
+    }
 }
 
 
+.link-flaticon{
+    @media screen and (max-width: $tablet){ 
+            
+        font-size: $xss;
+            }
+}
 
 
 
@@ -338,6 +399,10 @@ margin-top: 30px;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-delay: 3ms;
+    @media screen and (max-width: $tablet){ 
+        font-size: $m;
+        
+        }
    
     }
     @keyframes change{

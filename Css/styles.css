@@ -617,6 +617,11 @@ body {
     height: 450px;
   }
 }
+@media screen and (max-width: 761px) {
+  .container-pd {
+    height: 330px;
+  }
+}
 
 /* DIV DE LA FOTO*/
 .picture-cover {
@@ -1049,6 +1054,12 @@ body {
     height: 200px;
   }
 }
+@media screen and (max-width: 977px) {
+  .footer-up {
+    height: 140px;
+    top: 130px;
+  }
+}
 
 .footer-down {
   position: absolute;
@@ -1067,14 +1078,24 @@ body {
     height: 200px;
   }
 }
+@media screen and (max-width: 977px) {
+  .footer-down {
+    height: 140px;
+    bottom: 25px;
+  }
+}
 
 .section-footer_A {
   width: 100%;
   height: 200px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+@media screen and (max-width: 977px) {
+  .section-footer_A {
+    height: 100%;
+  }
 }
 .section-footer_B {
   width: 100%;
@@ -1083,17 +1104,31 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+@media screen and (max-width: 977px) {
+  .section-footer_B {
+    height: 100%;
+  }
+}
 .section-footer_C {
   width: 100%;
   height: 200px;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 977px) {
+  .section-footer_C {
+    height: 100%;
+  }
+}
 .section-footer_C p {
   font-size: 16px;
   margin-top: 5px;
+}
+@media screen and (max-width: 1470px) {
+  .section-footer_C p {
+    font-size: 12px;
+  }
 }
 .section-footer_D {
   width: 100%;
@@ -1101,6 +1136,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+@media screen and (max-width: 977px) {
+  .section-footer_D {
+    height: 100%;
+  }
 }
 .section-footer_title {
   margin-left: auto;
@@ -1113,6 +1153,19 @@ body {
 @media screen and (max-width: 1470px) {
   .section-footer_title {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .section-footer_title {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .container-icons-md {
+    height: 30px;
   }
 }
 
@@ -1131,6 +1184,12 @@ body {
   .gb {
     width: 100%;
     height: 50px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .gb {
+    width: 100%;
+    height: 40px;
   }
 }
 
@@ -1165,6 +1224,11 @@ body {
     font-size: 32px;
   }
 }
+@media screen and (max-width: 765px) {
+  .name {
+    font-size: 24px;
+  }
+}
 
 .profession {
   font-size: 24px;
@@ -1180,10 +1244,25 @@ body {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 765px) {
+  .profession {
+    font-size: 16px;
+  }
+}
 
 .titles {
   font-size: 46.8px;
   font-family: "Questrial", sans-serif;
+}
+@media screen and (max-width: 1470px) {
+  .titles {
+    font-size: 39.6px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .titles {
+    font-size: 28px;
+  }
 }
 .titles::after {
   content: "";
@@ -1201,14 +1280,12 @@ body {
     left: calc(50% - 85px);
   }
 }
-@media screen and (max-width: 1470px) {
-  .titles {
-    font-size: 39.6px;
-  }
-}
 @media screen and (max-width: 977px) {
-  .titles {
-    font-size: 28px;
+  .titles::after {
+    height: 3.5px;
+    width: 120px;
+    left: calc(50% - 60px);
+    bottom: -5px;
   }
 }
 
@@ -1362,6 +1439,11 @@ body {
   margin-left: 20%;
   margin-bottom: 2%;
 }
+@media screen and (max-width: 977px) {
+  .icon-contact {
+    font-size: 16px;
+  }
+}
 .icon-contact p {
   font-size: 16px;
   display: inline-block;
@@ -1373,6 +1455,11 @@ body {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 977px) {
+  .icon-contact p {
+    font-size: 12px;
+  }
+}
 
 .icon-des {
   font-size: 24px;
@@ -1381,6 +1468,12 @@ body {
   margin-left: 36%;
   text-decoration: none;
   margin-top: 5px;
+  justify-content: center;
+}
+@media screen and (max-width: 977px) {
+  .icon-des {
+    font-size: 16px;
+  }
 }
 .icon-des p {
   margin: 0;
@@ -1390,15 +1483,25 @@ body {
 @media screen and (max-width: 1470px) {
   .icon-des p {
     font-size: 14px;
+    margin-top: 3px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .icon-des p {
+    font-size: 12px;
   }
 }
 .icon-des_follow {
   font-size: 16px;
-  margin-bottom: 10px;
 }
 @media screen and (max-width: 1470px) {
   .icon-des_follow {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .icon-des_follow {
+    font-size: 12px;
   }
 }
 
@@ -1407,9 +1510,21 @@ body {
   height: 30px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 977px) {
+  .madeWith {
+    width: 18px;
+    height: 18px;
+  }
+}
 .madeWith_JS {
   width: 34px;
   height: 34px;
+}
+@media screen and (max-width: 977px) {
+  .madeWith_JS {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .resources {
@@ -1422,6 +1537,29 @@ body {
 @media screen and (max-width: 1470px) {
   .resources {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .resources {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .text-flaticon {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .text-flaticon_from {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .link-flaticon {
+    font-size: 10px;
   }
 }
 
@@ -1458,6 +1596,11 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-delay: 3ms;
+}
+@media screen and (max-width: 977px) {
+  .despedida {
+    font-size: 16px;
+  }
 }
 
 @keyframes change {

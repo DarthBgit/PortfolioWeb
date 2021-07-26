@@ -21,7 +21,12 @@ margin-right: auto;
     width: 100%;
 }
 @media screen and (max-width: $tablet){ 
-    height: 450px;}
+    height: 450px;
+}
+@media screen and (max-width: $tablet-s){ 
+    height: 330px;
+            }
+    
 }
 
 
