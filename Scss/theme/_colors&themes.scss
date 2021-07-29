@@ -37,18 +37,7 @@ background-color: $background-body;
 
 .container-pd{
    
-    background: url(../../Images/luca.jpg);
-    background-size: 1800px;
-    background-repeat: no-repeat; 
-    @media screen and (max-width: $FHD){ 
-        background-size: 1300px;
-    }
-    @media screen and (max-width: $HD){ 
-        background-size: 1200px;
-    }
-    @media screen and (max-width: $tablet){ 
-        background-size: 1080px;
-}
+    background-color: $white-background;
     
 }
 

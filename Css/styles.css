@@ -637,23 +637,32 @@ body {
 
 .photo {
   position: absolute;
-  max-width: 600px;
-  max-height: 480px;
+  max-width: 1000px;
+  max-height: 700px;
   width: auto;
   height: auto;
-  bottom: -50px;
-  right: 50px;
+  bottom: -100px;
+  left: 150px;
 }
 @media screen and (max-width: 1470px) {
   .photo {
-    max-width: 500px;
-    max-height: 400px;
+    max-width: 800px;
+    max-height: 600px;
+    left: 150px;
   }
 }
 @media screen and (max-width: 977px) {
   .photo {
-    max-width: 430px;
-    max-height: 330px;
+    max-width: 600px;
+    max-height: 500px;
+    left: 100px;
+  }
+}
+@media screen and (max-width: 761px) {
+  .photo {
+    max-width: 400px;
+    max-height: 400px;
+    left: 50px;
   }
 }
 
@@ -1669,24 +1678,7 @@ body {
 }
 
 .container-pd {
-  background: url(../../Images/luca.jpg);
-  background-size: 1800px;
-  background-repeat: no-repeat;
-}
-@media screen and (max-width: 1470px) {
-  .container-pd {
-    background-size: 1300px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .container-pd {
-    background-size: 1200px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .container-pd {
-    background-size: 1080px;
-  }
+  background-color: white;
 }
 
 .name {
