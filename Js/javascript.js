@@ -44,6 +44,17 @@ function showSlides(n){
   
   setInterval(function time(){
   showSlides(index += 1)},500000)
+
+
+  // MENU HEADER 
+
+  const menuHeader = document.getElementById('header-hidden');
+  const arrow = document.getElementById('arrow-header');
+
+  arrow.addEventListener('click',(s)=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change');
+  })
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 
