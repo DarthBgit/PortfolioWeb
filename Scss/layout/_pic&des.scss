@@ -19,8 +19,6 @@ margin-right: auto;
 @media screen and (max-width: $tablet){ 
     height: 450px;
 }
-@media screen and (max-width: $tablet-s){ 
-    height: 330px;
             }
 
     &_description{
@@ -30,7 +28,7 @@ margin-right: auto;
     justify-content: center;
     position: relative;}
     
-}
+
 
 
 
@@ -95,8 +93,10 @@ margin-right: auto;
        right: 0;
        transition: 1s;
        transform: translate(500px);
+       transform: scale(0.0000000000001);
     &.header-activate{
     transform: translate(0);
+    transform: scale(0);
     }
    }
    }
