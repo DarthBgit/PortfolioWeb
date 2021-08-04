@@ -414,6 +414,11 @@ body {
     top: 30px;
   }
 }
+@media screen and (max-width: 761px) {
+  .container-about_title {
+    left: calc(50% - 90px);
+  }
+}
 
 .am-section-a {
   width: 60%;
@@ -423,6 +428,11 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+@media screen and (max-width: 761px) {
+  .am-section-a {
+    width: 100%;
+  }
 }
 .am-section-a_containertext {
   width: 70%;
@@ -443,6 +453,15 @@ body {
     top: 120px;
   }
 }
+@media screen and (max-width: 761px) {
+  .am-section-a_containertext {
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 220px;
+    width: 80%;
+  }
+}
 
 .am-section-a_button-cv {
   position: absolute;
@@ -455,6 +474,13 @@ body {
     left: 33%;
   }
 }
+@media screen and (max-width: 977px) {
+  .am-section-a_button-cv {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
 
 .am-section-b {
   width: 40%;
@@ -462,6 +488,11 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 761px) {
+  .am-section-b {
+    display: none;
+  }
 }
 .am-section-b_image {
   width: 100%;
@@ -597,6 +628,7 @@ body {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 1470px) {
@@ -616,7 +648,7 @@ body {
 }
 @media screen and (max-width: 761px) {
   .container-pd {
-    height: 330px;
+    height: 600px;
   }
 }
 .container-pd_description {
@@ -635,8 +667,6 @@ body {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  position: relative;
-  overflow: hidden;
 }
 
 .photo {
@@ -664,20 +694,33 @@ body {
 }
 @media screen and (max-width: 761px) {
   .photo {
-    max-width: 400px;
-    max-height: 400px;
-    left: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }
 
-/*&_img{
+/*CONTENEDOR DE MI DESCRIPCION*/
+.description-cover {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  position: relative;
+}
+@media screen and (max-width: 761px) {
+  .description-cover {
+    flex: none;
     width: 100%;
-    height: 100%;
-    background:url(../../Images/yoTop.png);
-    background-repeat: no-repeat;
-    background-size: 97%;
-    background-position: 10PX 100px;
-}*/
+    height: 40%;
+    position: absolute;
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 3600px) {
   .header-hidden {
     display: none;
@@ -699,6 +742,7 @@ body {
   }
   .header-hidden.header-activate {
     transform: translate(0);
+    transition: 1;
   }
 }
 
@@ -711,27 +755,15 @@ body {
   .arrow-list {
     display: block;
     position: absolute;
-    right: -40px;
+    right: 10px;
     color: #719ac9;
-    font-size: 24px;
+    font-size: 32px;
     cursor: pointer;
   }
   .arrow-list.arrow-change {
     transform: rotate(180deg);
     z-index: 10;
   }
-}
-
-/*CONTENEDOR DE MI DESCRIPCION*/
-.description-cover {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-right: 50px;
-  position: relative;
 }
 
 .container-know {
@@ -1265,6 +1297,11 @@ body {
     margin: auto;
   }
 }
+@media screen and (max-width: 761px) {
+  .header_botons {
+    font-size: 20px;
+  }
+}
 
 .name {
   font-size: 54.4px;
@@ -1282,9 +1319,9 @@ body {
     font-size: 32px;
   }
 }
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 761px) {
   .name {
-    font-size: 24px;
+    font-size: 41.6px;
   }
 }
 
@@ -1302,9 +1339,9 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 761px) {
   .profession {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -1359,6 +1396,11 @@ body {
 @media screen and (max-width: 977px) {
   .am-section-a_text {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .am-section-a_text {
+    font-size: 16px;
   }
 }
 .am-section-a_button-cv {
@@ -1736,6 +1778,10 @@ body {
 
 .profession {
   color: black;
+}
+
+.name-color {
+  color: #719ac9;
 }
 
 .title-L {

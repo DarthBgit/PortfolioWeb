@@ -12,6 +12,8 @@
     @media screen and (max-width: $tablet){ 
     font-size:$xs;
     margin: auto;
+}@media screen and (max-width: $tablet-s){ 
+    font-size: $l;
 }
 }
 
@@ -33,10 +35,13 @@
     @media screen and (max-width: $tablet){ 
             font-size: $xxxl;
 }
-@media screen and (max-width: $ipad){ 
-    font-size: $xl;
+@media screen and (max-width: $tablet-s){ 
+    font-size: $xxxl * 1.3;
+  
 }
 }
+
+
 //PROFESION
 .profession{
     font-size: $xl;
@@ -47,8 +52,10 @@
     @media screen and (max-width: $tablet){ 
         font-size: $m;
 }
-@media screen and (max-width: $ipad){ 
-    font-size: $m;
+@media screen and (max-width: $tablet-s){ 
+    font-size: $l;
+
+    
 }
 }
 
@@ -106,6 +113,9 @@ font-family: 'Questrial', sans-serif;
         @media screen and (max-width: $tablet){ 
             font-size: $xs;
             }
+            @media screen and (max-width: $tablet){ 
+                font-size: $m;
+                }
     }
     &_button-cv{
     font-size: $l;

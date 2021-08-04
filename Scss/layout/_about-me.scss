@@ -30,9 +30,13 @@
             left: $margen-title-lat-tablet;
             top: $margen-title-sup-tablet;
             }
+            @media screen and (max-width: $tablet-s){ 
+           left: calc(50% - 90px);
+                }
+}
 }
     
-}
+
 //PARTE IZQUIERDA
 .am-section-a{
     width: 60%;
@@ -42,6 +46,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    @media screen and (max-width: $tablet-s){ 
+     width: 100%;
+    
+        }
     
     
     &_containertext{
@@ -50,6 +58,7 @@
         position: absolute;
         left: $margen-title-lat;  
         top: 200px;  
+       
     @media screen and (max-width: $FHD){ 
         left: $margen-title-lat-FHD;
         top: 160px;
@@ -58,6 +67,13 @@
             left: $margen-title-lat-tablet;
             top: 120px;
             }
+            @media screen and (max-width: $tablet-s){ 
+             left: 0;
+             right: 0;
+             margin: auto;   
+             height: 220px; 
+             width: 80%;      
+                }
     }   
     }   
     
@@ -72,6 +88,11 @@
     @media screen and (max-width: $tablet){ 
         left: 33%;
         }
+        @media screen and (max-width: $tablet){ 
+            left:0;
+            right: 0;
+            margin: auto;
+            }
 
 } 
 //PARTE DERECHA
@@ -81,6 +102,9 @@ height: 100%;
 position: relative;
 display: flex;
 justify-content: center;
+@media screen and (max-width: $tablet-s){ 
+    display: none;
+    }
 //ESTILOS DE LA IMAGEN 
 &_image{
     width: 100%;
@@ -93,12 +117,13 @@ justify-content: center;
         background-size: 540px;
     }
     @media screen and (max-width: $tablet){ 
-      
         background-size: 410px;
         }
+       
+}
   
 }    
-}
+
 //DEGRADADO DE LA IMAGEN 
 .am-section-b_image::after{
     content: "";
