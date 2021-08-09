@@ -107,13 +107,14 @@ font-family: 'Questrial', sans-serif;
     &_text{
         font-size: $m;
         font-family: 'Questrial', sans-serif;
+        text-align: justify;
         @media screen and (max-width: $FHD){ 
             font-size: $s;
         }
         @media screen and (max-width: $tablet){ 
             font-size: $xs;
             }
-            @media screen and (max-width: $tablet){ 
+            @media screen and (max-width: $tablet-s){ 
                 font-size: $m;
                 }
     }

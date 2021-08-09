@@ -414,7 +414,7 @@ body {
     top: 30px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .container-about_title {
     left: calc(50% - 90px);
   }
@@ -429,7 +429,7 @@ body {
   align-items: center;
   position: relative;
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .am-section-a {
     width: 100%;
   }
@@ -453,7 +453,7 @@ body {
     top: 120px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .am-section-a_containertext {
     left: 0;
     right: 0;
@@ -489,7 +489,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .am-section-b {
     display: none;
   }
@@ -600,7 +600,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .main-header {
     display: none;
   }
@@ -620,6 +620,64 @@ body {
   }
 }
 
+@media screen and (max-width: 3600px) {
+  .container-hw {
+    display: none;
+  }
+}
+@media screen and (max-width: 762px) {
+  .container-hw {
+    width: auto;
+    height: 15vh;
+    background-color: #222121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 3600px) {
+  .text-animation {
+    display: none;
+  }
+}
+@media screen and (max-width: 762px) {
+  .text-animation {
+    display: block;
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Source Code Pro", monospace;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.596);
+    position: relative;
+    animation: machine 4s steps(30, end) infinite normal both;
+  }
+  .text-animation span {
+    border-bottom: solid 3px #719ac9;
+    position: absolute;
+    right: -7px;
+    width: 20px;
+    animation: animated-cursor 600ms steps(30, end) infinite;
+  }
+}
+
+@keyframes machine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 200px;
+  }
+}
+@keyframes animated-cursor {
+  from {
+    border-bottom-color: #719ac9;
+  }
+  to {
+    border-bottom-color: transparent;
+  }
+}
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 @media screen and (max-width: 3600px) {
   .container-pd {
@@ -646,7 +704,7 @@ body {
     height: 450px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .container-pd {
     height: 600px;
   }
@@ -692,7 +750,7 @@ body {
     left: 100px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .photo {
     left: 0;
     right: 0;
@@ -711,7 +769,7 @@ body {
   margin-right: 50px;
   position: relative;
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .description-cover {
     flex: none;
     width: 100%;
@@ -726,7 +784,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .header-hidden {
     width: 40%;
     height: 100%;
@@ -751,13 +809,13 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .arrow-list {
     display: block;
     position: absolute;
     right: 10px;
     color: #719ac9;
-    font-size: 32px;
+    font-size: 38.4px;
     cursor: pointer;
   }
   .arrow-list.arrow-change {
@@ -1297,7 +1355,7 @@ body {
     margin: auto;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .header_botons {
     font-size: 20px;
   }
@@ -1319,7 +1377,7 @@ body {
     font-size: 32px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .name {
     font-size: 41.6px;
   }
@@ -1339,7 +1397,7 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 762px) {
   .profession {
     font-size: 20px;
   }
@@ -1387,6 +1445,7 @@ body {
 .am-section-a_text {
   font-size: 16px;
   font-family: "Questrial", sans-serif;
+  text-align: justify;
 }
 @media screen and (max-width: 1470px) {
   .am-section-a_text {
@@ -1398,7 +1457,7 @@ body {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 762px) {
   .am-section-a_text {
     font-size: 16px;
   }
