@@ -996,6 +996,11 @@ body {
     height: 450px;
   }
 }
+@media screen and (max-width: 650px) {
+  .container-proyects {
+    height: 410px;
+  }
+}
 .container-proyects_title {
   position: absolute;
   left: 120px;
@@ -1032,6 +1037,11 @@ body {
   .slider-container {
     margin-bottom: 60px;
     width: 75%;
+  }
+}
+@media screen and (max-width: 762px) {
+  .slider-container {
+    margin-bottom: 50px;
   }
 }
 
@@ -1549,6 +1559,11 @@ body {
 @media screen and (max-width: 977px) {
   .know-title {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 762px) {
+  .know-title {
+    font-size: 12px;
   }
 }
 

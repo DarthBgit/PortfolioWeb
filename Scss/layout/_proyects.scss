@@ -21,6 +21,9 @@
     @media screen and (max-width: $tablet){ 
         height: $sectionsTablet;
             }
+            @media screen and (max-width: 650px){ 
+               height: $sectionsTablet - 40px;;
+                  }
     &_title{
         position: absolute;
         left: $margen-title-lat;
@@ -53,6 +56,10 @@
         margin-bottom: 60px;
         width: 75%;
         }
+        @media screen and (max-width: $tablet-s){ 
+            margin-bottom: 50px;
+              }
+           
 }
 
 
@@ -79,6 +86,7 @@
     @media screen and (max-width: $FHD){ 
         margin-bottom: 3.5%;
         }    
+        
 }
 
 

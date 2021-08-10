@@ -200,6 +200,10 @@ margin-top: 30px;
     @media screen and (max-width: $tablet){ 
       font-size: $s;
         }
+    @media screen and (max-width: $tablet-s){ 
+        font-size: $xs;
+          }
+        
 }   
 
 
