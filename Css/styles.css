@@ -628,7 +628,7 @@ body {
 @media screen and (max-width: 762px) {
   .container-hw {
     width: auto;
-    height: 15vh;
+    height: 17vh;
     background-color: #222121;
     display: flex;
     justify-content: center;
@@ -667,7 +667,7 @@ body {
     width: 0;
   }
   to {
-    width: 200px;
+    width: 250px;
   }
 }
 @keyframes animated-cursor {

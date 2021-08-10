@@ -1,4 +1,4 @@
-// CONTENEDORES DE ANIMACION HELLO WORD
+// CONTENEDOR DE ANIMACION HELLO WORD!
 
 .container-hw
 {
@@ -7,7 +7,7 @@
     }
     @media screen and (max-width: $tablet-s){ 
     width: auto;
-    height: 15vh; //25% de el largo de la pantalla vista 
+    height: 17vh; //25% de el largo de la pantalla vista 
     background-color: $dark-background;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
      width: 0;
  }
 to{
-    width: 200px;
+    width: 250px;
 }}
 
 @keyframes animated-cursor{
