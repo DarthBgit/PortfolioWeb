@@ -94,7 +94,7 @@ overflow: hidden;
     height: 450px;
 }
 @media screen and (max-width: $tablet-s){ 
-    height: 950px;}
+    height: 800px;}
 
     &_description{
     width: 100%;
@@ -143,8 +143,8 @@ overflow: hidden;
                 left: 0;
                 right: 0;
                 margin: auto;
-                max-width: 1000px;
-                max-height: 700px;
+                max-width: 900px;
+                max-height: 650px;
                 }
        
     }

@@ -710,7 +710,7 @@ body {
 }
 @media screen and (max-width: 762px) {
   .container-pd {
-    height: 950px;
+    height: 800px;
   }
 }
 .container-pd_description {
@@ -759,8 +759,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    max-width: 1000px;
-    max-height: 700px;
+    max-width: 900px;
+    max-height: 650px;
   }
 }
 
