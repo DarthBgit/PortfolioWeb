@@ -397,6 +397,11 @@ body {
     height: 450px;
   }
 }
+@media screen and (max-width: 762px) {
+  .container-about {
+    justify-content: center;
+  }
+}
 .container-about_title {
   position: absolute;
   left: 120px;
@@ -414,11 +419,6 @@ body {
     top: 30px;
   }
 }
-@media screen and (max-width: 762px) {
-  .container-about_title {
-    left: calc(50% - 90px);
-  }
-}
 
 .am-section-a {
   width: 60%;
@@ -431,7 +431,7 @@ body {
 }
 @media screen and (max-width: 762px) {
   .am-section-a {
-    width: 100%;
+    width: 90%;
   }
 }
 .am-section-a_containertext {
@@ -628,7 +628,7 @@ body {
 @media screen and (max-width: 762px) {
   .container-hw {
     width: auto;
-    height: 17vh;
+    height: 16vh;
     background-color: #222121;
     display: flex;
     justify-content: center;
@@ -643,31 +643,35 @@ body {
 }
 @media screen and (max-width: 762px) {
   .text-animation {
-    display: block;
-    height: 40px;
+    margin-top: 50px;
+    display: inline;
+    height: 100px;
     white-space: nowrap;
     overflow: hidden;
-    font-family: "Source Code Pro", monospace;
-    font-size: 32px;
-    color: rgba(255, 255, 255, 0.596);
+    font-family: "Questrial", sans-serif;
+    font-size: 38.4px;
+    color: rgba(255, 255, 255, 0.938);
     position: relative;
-    animation: machine 4s steps(30, end) infinite normal both;
+    animation: machine 6s steps(30, end) infinite normal both;
   }
   .text-animation span {
-    border-bottom: solid 3px #719ac9;
+    border-bottom: solid 5px #719ac9;
     position: absolute;
     right: -7px;
-    width: 20px;
+    width: 30px;
     animation: animated-cursor 600ms steps(30, end) infinite;
   }
 }
 
 @keyframes machine {
-  from {
+  0% {
     width: 0;
   }
-  to {
-    width: 250px;
+  50% {
+    width: 240px;
+  }
+  100% {
+    width: 0;
   }
 }
 @keyframes animated-cursor {
@@ -706,7 +710,7 @@ body {
 }
 @media screen and (max-width: 762px) {
   .container-pd {
-    height: 600px;
+    height: 950px;
   }
 }
 .container-pd_description {
@@ -755,6 +759,8 @@ body {
     left: 0;
     right: 0;
     margin: auto;
+    max-width: 1000px;
+    max-height: 700px;
   }
 }
 
@@ -786,7 +792,7 @@ body {
 }
 @media screen and (max-width: 762px) {
   .header-hidden {
-    width: 40%;
+    width: 50%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.829);
     display: flex;
@@ -815,7 +821,7 @@ body {
     position: absolute;
     right: 10px;
     color: #719ac9;
-    font-size: 38.4px;
+    font-size: 41.6px;
     cursor: pointer;
   }
   .arrow-list.arrow-change {
@@ -1367,7 +1373,7 @@ body {
 }
 @media screen and (max-width: 762px) {
   .header_botons {
-    font-size: 20px;
+    font-size: 28px;
   }
 }
 

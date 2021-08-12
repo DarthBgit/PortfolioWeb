@@ -17,6 +17,9 @@
     @media screen and (max-width: $tablet){ 
         height: $sectionsTablet;
 }
+@media screen and (max-width: $tablet-s){ 
+    justify-content: center;
+}
 &_title{
         
     position: absolute;
@@ -30,9 +33,6 @@
             left: $margen-title-lat-tablet;
             top: $margen-title-sup-tablet;
             }
-            @media screen and (max-width: $tablet-s){ 
-           left: calc(50% - 90px);
-                }
 }
 }
     
@@ -47,7 +47,7 @@
     align-items: center;
     position: relative;
     @media screen and (max-width: $tablet-s){ 
-     width: 100%;
+     width: 90%;
     
         }
     
