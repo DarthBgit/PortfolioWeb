@@ -702,6 +702,11 @@ body {
     bottom: 180px;
   }
 }
+@media screen and (max-width: 977px) {
+  .icon-code-pd {
+    display: none;
+  }
+}
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 @media screen and (max-width: 3600px) {
@@ -760,7 +765,6 @@ body {
   height: auto;
   bottom: -100px;
   left: 150px;
-  z-index: 10;
 }
 @media screen and (max-width: 1470px) {
   .photo {
