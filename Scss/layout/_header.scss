@@ -1,14 +1,15 @@
 .main-header{
     max-width: $maxWidht;
     width: $margenes;
-    height: 40px;
+    height: 70px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: flex-end;
+    margin-right: 0;
     @media screen and (max-width: $FHD){ 
-        height: 30px;}
+        height: 70px;}
     @media screen and (max-width: $HD){ 
     width: 100%;}
     @media screen and (max-width: $tablet-s){ 
@@ -24,7 +25,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 18px; //margen de todo el bloque div del header
+        margin-right: 40px; //margen de todo el bloque div del header
         
         @media screen and (max-width: $tablet){ 
         margin-right: 8px;}

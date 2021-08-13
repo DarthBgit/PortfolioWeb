@@ -1,7 +1,9 @@
 
 /*HOVER BOTONES HEADER*/
 .header_botons:hover{
-    color: $white-color;
+    transform: scale(1.2);
+    color: $background-body;
+    transition: all 0.5s;
 }
 .botton-theme:hover{
     background-color: blue;

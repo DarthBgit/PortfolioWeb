@@ -356,6 +356,11 @@ body {
   font-size: 14px;
   position: relative;
 }
+@media screen and (min-width: 1200px) {
+  body {
+    margin-top: 50px;
+  }
+}
 
 /* ESTILOS DE LA BARRA DE SCROLL */
 ::-webkit-scrollbar {
@@ -381,6 +386,7 @@ body {
   margin-right: auto;
   display: flex;
   position: relative;
+  z-index: 20;
 }
 @media screen and (max-width: 1470px) {
   .container-about {
@@ -583,16 +589,17 @@ body {
 .main-header {
   max-width: 1536px;
   width: 86%;
-  height: 40px;
+  height: 70px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: flex-end;
+  margin-right: 0;
 }
 @media screen and (max-width: 1470px) {
   .main-header {
-    height: 30px;
+    height: 70px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -612,7 +619,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 18px;
+  margin-right: 40px;
 }
 @media screen and (max-width: 977px) {
   .container-header-section {
@@ -657,8 +664,9 @@ body {
   .text-animation span {
     border-bottom: solid 5px #719ac9;
     position: absolute;
-    right: -7px;
-    width: 30px;
+    right: -41px;
+    width: 40px;
+    transform: rotate(90deg);
     animation: animated-cursor 600ms steps(30, end) infinite;
   }
 }
@@ -668,7 +676,7 @@ body {
     width: 0;
   }
   50% {
-    width: 240px;
+    width: 220px;
   }
   100% {
     width: 0;
@@ -682,6 +690,19 @@ body {
     border-bottom-color: transparent;
   }
 }
+.icon-code-pd {
+  font-size: 41.6px;
+  color: #719ac9;
+  position: absolute;
+  bottom: 230px;
+  right: 25%;
+}
+@media screen and (max-width: 1470px) {
+  .icon-code-pd {
+    bottom: 180px;
+  }
+}
+
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 @media screen and (max-width: 3600px) {
   .container-pd {
@@ -690,7 +711,6 @@ body {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
   }
 }
 @media screen and (max-width: 1470px) {
@@ -701,6 +721,7 @@ body {
 @media screen and (max-width: 1200px) {
   .container-pd {
     width: 100%;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 977px) {
@@ -739,6 +760,7 @@ body {
   height: auto;
   bottom: -100px;
   left: 150px;
+  z-index: 10;
 }
 @media screen and (max-width: 1470px) {
   .photo {
@@ -1360,7 +1382,7 @@ body {
 .header_botons {
   cursor: pointer;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   padding: 7px 10px;
   margin: 6px;
   font-family: "Questrial", sans-serif;
@@ -1771,7 +1793,7 @@ body {
 
 .despedida {
   font-family: "Questrial", sans-serif;
-  color: #dad6d6;
+  color: #383538;
   animation-name: change;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -1793,7 +1815,9 @@ body {
 }
 /*HOVER BOTONES HEADER*/
 .header_botons:hover {
-  color: #fffdfd;
+  transform: scale(1.2);
+  color: #383538;
+  transition: all 0.5s;
 }
 
 .botton-theme:hover {
@@ -1830,7 +1854,8 @@ body {
 }
 
 .body-theme {
-  background-color: #dad6d6;
+  background-color: #383538;
+  background-size: contain;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -1841,7 +1866,7 @@ body {
     }
 }*/
 .main-header {
-  background-color: #222121;
+  background-color: white;
 }
 
 .header_botons {

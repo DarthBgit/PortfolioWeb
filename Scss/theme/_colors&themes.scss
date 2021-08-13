@@ -3,6 +3,7 @@
 //FONDO
 .body-theme{
 background-color: $background-body;
+background-size: contain;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -20,7 +21,7 @@ background-color: $background-body;
    
 // FONDO DEL HEADER
 .main-header{
-    background-color: $dark-background;
+    background-color: $white-background;
 }
 // BOTONES LETRAS DEL HEADER
 .header_botons{

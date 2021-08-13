@@ -55,6 +55,16 @@ function showSlides(n){
     menuHeader.classList.toggle('header-activate');
     arrow.classList.toggle('arrow-change');
   })
+
+  //ANIMACION WELCOME
+
+  const welcome = document.getElementById('welcome');
+  const textWelcome = document.getElementById('text-welcome');
+
+  welcome.addEventListener('click',()=>{
+    welcome.style.display = 'none';
+    textWelcome.style.display='none'
+  })
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 

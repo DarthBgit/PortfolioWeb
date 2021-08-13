@@ -8,6 +8,10 @@
 body{
     font-size: $s;
     position: relative;
+    @media screen and (min-width: $HD){ 
+        margin-top: 50px;
+        }
+    
     }
 
 /* ESTILOS DE LA BARRA DE SCROLL */

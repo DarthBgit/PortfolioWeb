@@ -8,6 +8,7 @@
     margin-right: auto;
     display: flex;
     position: relative;
+    z-index: 20;
     @media screen and (max-width: $FHD){ 
         height: $sectionsFHD;
     }

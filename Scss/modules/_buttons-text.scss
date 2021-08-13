@@ -5,14 +5,15 @@
 .header_botons{
     cursor: pointer;
     text-decoration: none;
-    font-size: $s;
+    font-size: $m;
     padding: 7px 10px;
     margin: 6px;
     font-family: 'Questrial', sans-serif;
     @media screen and (max-width: $tablet){ 
     font-size:$xs;
     margin: auto;
-}@media screen and (max-width: $tablet-s){  //El header pasa a ser un nav desplegable
+}
+@media screen and (max-width: $tablet-s){  //El header pasa a ser un nav desplegable
     font-size: $xxl;
 }
 }
