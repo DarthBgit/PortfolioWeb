@@ -86,13 +86,19 @@
     width: 10%;
     height: 100px;
     background: url(../../Images/curriculum-vitae.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     bottom: 30px;
     right: 0;
     left: 0;
     margin: auto;
     cursor: pointer;
+    @media screen and (max-width: $FHD){ 
+        bottom: 0;
+        height: 85px;  
+           }
+    
 }
 
 //PARTE DERECHA

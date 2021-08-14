@@ -474,13 +474,20 @@ body {
   width: 10%;
   height: 100px;
   background: url(../../Images/curriculum-vitae.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 30px;
   right: 0;
   left: 0;
   margin: auto;
   cursor: pointer;
+}
+@media screen and (max-width: 1470px) {
+  .container-cv {
+    bottom: 0;
+    height: 85px;
+  }
 }
 
 .am-section-b {
@@ -857,7 +864,7 @@ body {
   min-height: 800px;
   width: auto;
   height: auto;
-  background-color: rgba(245, 247, 154, 0.932);
+  background-color: #fbfcad;
   position: absolute;
   bottom: 0;
   z-index: 0;
