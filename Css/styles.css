@@ -853,44 +853,22 @@ body {
 }
 
 .form {
-  min-width: 900px;
-  min-height: 700px;
+  min-width: 30%;
+  min-height: 800px;
   width: auto;
   height: auto;
   background-color: rgba(245, 247, 154, 0.932);
   position: absolute;
   bottom: 0;
   z-index: 0;
-  left: 0;
-  animation: giro-move 20s infinite alternate-reverse ease-in-out;
+  left: 6%;
 }
 @media screen and (max-width: 1470px) {
   .form {
-    min-width: 800px;
-    min-height: 600px;
+    min-width: 30%;
   }
 }
 
-@keyframes giro-move {
-  0% {
-    transform: translateX(600px) rotate(45deg) scale(1);
-  }
-  20% {
-    transform: translateX(-300px) rotate(180deg) scale(0.6);
-  }
-  40% {
-    transform: translateY(-100px) rotate(270deg) scale(0.8);
-  }
-  60% {
-    transform: translateX(600px) rotate(90deg) scale(0.2);
-  }
-  80% {
-    transform: translatey(100px) rotate(-180deg) scale(1.2);
-  }
-  100% {
-    transform: translateX(-500px) rotate(90deg) scale(0.6);
-  }
-}
 .container-know {
   max-width: 1536px;
   width: 86%;
