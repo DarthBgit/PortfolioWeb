@@ -53,6 +53,7 @@ background-size: contain;
 
 .name-color{
     color: $secundary-color;
+    
 }
 
 
@@ -128,15 +129,15 @@ background-size: contain;
 
 //COLOR FONDO
 .container-know{
-    background-color: $white-background;
+    background-color: $dark-background;
 }
 //COLOR TITULOS
 .know-title{
-    color: $dark-color;
+    color: $white-color;
 }
 //COLOR TEXTO
 .know-text P{
-   color: $dark-color;
+   color: $white-color;
 }
 //COLOR ICONOS
 .know-icon{
@@ -153,7 +154,7 @@ background-size: contain;
 //COLOR DE LAS BARRAS INFERIORES
 .barras{
     &_bar{
-        background-color: $white-color;
+        background-color: $dark-background;
     }
     &_active{
         background-color: $secundary-color;
@@ -180,7 +181,7 @@ background-size: contain;
     top: 0;
     position: absolute;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transition: all 1.5s;
     opacity: 0.9;
@@ -188,6 +189,7 @@ background-size: contain;
     &_icons{
         width: 150px;
         height: 150px;
+        margin: 10%;
     }
 }
 .allProyects_1:hover .develop-pro{
@@ -200,30 +202,30 @@ background-size: contain;
 //COLOR TEXTO E ICONOS (CONTACTAME)
 .icon-contact{
     text-decoration: none;
-    color: black;
+    color: $white-color;
     &_mail{
         text-decoration: none;
-        color: black;
+        color: $white-color;
     }
     & p{
         
-        color:$dark-color;      
+        color:$white-color;      
     }
 }
 //COLOR TEXTO E ICONOS (DESCUBRE MAS SOBRE MI)
 .icon-des{
     text-decoration: none;
-    color: black;    
+    color: $white-color;    
 }
 //COLOR LINK FLATICON (ACERCA DE ESTE PROYECTO)
 .link-flaticon{
     text-decoration: none;
-    color: black;
+    color: $white-color;
 }
 //COLOR TEXTOS (OTROS RECURSOS)
 .resources{
     text-decoration: none;
-    color: $dark-color;
+    color: $white-color;
 }
 
 

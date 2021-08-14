@@ -13,23 +13,21 @@
   color: $secundary-color;
 }
 
+
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover{
-    color: $white-color;
+  
+    color: $dark-color;
+    transition: all 1s;
 }
 
-     /*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*//*CURSOS*/
-
-.course-name a:hover{
-color: $secundary-color;
-}
+ 
 
 /*FOOTER*/
 .link-footer{
     
     &:hover{
         color: $secundary-color;
-        background-color: rgba(255, 255, 255, 0.678);
     }
 }
 

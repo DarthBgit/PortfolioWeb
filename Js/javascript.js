@@ -3,7 +3,7 @@
 
 
 function openPDF(){
-    window.open("../pdf/c.pdf","_blank");
+    window.open("../pdf/cv.pdf","_blank");
 }
 
 /*SLIDER*/
@@ -56,15 +56,32 @@ function showSlides(n){
     arrow.classList.toggle('arrow-change');
   })
 
+  
+
+
+  //BOTON DEL CV
+
+  const cv = document.getElementById('curriculum');
+
+  cv.addEventListener('mouseenter', (e)=>{
+
+    cv.classList.remove('animate__flipInY');
+   console.log(e.target);
+  });
+  cv.addEventListener('mouseleave', (e)=>{
+
+    cv.classList.add('animate__flipInY');
+   console.log(e.target);
+  });
+
+
   //ANIMACION WELCOME
-
   const welcome = document.getElementById('welcome');
-  const textWelcome = document.getElementById('text-welcome');
+welcome.addEventListener('click',(e)=>{
+  welcome.style.display = 'none';
+  console.log(e.target);
+});
 
-  welcome.addEventListener('click',()=>{
-    welcome.style.display = 'none';
-    textWelcome.style.display='none'
-  })
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 
@@ -84,6 +101,10 @@ var wow = new WOW(
     }
   );
   wow.init();
+
+  
+
+
 
 
 

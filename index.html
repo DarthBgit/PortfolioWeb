@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
      <!--ICONOS SACADOS DE FONTASTIC-->
@@ -31,11 +31,24 @@
 
 <!--ANIMATION WELCOME-->
 
-<!--
+
     <div class="welcome" id="welcome">
-        <h1 class="text-welcome">WELCOME TO MY PORTFOLIO</h1>
+        <div class="Iam">
+
+            <p>Hello word!</p>
+            <b>
+              <div class="innerIam">
+                My name is Sergio<br /> 
+                I'm studying of<br />
+                web development<br />
+                This is my portfolio <br/>
+                thanks for your visit
+                </div>
+            </b>
+            
+            </div>
     </div>
--->
+
     <!--TOP-HEADER ANIMATION-->
      
     <div class="container-hw container-hw_up">
@@ -53,7 +66,7 @@
          <div class="container-header-section">
             <a  class="header_botons" href="#aboutme">ABOUT ME</a>
             <a  class="header_botons" href="#timeline">TIME LINE</a>
-            <a class="header_botons" href="#courses">COURSES</a>
+            <!-- <a class="header_botons" href="#courses">COURSES</a> -->
             <a  class="header_botons" href="#knowledge">KNOWLEDGE</a>
             <a class="header_botons" href="#proyects">PROJECTS</a>
             <a  class="header_botons" href="#contact">CONTACT ME</a>
@@ -62,6 +75,7 @@
 
         <!--CONTENIDO P&D-->
     <div class="container-pd_description" >
+        <div class="form"></div>
       <div class="picture-cover">
             <img class="photo" src="Images/photo-sergio.png" alt="">
             <div class="arrow-list icon-angle-left" id="arrow-header"></div>
@@ -76,7 +90,7 @@
         <div class="header-hidden" id="header-hidden">            
             <a  class="header_botons" href="#aboutme">ABOUT ME</a>
             <a  class="header_botons" href="#timeline">TIME LINE</a>
-            <a class="header_botons" href="#courses">COURSES</a>
+            <!-- <a class="header_botons" href="#courses">COURSES</a> -->
             <a  class="header_botons" href="#knowledge">KNOWLEDGE</a>
             <a class="header_botons" href="#proyects">PROJECS</a>
             <a  class="header_botons" href="#contact">CONTACT ME</a>
@@ -97,7 +111,8 @@
             aplicaciones web. aplicaciones web. aplicaciones web.aplicaciones web. aplicaciones web.
         </p>
         </div>
-        <a href="#" class="am-section-a_button-cv animate__bounceIn" onclick="openPDF()">DOWNLOAD CV</a>    
+      
+        <div class="container-cv animate__flipInY " id="curriculum" onclick="openPDF()"></div>  
     </div>
     <div class="am-section-b">
         <div class="am-section-b_image"></div>
@@ -111,7 +126,7 @@
         </div>
        
     </div>
-      <!--COURSES-->
+      <!--COURSES
       <div class="container-courses" >
         <h1 class="container-courses_title titles title-L" id="courses">COURSES</h1>
         <div class="courses-list-container">
@@ -125,28 +140,30 @@
              <div class="course-name"><p>-Curso completo de Ruby - Desde las Bases hasta Rails (Udemy)</p><a class="more-info" href="https://www.udemy.com/course/curso-ruby-rails/" class="link-course"><span class="icon-info-circled"></span></a></div>
          </div>
     </div>
-    
+    -->
     <!--KNOWELEDGE-->
     <div class="container-know">
-        <h1 class="container-know_title titles title-R" id="knowledge">KNOWLEDGE</h1>
+        <h1 class="container-know_title titles title-L" id="knowledge">KNOWLEDGE</h1>
         <div class="section-know">
-        <div class=" wow know-grid" data-wow-delay="0.2s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO APPS WEB</h2>
+        <div class=" wow know-grid" data-wow-delay="0.1s"><div class="know-icon icon-laptop"><h2 class="know-title">DESARROLLO APPS WEB</h2>
             <div class="know-text"><p>Capacidad de implementar tecnologias de front-end y back-end para el desarrollo de una pagina web.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="0.4s"><div class="know-icon icon-book "><h2 class="know-title">LENGUAJES</h2>
+        <div class=" wow know-grid" data-wow-delay="0.5s"><div class="know-icon icon-book "><h2 class="know-title">LENGUAJES</h2>
             <div class="know-text"><p>Conocimiento de los lenguajes de programación Java, Kotlin, C# entre otros.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="0.6s"><div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"><h2 class="know-title">DISEÑO WEB</h2>
+        <div class=" wow know-grid" data-wow-delay="0.9s"><div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"><h2 class="know-title">DISEÑO WEB</h2>
             <div class="know-text"><p>Maquetación de paginas web, usando Html, Css con Sass y Js. </p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="0.8s"><div class="know-icon icon-mobile"><h2 class="know-title">DISEÑO RESPONSIVE</h2>
+        <div class=" wow know-grid" data-wow-delay="2s"><div class="know-icon icon-mobile"><h2 class="know-title">DISEÑO RESPONSIVE</h2>
             <div class="know-text"><p>Adaptamiento de los proyectos a diferentes resoluciones.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="1s"><div class="know-icon smll icon-database"><h2 class="know-title">LENGUAJE SQL</h2>
+        <div class=" wow know-grid" data-wow-delay="2.4s"><div class="know-icon smll icon-database"><h2 class="know-title">LENGUAJE SQL</h2>
             <div class="know-text"><p>Conocimientos basicos de una BBDD y diferentes SGBD, como Oracle o MySql.</p></div></div></div>
-        <div class=" wow know-grid" data-wow-delay="1.2s"><div class="know-icon smll icon-language"><h2 class="know-title">IDIOMA</h2>
+        <div class=" wow know-grid" data-wow-delay="2.8s"><div class="know-icon smll icon-language"><h2 class="know-title">IDIOMAS</h2>
                 <div class="know-text"><p>Facilidad a la hora de trabajar con los diferentes softwares en ingles.</p></div></div></div>
+                
         </div>
+        
     </div>
      <!--SLIDER PROYECS-->
      <div class="container-proyects">
-         <h1 class="container-proyects_title titles title-L" id="proyects">PROJECTS</h1>
+         <h1 class="container-proyects_title titles title-R" id="proyects">PROJECTS</h1>
          <div class="icons-arrow icons-arrow_right icon-angle-right" onclick="nextSlide(1)"></div>
          <div class="icons-arrow icons-arrow_left icon-angle-left" onclick="nextSlide(-1)"></div>
          <div class="slider-container">
@@ -183,7 +200,7 @@
    
     <!--CONTACT ME-->
     <div class="container-footer">
-        <h1 class="container-footer_title titles title-R" id="contact">CONTACT ME</h1>
+        <h1 class="container-footer_title titles title-L" id="contact">CONTACT ME</h1>
         <div class="section-footer footer-up">
         <div class="section-footer_A">
             <h2 class="section-footer_title">INFORMACIÓN DE CONTACTO</h2>
@@ -205,11 +222,14 @@
         <div class="section-footer footer-down">
         <div class="section-footer_C">
             <h2 class="section-footer_title">ACERCA DE ESTE PROYECTO</h2>
-            <p>Este proyecto ha sido realizado con</p>
+            <p class="this-pro">Este proyecto ha sido realizado con</p>
           <div class="container-icons-md">
-            <img class="madeWith" src="Images/html-5.svg" alt="">
+            <!-- <img class="madeWith" src="Images/html-5.svg" alt="">
             <img class="madeWith" src="Images/css-3.png" alt="">         
-            <img class=" madeWith madeWith_JS"src="Images/jsIcon.png" alt="">
+            <img class=" madeWith madeWith_JS"src="Images/jsIcon.png" alt=""> -->
+            <img src="Images/html.jpg" alt="" class="madeWith">+
+            <object class="madeWith" data="Images/sass-1.svg" type="image/svg+xml"></object>                   
+            <object class="madeWith" data="Images/logo-javascript.svg" type="image/svg+xml"></object>   
           </div>
           <div class="text-flaticon">Iconos diseñados por <a class="link-footer link-flaticon" href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a></div>
            <div><span class="text-flaticon_from">from </span>  <a class="link-footer link-flaticon" href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
@@ -233,8 +253,8 @@
     <script src="Js/wow.js"></script>
     
     <!--GOODBYE-->
-    <div class="gb">
-    <h1 class="despedida">MUCHAS GRACIAS POR LA VISITA</h1>
+    <div class="bye">
+    <img class="bye_img" src="Images/bye.jpg" alt="">
     </div>
 
 </body>

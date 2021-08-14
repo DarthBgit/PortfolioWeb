@@ -91,6 +91,7 @@ width: $margenes;
 height: 700px;
 margin-left: auto;
 margin-right: auto;
+overflow: hidden;
 }
 @media screen and (max-width: $FHD){ 
     height: 600px;
@@ -234,8 +235,47 @@ cursor: pointer;
 
 
 
+// formas
 
+.form{
+    min-width: 900px;
+    min-height: 700px;
+    width: auto;
+    height: auto;
+    background-color: rgba(245, 247, 154, 0.932);
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+    animation: giro-move 20s infinite alternate-reverse ease-in-out;
+    @media screen and (max-width: $FHD){ 
+        min-width: 800px;
+        min-height: 600px;
+    }
 
+}
+@keyframes giro-move {
+
+    0%{
+        transform: translateX(600px) rotate(45deg) scale(1);
+    }
+    20%{
+        transform: translateX(-300px) rotate(180deg) scale(0.6);
+    }
+    40%{
+        transform: translateY(-100px) rotate(270deg) scale(0.8);
+    }
+   
+    60%{
+        transform: translateX(600px) rotate(90deg) scale(0.2);
+    } 
+    80%{
+        transform: translatey(100px) rotate(-180deg) scale(1.2);
+    }
+    100%{
+        transform: translateX(-500px) rotate(90deg) scale(0.6);
+    }
+}
 
  
 

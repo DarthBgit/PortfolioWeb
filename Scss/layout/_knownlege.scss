@@ -18,14 +18,14 @@
     &_title{
         
             position: absolute;
-            right: $margen-title-lat;
+            left: $margen-title-lat;
             top: $margen-title-sup;
         @media screen and (max-width: $FHD){ 
-            right: $margen-title-lat-FHD;
+            left: $margen-title-lat-FHD;
             top: $margen-title-sup-FHD;
                 }
                 @media screen and (max-width: $tablet){ 
-                    right: $margen-title-lat-tablet;
+                    left: $margen-title-lat-tablet;
                     top: $margen-title-sup-tablet;
                     }
     }
@@ -37,8 +37,8 @@
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  
+    grid-template-columns: 1fr 1fr 1fr; //Consego poner 3 elementos por fila 
+    
 }
 .know-grid{
     display: flex;
@@ -50,6 +50,7 @@
     animation-duration: 3s;
     animation-fill-mode: forwards;
     transform: scale(0.001);
+   
     @media screen and (max-width: $FHD){ 
     justify-content: flex-start;
     }

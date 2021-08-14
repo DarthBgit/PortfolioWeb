@@ -355,6 +355,7 @@ template {
 body {
   font-size: 14px;
   position: relative;
+  position: relative;
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -469,23 +470,17 @@ body {
   }
 }
 
-.am-section-a_button-cv {
+.container-cv {
+  width: 20%;
+  height: 200px;
+  background: url(../../Images/cvv.jpg);
+  background-size: cover;
   position: absolute;
-  left: 40%;
-  bottom: 50px;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+  margin: auto;
   cursor: pointer;
-}
-@media screen and (max-width: 977px) {
-  .am-section-a_button-cv {
-    left: 33%;
-  }
-}
-@media screen and (max-width: 977px) {
-  .am-section-a_button-cv {
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
 }
 
 .am-section-b {
@@ -716,6 +711,7 @@ body {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 1470px) {
@@ -856,6 +852,45 @@ body {
   }
 }
 
+.form {
+  min-width: 900px;
+  min-height: 700px;
+  width: auto;
+  height: auto;
+  background-color: rgba(245, 247, 154, 0.932);
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  left: 0;
+  animation: giro-move 20s infinite alternate-reverse ease-in-out;
+}
+@media screen and (max-width: 1470px) {
+  .form {
+    min-width: 800px;
+    min-height: 600px;
+  }
+}
+
+@keyframes giro-move {
+  0% {
+    transform: translateX(600px) rotate(45deg) scale(1);
+  }
+  20% {
+    transform: translateX(-300px) rotate(180deg) scale(0.6);
+  }
+  40% {
+    transform: translateY(-100px) rotate(270deg) scale(0.8);
+  }
+  60% {
+    transform: translateX(600px) rotate(90deg) scale(0.2);
+  }
+  80% {
+    transform: translatey(100px) rotate(-180deg) scale(1.2);
+  }
+  100% {
+    transform: translateX(-500px) rotate(90deg) scale(0.6);
+  }
+}
 .container-know {
   max-width: 1536px;
   width: 86%;
@@ -881,18 +916,18 @@ body {
 }
 .container-know_title {
   position: absolute;
-  right: 120px;
+  left: 120px;
   top: 50px;
 }
 @media screen and (max-width: 1470px) {
   .container-know_title {
-    right: 100px;
+    left: 100px;
     top: 40px;
   }
 }
 @media screen and (max-width: 977px) {
   .container-know_title {
-    right: 80px;
+    left: 80px;
     top: 30px;
   }
 }
@@ -1005,7 +1040,7 @@ body {
   max-width: 1536px;
   width: 86%;
   height: 805px;
-  background-color: #222121;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1035,18 +1070,18 @@ body {
 }
 .container-proyects_title {
   position: absolute;
-  left: 120px;
+  right: 120px;
   top: 50px;
 }
 @media screen and (max-width: 1470px) {
   .container-proyects_title {
-    left: 100px;
+    right: 100px;
     top: 40px;
   }
 }
 @media screen and (max-width: 977px) {
   .container-proyects_title {
-    left: 80px;
+    right: 80px;
     top: 30px;
   }
 }
@@ -1188,7 +1223,7 @@ body {
   height: 805px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: #222121;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1338,7 +1373,7 @@ body {
   font-size: 24px;
   margin-bottom: 25px;
   margin-top: 9%;
-  color: black;
+  color: #fffdfd;
 }
 @media screen and (max-width: 1470px) {
   .section-footer_title {
@@ -1359,37 +1394,125 @@ body {
   }
 }
 
-.gb {
+.bye {
   max-width: 1536px;
   width: 86%;
-  height: 60px;
-  margin-right: auto;
+  height: 805px;
   margin-left: auto;
-  background-color: #222121;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: auto;
+  position: relative;
+}
+@media screen and (max-width: 1470px) {
+  .bye {
+    height: 650px;
+  }
 }
 @media screen and (max-width: 1200px) {
-  .gb {
+  .bye {
     width: 100%;
-    height: 50px;
   }
 }
 @media screen and (max-width: 977px) {
-  .gb {
-    width: 100%;
-    height: 40px;
+  .bye {
+    height: 450px;
   }
 }
+.bye_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
+.welcome {
+  width: 100%;
+  height: 100%;
+  background: url(../../Images/cr.jpg);
+  background-size: cover;
+  z-index: 100000000000000020000000000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.Iam {
+  padding: 2em 5em;
+  font: normal 40px/50px Montserrat, sans-serif;
+  color: #7c7c7c;
+}
+
+.Iam p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 40px;
+}
+
+.Iam .innerIam {
+  display: inline-block;
+  color: #719ac9;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  /*animation*/
+  animation: move 7s;
+  /*animation-iteration-count*/
+  animation-iteration-count: infinite;
+  /*animation-delay*/
+  animation-delay: 2s;
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
 .header_botons {
   cursor: pointer;
   text-decoration: none;
   font-size: 16px;
   padding: 7px 10px;
   margin: 6px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
+  z-index: 2;
 }
 @media screen and (max-width: 977px) {
   .header_botons {
@@ -1404,14 +1527,19 @@ body {
 }
 
 .name {
-  font-size: 54.4px;
+  font-size: 51.2px;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
 }
 @media screen and (max-width: 1470px) {
   .name {
     font-size: 41.6px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .name {
+    font-size: 38.4px;
   }
 }
 @media screen and (max-width: 977px) {
@@ -1427,7 +1555,7 @@ body {
 
 .profession {
   font-size: 24px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
 }
 @media screen and (max-width: 1470px) {
   .profession {
@@ -1447,11 +1575,11 @@ body {
 
 .titles {
   font-size: 46.8px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
 }
 @media screen and (max-width: 1470px) {
   .titles {
-    font-size: 39.6px;
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 977px) {
@@ -1486,7 +1614,7 @@ body {
 
 .am-section-a_text {
   font-size: 16px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
   text-align: justify;
 }
 @media screen and (max-width: 1470px) {
@@ -1504,84 +1632,10 @@ body {
     font-size: 16px;
   }
 }
-.am-section-a_button-cv {
-  font-size: 20px;
-  text-decoration: none;
-  width: 180px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  font-family: "Questrial", sans-serif;
-}
-@media screen and (max-width: 1470px) {
-  .am-section-a_button-cv {
-    font-size: 16px;
-    width: 150px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .am-section-a_button-cv {
-    font-size: 12px;
-    width: 100px;
-    height: 30px;
-  }
-}
-
-.course-title {
-  font-size: 42px;
-  font-family: "Questrial", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 1470px) {
-  .course-title {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .course-title {
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 0;
-  }
-}
-
-.course-name p {
-  font-size: 28px;
-  display: inline-block;
-  margin: 0;
-  margin-top: 30px;
-}
-@media screen and (max-width: 1470px) {
-  .course-name p {
-    font-size: 24px;
-    margin-top: 20px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .course-name p {
-    font-size: 16px;
-  }
-}
-
-.more-info {
-  font-size: 20px;
-  margin-left: 30px;
-}
-@media screen and (max-width: 977px) {
-  .more-info {
-    font-size: 14px;
-    margin-left: 10px;
-  }
-}
 
 .know-title {
   font-size: 24px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
 }
 @media screen and (max-width: 1470px) {
   .know-title {
@@ -1711,10 +1765,15 @@ body {
   }
 }
 
+.this-pro {
+  color: #fffdfd;
+}
+
 .madeWith {
   width: 30px;
   height: 30px;
   margin-bottom: 20px;
+  color: #fffdfd;
 }
 @media screen and (max-width: 977px) {
   .madeWith {
@@ -1752,10 +1811,16 @@ body {
   }
 }
 
+.text-flaticon {
+  color: #fffdfd;
+}
 @media screen and (max-width: 977px) {
   .text-flaticon {
     font-size: 10px;
   }
+}
+.text-flaticon_from {
+  color: #fffdfd;
 }
 @media screen and (max-width: 977px) {
   .text-flaticon_from {
@@ -1796,7 +1861,7 @@ body {
 }
 
 .despedida {
-  font-family: "Questrial", sans-serif;
+  font-family: "Libre Caslon Text", serif;
   color: #383538;
   animation-name: change;
   animation-duration: 3s;
@@ -1834,22 +1899,13 @@ body {
 
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover {
-  color: #fffdfd;
-}
-
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
-/*CURSOS*/
-.course-name a:hover {
-  color: #719ac9;
+  color: black;
+  transition: all 1s;
 }
 
 /*FOOTER*/
 .link-footer:hover {
   color: #719ac9;
-  background-color: rgba(255, 255, 255, 0.678);
 }
 
 /*FLECHA PARA IR AL INICIO DE PAGINA*/
@@ -1941,15 +1997,15 @@ body {
 }
 
 .container-know {
-  background-color: white;
+  background-color: #222121;
 }
 
 .know-title {
-  color: black;
+  color: #fffdfd;
 }
 
 .know-text P {
-  color: black;
+  color: #fffdfd;
 }
 
 .know-icon {
@@ -1957,7 +2013,7 @@ body {
 }
 
 .barras_bar {
-  background-color: #fffdfd;
+  background-color: #222121;
 }
 .barras_active {
   background-color: #719ac9;
@@ -1982,7 +2038,7 @@ body {
   top: 0;
   position: absolute;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   transition: all 1.5s;
   opacity: 0.9;
@@ -1990,6 +2046,7 @@ body {
 .develop-pro_icons {
   width: 150px;
   height: 150px;
+  margin: 10%;
 }
 
 .allProyects_1:hover .develop-pro {
@@ -1998,29 +2055,29 @@ body {
 
 .icon-contact {
   text-decoration: none;
-  color: black;
+  color: #fffdfd;
 }
 .icon-contact_mail {
   text-decoration: none;
-  color: black;
+  color: #fffdfd;
 }
 .icon-contact p {
-  color: black;
+  color: #fffdfd;
 }
 
 .icon-des {
   text-decoration: none;
-  color: black;
+  color: #fffdfd;
 }
 
 .link-flaticon {
   text-decoration: none;
-  color: black;
+  color: #fffdfd;
 }
 
 .resources {
   text-decoration: none;
-  color: black;
+  color: #fffdfd;
 }
 
 .container-icon-up {

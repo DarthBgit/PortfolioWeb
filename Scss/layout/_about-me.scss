@@ -81,21 +81,19 @@
 
 
 //POSICION BOTON CV
-.am-section-a_button-cv{
+.container-cv{
+    width: 20%;
+    height: 200px;
+    background: url(../../Images/cvv.jpg);
+    background-size: cover;
     position: absolute;
-    left: 40%;
-    bottom: 50px;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    margin: auto;
     cursor: pointer;
-    @media screen and (max-width: $tablet){ 
-        left: 33%;
-        }
-        @media screen and (max-width: $tablet){ 
-            left:0;
-            right: 0;
-            margin: auto;
-            }
+}
 
-} 
 //PARTE DERECHA
 .am-section-b{
 width: 40%;

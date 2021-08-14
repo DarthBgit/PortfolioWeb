@@ -5,7 +5,7 @@
     max-width: $maxWidht;
     width: $margenes;
     height: $sections;
-    background-color: $dark-background;
+    background-color: $white-background;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -26,14 +26,14 @@
                   }
     &_title{
         position: absolute;
-        left: $margen-title-lat;
+        right: $margen-title-lat;
         top: $margen-title-sup;
         @media screen and (max-width: $FHD){ 
-            left: $margen-title-lat-FHD;
+            right: $margen-title-lat-FHD;
             top: $margen-title-sup-FHD;
             }
             @media screen and (max-width: $tablet){ 
-                left: $margen-title-lat-tablet;
+                right: $margen-title-lat-tablet;
                 top: $margen-title-sup-tablet;
                 }
         }

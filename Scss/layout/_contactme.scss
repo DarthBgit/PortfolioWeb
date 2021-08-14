@@ -4,7 +4,7 @@
     height:$sections;
     margin-left: auto;   
     margin-right: auto;
-    background-color: $white-background;
+    background-color: $dark-background;
     position: relative;
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@
         font-size: $xl;
         margin-bottom: 25px;
         margin-top: 9%;
-        color: $dark-color;
+        color: $white-color;
         @media screen and (max-width: $FHD){ 
             font-size: $l;
             }

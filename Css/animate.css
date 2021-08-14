@@ -2614,6 +2614,7 @@
   backface-visibility: visible;
   -webkit-animation-name: flip;
   animation-name: flip;
+  
 }
 @-webkit-keyframes flipInX {
   from {
@@ -2684,6 +2685,9 @@
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 @-webkit-keyframes flipInY {
   from {
@@ -2723,7 +2727,7 @@
     transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
-    opacity: 0;
+    opacity: 0.5;
   }
 
   40% {
@@ -2754,6 +2758,9 @@
   backface-visibility: visible !important;
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 @-webkit-keyframes flipOutX {
   from {
