@@ -51,6 +51,7 @@ background-size: contain;
     color: $dark-color;
 }
 
+// COLOR DE LAS LETRAS SBS
 .name-color{
     color: $secundary-color;
     
@@ -61,9 +62,11 @@ background-size: contain;
 
 .title-L{
     color: $white-color;
+    z-index: 10;
 }
 .title-R{
     color: $dark-color;
+    z-index: 10;
 }
 
 
@@ -97,33 +100,6 @@ background-size: contain;
 
 
 
-    // COURSES   COURSES //
-
-//COLOR CONTENEDOR
-.container-courses{
-    background-color: $dark-background;
-       }    
-//COLOR FONDO       
-.courses-list-container{
-     background-color: $white-background;       
-    }
-//COLOR TITULO
-.course-title{
-    color: $secundary-color;
-             }
-//COLOR NOMBRES    
-.course-name p{
-    text-decoration: none;
-    color: $dark-color;      
-                }
-//COLOR ICONO MAS INFO        
-.more-info{
-    text-decoration: none;
-    color: $dark-color;
-        }
-
-
-
 
     //   KNOWLEDGE    KNOWLEDGE   //    
 
@@ -136,12 +112,12 @@ background-size: contain;
     color: $white-color;
 }
 //COLOR TEXTO
-.know-text P{
+.know-grid P{
    color: $white-color;
 }
 //COLOR ICONOS
 .know-icon{
-    color: $secundary-color;
+    color: $white-color;
 }
 
 
@@ -169,6 +145,7 @@ background-size: contain;
         overflow: hidden;
 }
 
+//PROYECTO SLIDER 1
 .vid-pro{
     width: 100%;
 }
@@ -196,6 +173,16 @@ background-size: contain;
      transform: scale(1);
 
 }
+
+
+//PROYECTO SLIDER 2
+
+
+
+
+
+
+
 
     //   CONTACT ME     CONTACT ME//
 

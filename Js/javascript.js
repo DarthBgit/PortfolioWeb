@@ -65,22 +65,18 @@ function showSlides(n){
 
   cv.addEventListener('mouseenter', (e)=>{
 
-    cv.classList.remove('animate__flipInY');
-   console.log(e.target);
+    cv.classList.remove('animate__shakeY');
+    
   });
+
   cv.addEventListener('mouseleave', (e)=>{
 
-    cv.classList.add('animate__flipInY');
+    cv.classList.add('animate__shakeY');
    console.log(e.target);
   });
 
 
-  //ANIMACION WELCOME
-  const welcome = document.getElementById('welcome');
-welcome.addEventListener('click',(e)=>{
-  welcome.style.display = 'none';
-  console.log(e.target);
-});
+ 
 
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/

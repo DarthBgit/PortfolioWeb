@@ -2,28 +2,22 @@
 /*HOVER BOTONES HEADER*/
 .header_botons:hover{
     transform: scale(1.2);
-    color: $background-body;
+    color: $strong-color;
     transition: all 0.5s;
-}
-.botton-theme:hover{
-    background-color: blue;
-}
-
-.iconos-cover a:hover{
-  color: $secundary-color;
+   
 }
 
 
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover{
   
-    color: $dark-color;
+    color: $strong-color;
     transition: all 1s;
 }
 
  
 
-/*FOOTER*/
+/*CONTACTME*/
 .link-footer{
     
     &:hover{
@@ -34,5 +28,5 @@
 /*FLECHA PARA IR AL INICIO DE PAGINA*/
 
 .container-icon-up a:hover{
-    color: $white-color;
+    color: $strong-color;
 }

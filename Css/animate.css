@@ -439,6 +439,8 @@
 .animate__shakeY {
   -webkit-animation-name: shakeY;
   animation-name: shakeY;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 @-webkit-keyframes headShake {
   0% {

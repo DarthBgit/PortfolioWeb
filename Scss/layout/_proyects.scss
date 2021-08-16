@@ -63,18 +63,6 @@
 }
 
 
-/* FLECHAS DEL SLIDER 
-.directions{
-    width: 83%;
-    height: 115%;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: $xl;
-}*/
-
 /*BARRAS INFERIORES DEL SLIDER*/
 .barras{
     position: absolute;
@@ -104,3 +92,25 @@
         opacity: 1;
     };
 }
+
+
+
+// IMAGENES DE LOS SLIDERS
+
+.img-slider{
+    width: 100%;
+    width: 100%;
+}
+
+//formas
+
+.forms-pro{
+    min-width: 18%;
+    min-height: 10%;
+    width: auto;
+    height: auto;
+     position: absolute;
+     top: 0;
+     background-color: $strong-color;
+     right: 3%;
+ }   

@@ -151,4 +151,14 @@
 }
 
 
-
+.forms-cm{
+    min-width: 18%;
+    min-height: 20%;
+    width: auto;
+    height: auto;
+    background-color: $special-color;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 41%;
+}

@@ -101,17 +101,17 @@
         font-size: $xss;
         }
 }
-.know-text{
-    width: 380px;
-    height: 35%;
-    margin-right: auto;
-    margin-left: auto;
-    @media screen and (max-width: $FHD){ 
-     width: 200px;
-     margin-top: 20px;
-    }
-    @media screen and (max-width: $tablet){ 
-     margin-top: 0;
-        }
-    
+
+
+.forms-kn{
+    min-width: 18%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-color: rgb(196, 30, 30);
+    background-color: $special-color;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    left: 41%;
 }
