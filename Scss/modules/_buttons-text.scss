@@ -221,6 +221,8 @@ font-family: cursive;
         display: inline-block;
         margin: 0;
         margin-left: 20px;
+        font-family: cursive;
+        font-family: cursive;
         @media screen and (max-width: $FHD){ 
             font-size: $s;
             }
@@ -234,30 +236,17 @@ font-family: cursive;
 .icon-des{
     
         font-size: $xl;
-        display: flex;
-        align-items: flex-start;
-        margin-left: 36%;
         text-decoration: none;
         margin-top: 5px;
-        justify-content: center;
+        margin-left: 45%;
         @media screen and (max-width: $tablet){ 
             font-size: $m;
                 }
-        & p{
-            margin: 0;
-            font-size: $m;
-            margin-left: 10px;
-            @media screen and (max-width: $FHD){ 
-            font-size: $s;
-            margin-top: 3px;}
-            @media screen and (max-width: $tablet){ 
-                font-size: $xs;
                 
-                }
-                
-        }
         &_follow{
             font-size: $m;
+            font-family: cursive;
+            margin-left: 37%;
             @media screen and (max-width: $FHD){ 
             font-size: $s;
                 }
@@ -272,6 +261,7 @@ font-family: cursive;
 
 .this-pro{
     color: $white-color;
+    font-family: cursive;
 }
 .madeWith{
     width: 30px;
@@ -299,6 +289,7 @@ font-family: cursive;
     margin-bottom: 10px;
     margin-left: 38%;
     font-size: $m;
+    font-family: cursive;
     @media screen and (max-width: $FHD){ 
         font-size: $s;
         }
@@ -363,26 +354,4 @@ font-family: cursive;
 
 
 
-// SECCION DE DESPEDIDA
-   
-.despedida{
-    font-family: 'Libre Caslon Text', serif;
-    color: $background-body;
-    animation-name:change;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-delay: 3ms;
-    @media screen and (max-width: $tablet){ 
-        font-size: $m;
-        
-        }
-   
-    }
-    @keyframes change{
-        from{
-            color: $secundary-color;
-        }
-        to{
-            color: $white-color;
-        };
-    }
+

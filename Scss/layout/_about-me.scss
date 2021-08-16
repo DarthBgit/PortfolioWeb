@@ -20,6 +20,7 @@
 }
 @media screen and (max-width: $tablet-s){ 
     justify-content: center;
+    height: 700px;
 }
 &_title{
         
@@ -108,7 +109,13 @@ margin: auto;
     color: $white-color;
     font-family: cursive;
     font-size: $xl;
+    @media screen and (max-width: $FHD){ 
+        font-size: $l;}
+    @media screen and (max-width: $HD){ 
+     font-size: $m;}
 }
+
+
 
 //PARTE DERECHA
 .am-section-b{
@@ -159,7 +166,7 @@ justify-content: center;
 
 .forms-am{
     min-width: 18%;
-    min-height: 350px;
+    min-height: 20%;
     width: auto;
     height: auto;
     background-color: $special-color;
@@ -167,4 +174,7 @@ justify-content: center;
     bottom: 0;
     z-index: 0;
     left: 40%;
+    @media screen and (max-width: $tablet-s){ 
+        left: 75%;
+     }
 }

@@ -252,30 +252,13 @@ cursor: pointer;
     @media screen and (max-width: $FHD){ 
        min-width: 30%;
     }
+    @media screen and (max-width: $tablet-s){ 
+        min-height: 60%;
+        left: 20%;
+        min-width: 40%;
+     }
 
 }
-// @keyframes giro-move {
-
-//     0%{
-//         transform: translateX(600px) rotate(45deg) scale(1);
-//     }
-//     20%{
-//         transform: translateX(-300px) rotate(180deg) scale(0.6);
-//     }
-//     40%{
-//         transform: translateY(-100px) rotate(270deg) scale(0.8);
-//     }
-   
-//     60%{
-//         transform: translateX(600px) rotate(90deg) scale(0.2);
-//     } 
-//     80%{
-//         transform: translatey(100px) rotate(-180deg) scale(1.2);
-//     }
-//     100%{
-//         transform: translateX(-500px) rotate(90deg) scale(0.6);
-//     }
-// }
 
  
 

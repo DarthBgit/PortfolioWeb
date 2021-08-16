@@ -52,6 +52,11 @@
      top: 0;
      background-color: $strong-color;
      left: 6%;
+     @media screen and (max-width: $tablet-s){ 
+        
+        left: 20%;
+        min-width: 40%;
+     }
  }   
 
  .forms-tl_right{

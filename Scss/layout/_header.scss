@@ -26,9 +26,10 @@
         justify-content: center;
         align-items: center;
         margin-right: 40px; //margen de todo el bloque div del header
-        
+        @media screen and (max-width: $HD){ 
+            margin-right: 5px;}
         @media screen and (max-width: $tablet){ 
-        margin-right: 8px;}
+        margin-right: 40px;}
     }
     
     
