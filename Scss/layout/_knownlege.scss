@@ -91,7 +91,7 @@
     width: 50%;
     margin: auto;
     font-size: $s;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Merienda', cursive;
     color: $dark-color;
     @media screen and (max-width: $FHD){ 
     font-size: $xs;
@@ -114,4 +114,8 @@
     bottom: 0;
     z-index: 0;
     left: 41%;
+    @media screen and (max-width: $tablet){ 
+        left: 75%;
+        }
+
 }

@@ -84,7 +84,7 @@
 //POSICION BOTON CV
 
 .container-cv{
-max-width: 25%;
+max-width: 28%;
 max-height: 10%;
 width: auto;
 height: auto;
@@ -92,7 +92,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 position: absolute;
-bottom: 5px;
+bottom: 8%;
 left: 0;
 right: 0;
 margin: auto; 
@@ -107,7 +107,7 @@ margin: auto;
 }
 .text-cv{
     color: $white-color;
-    font-family: cursive;
+    font-family: 'Merienda', cursive;
     font-size: $xl;
     @media screen and (max-width: $FHD){ 
         font-size: $l;}
