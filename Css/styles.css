@@ -1508,7 +1508,7 @@ body {
   z-index: 10;
   top: 10%;
   font-size: 36px;
-  color: #719ac9;
+  color: #222121;
 }
 
 .header_botons {
@@ -1517,7 +1517,10 @@ body {
   font-size: 16px;
   padding: 7px 10px;
   margin: 6px;
-  font-family: cursive;
+  font-family: "Aclonica", sans-serif;
+  font-family: "Courgette", cursive;
+  font-family: "Lobster Two", cursive;
+  font-family: "Merienda", cursive;
   z-index: 2;
 }
 @media screen and (max-width: 977px) {
@@ -1581,7 +1584,7 @@ body {
 
 .titles {
   font-size: 46.8px;
-  font-family: cursive;
+  font-family: "Merienda", cursive;
 }
 @media screen and (max-width: 1470px) {
   .titles {
@@ -1620,8 +1623,7 @@ body {
 
 .am-section-a_text {
   font-size: 16px;
-  font-family: "Libre Caslon Text", serif;
-  font-family: cursive;
+  font-family: "Merienda", cursive;
   text-align: justify;
 }
 @media screen and (max-width: 1470px) {
