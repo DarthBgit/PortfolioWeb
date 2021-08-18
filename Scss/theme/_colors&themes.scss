@@ -3,7 +3,6 @@
 //FONDO
 .body-theme{
 background-color: $background-body;
-background-size: contain;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -44,16 +43,16 @@ background-size: contain;
 
 //COLOR DE TEXTO
 .name{
-    color: $dark-color;
+    color: $background-body;
 }
 //COLOR PROFESION
 .profession{
-    color: $dark-color;
+    color: $background-body;
 }
 
 // COLOR DE LAS LETRAS SBS
 .name-color{
-    color: $secundary-color;
+    color: $background-body;
     
 }
 
@@ -133,7 +132,7 @@ background-size: contain;
         background-color: $dark-background;
     }
     &_active{
-        background-color: $secundary-color;
+        background-color: $form;
     }
 }
 
@@ -224,6 +223,6 @@ background-size: contain;
     background-color:$dark-background;
     & a{
         text-decoration: none;
-        color: $secundary-color;
+        color: $white-color;
     }
     }

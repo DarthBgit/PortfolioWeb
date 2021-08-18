@@ -492,7 +492,7 @@ body {
   cursor: pointer;
 }
 .icon-cv:hover {
-  color: #719ac9;
+  color: rgba(179, 179, 179, 0.87);
 }
 
 .text-cv {
@@ -561,7 +561,7 @@ body {
   min-height: 20%;
   width: auto;
   height: auto;
-  background-color: #b61c1c;
+  background-color: #aa0707;
   position: absolute;
   bottom: 0;
   z-index: 0;
@@ -839,7 +839,7 @@ body {
     display: block;
     position: absolute;
     right: 8px;
-    color: #719ac9;
+    color: #474447;
     font-size: 54.4px;
     cursor: pointer;
   }
@@ -850,33 +850,27 @@ body {
 }
 
 .form {
-  min-width: 30%;
+  min-width: 70%;
   min-height: 800px;
   width: auto;
   height: auto;
-  background-color: #fbfcad;
-  background-color: #3735ad;
+  background: linear-gradient(90deg, #636363 0%, #bcbccb 41%, rgba(255, 255, 255, 0.998) 73%);
+  background-size: cover;
   position: absolute;
   bottom: 0;
   z-index: 0;
-  left: 6%;
-}
-@media screen and (max-width: 1470px) {
-  .form {
-    min-width: 30%;
-  }
+  left: 0;
 }
 @media screen and (max-width: 769px) {
   .form {
-    min-height: 63%;
-    left: 15%;
-    min-width: 48%;
+    min-height: 100%;
+    min-width: 80%;
   }
 }
 
 .icon-code-pd {
   font-size: 41.6px;
-  color: #719ac9;
+  color: #383538;
   position: absolute;
   bottom: 230px;
   right: 25%;
@@ -1024,7 +1018,7 @@ body {
   width: auto;
   height: auto;
   background-color: #c41e1e;
-  background-color: #b61c1c;
+  background-color: #aa0707;
   position: absolute;
   bottom: 0;
   z-index: 0;
@@ -1406,7 +1400,7 @@ body {
   min-height: 20%;
   width: auto;
   height: auto;
-  background-color: #b61c1c;
+  background-color: #aa0707;
   position: absolute;
   top: 0;
   z-index: 0;
@@ -1416,7 +1410,7 @@ body {
 .bye {
   max-width: 1536px;
   width: 86%;
-  height: 755px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1448,7 +1442,7 @@ body {
   font-family: "Merienda", cursive;
   position: absolute;
   z-index: 10;
-  top: 10%;
+  top: 30%;
   font-size: 36px;
   color: #222121;
 }
@@ -1539,7 +1533,7 @@ body {
   content: "";
   height: 5px;
   width: 200px;
-  background-color: #719ac9;
+  background-color: rgba(179, 179, 179, 0.87);
   position: absolute;
   left: calc(50% - 100px);
   bottom: -10px;
@@ -1619,7 +1613,7 @@ body {
   font-size: 48px;
   position: absolute;
   cursor: pointer;
-  color: #719ac9;
+  color: #474447;
 }
 @media screen and (max-width: 977px) {
   .icons-arrow {
@@ -1809,29 +1803,28 @@ body {
 /*HOVER BOTONES HEADER*/
 .header_botons:hover {
   transform: scale(1.2);
-  color: #3735ad;
+  color: #383538;
   transition: all 0.5s;
 }
 
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover {
-  color: #3735ad;
-  transition: all 1s;
+  color: rgba(179, 179, 179, 0.87);
+  transition: all 0.2s;
 }
 
 /*CONTACTME*/
 .link-footer:hover {
-  color: #719ac9;
+  color: rgba(179, 179, 179, 0.87);
 }
 
 /*FLECHA PARA IR AL INICIO DE PAGINA*/
 .container-icon-up a:hover {
-  color: white;
+  color: rgba(179, 179, 179, 0.87);
 }
 
 .body-theme {
   background-color: #383538;
-  background-size: contain;
 }
 
 /* SIN BARRA DE SCROLL 
@@ -1846,7 +1839,7 @@ body {
 }
 
 .header_botons {
-  color: #719ac9;
+  color: #474447;
 }
 
 .container-pd {
@@ -1854,15 +1847,15 @@ body {
 }
 
 .name {
-  color: black;
+  color: #383538;
 }
 
 .profession {
-  color: black;
+  color: #383538;
 }
 
 .name-color {
-  color: #719ac9;
+  color: #383538;
 }
 
 .title-L {
@@ -1884,7 +1877,7 @@ body {
 }
 
 .am-section-a_button-cv {
-  background-color: #719ac9;
+  background-color: #474447;
   color: #fffdfd;
 }
 
@@ -1912,7 +1905,7 @@ body {
   background-color: #222121;
 }
 .barras_active {
-  background-color: #719ac9;
+  background-color: rgba(179, 179, 179, 0.87);
 }
 
 .allProyects {
@@ -1981,5 +1974,5 @@ body {
 }
 .container-icon-up a {
   text-decoration: none;
-  color: #719ac9;
+  color: #fffdfd;
 }

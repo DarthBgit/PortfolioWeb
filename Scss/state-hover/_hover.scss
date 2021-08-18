@@ -2,7 +2,7 @@
 /*HOVER BOTONES HEADER*/
 .header_botons:hover{
     transform: scale(1.2);
-    color: $strong-color;
+    color: $background-body;
     transition: all 0.5s;
    
 }
@@ -11,8 +11,8 @@
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover{
   
-    color: $strong-color;
-    transition: all 1s;
+    color: $form;
+    transition: all 0.2s;
 }
 
  
@@ -21,12 +21,12 @@
 .link-footer{
     
     &:hover{
-        color: $secundary-color;
+        color: $form;
     }
 }
 
 /*FLECHA PARA IR AL INICIO DE PAGINA*/
 
 .container-icon-up a:hover{
-    color: $white-background;
+    color: $form;
 }
