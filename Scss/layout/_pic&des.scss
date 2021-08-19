@@ -28,7 +28,7 @@ overflow: hidden;
     height: 450px;
 }
 @media screen and (max-width: $tablet-s){ 
-    height: 900px;}
+    height: 1000px;}
 
     &_description{
     width: 100%;
@@ -132,7 +132,7 @@ overflow: hidden;
     
     &.header-activate{
     transform: translate(0);
-    transition: 1;
+    transition: 1s;
     }
    }
    }
@@ -152,6 +152,7 @@ cursor: pointer;
 &.arrow-change{
     transform: rotate(180deg);
     z-index: 10;
+    color: $form;
 }
    }
    }
@@ -159,7 +160,7 @@ cursor: pointer;
 
 
 
-// forma
+// DEGRADADO
 
 .form{
     min-width: 70%;
@@ -177,9 +178,11 @@ cursor: pointer;
        
     }
     @media screen and (max-width: $tablet-s){ 
-     min-height: 100%;
-     min-width: 80%;
+     min-height: 80%;
+     min-width: 100%;
+     background: linear-gradient(0deg, rgba(87,87,87,1) 0%, rgba(255,255,255,1) 100%);
      }
+
 
 }
 

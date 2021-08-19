@@ -20,7 +20,7 @@
 }
 @media screen and (max-width: $tablet-s){ 
     justify-content: center;
-    height: 700px;
+    height: $sectionTabletS;
 }
 &_title{
         
@@ -72,6 +72,7 @@
             @media screen and (max-width: $tablet-s){ 
              left: 0;
              right: 0;
+             bottom: 45%;
              margin: auto;   
              height: 220px; 
              width: 80%;      
@@ -92,7 +93,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 position: absolute;
-bottom: 8%;
+bottom: 7%;
 left: 0;
 right: 0;
 margin: auto; 
@@ -101,6 +102,12 @@ margin: auto;
     font-size: $xl;
     color: $white-color;
     cursor: pointer;
+    @media screen and (max-width: $tablet){ 
+        font-size: $l;
+        }
+        @media screen and (max-width: $tablet-s){ 
+           font-size: $xl;
+        }
     &:hover{
         color: $form;
     }
@@ -113,6 +120,13 @@ margin: auto;
         font-size: $l;}
     @media screen and (max-width: $HD){ 
      font-size: $m;}
+     @media screen and (max-width: $tablet){ 
+        font-size: $s;
+        }
+        @media screen and (max-width: $tablet-s){ 
+           font-size: $m;
+         
+        }
 }
 
 

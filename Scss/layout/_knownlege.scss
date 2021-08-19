@@ -14,6 +14,10 @@
     @media screen and (max-width: $tablet){ 
         height: $sectionsTablet;
     }
+    @media screen and (max-width: $tablet-s){ 
+        
+        height: $sectionTabletS;
+        }
 
     &_title{
         
@@ -37,8 +41,13 @@
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; //Consego poner 3 elementos por fila 
-    
+    grid-template-columns: 1fr 1fr 1fr; //Para deistribuir los elementos por en filas de 3
+
+    @media screen and (max-width: $tablet-s){ 
+        
+        grid-template-columns: 50% 50%;
+        bottom: 5%;
+        }
 }
 .know-grid{
     display: flex;
@@ -71,6 +80,9 @@
     @media screen and (max-width: $tablet){ 
         font-size: $xxxl;
         }
+        @media screen and (max-width: $tablet){ 
+          font-size: $xxxl * 1.2;
+            }
 }
    
     /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
@@ -84,6 +96,9 @@
         @media screen and (max-width: $tablet){ 
             font-size: $xxl;
             }
+             @media screen and (max-width: $tablet){ 
+                 font-size: $xxxl;
+                    }
         }  
    
 /*descripcion */
@@ -100,6 +115,9 @@
     @media screen and (max-width: $tablet){ 
         font-size: $xss;
         }
+        @media screen and (max-width: $tablet-s){ 
+           font-size: $xsss;
+            }
 }
 
 

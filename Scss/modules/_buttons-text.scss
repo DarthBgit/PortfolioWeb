@@ -76,10 +76,9 @@ font-family: 'Merienda', cursive;
 @media screen and (max-width: $FHD){ 
     font-size: $xxxl;
 }
-@media screen and (max-width: $tablet){ 
-    font-size: $xxl;
+@media screen and (max-width: $tablet-s){ 
+    font-size: $xxxl * 1.2;
 }
-
 //BARRA INFERIOR TITULOS SECCIONES 
 
 &::after{
@@ -124,7 +123,9 @@ font-family: 'Merienda', cursive;
             font-size: $xss;
             }
             @media screen and (max-width: $tablet-s){ 
-                font-size: $m;
+                font-size: $s;
+                line-height: 160%;
+
                 }
     }
    
@@ -144,7 +145,7 @@ font-family: 'Merienda', cursive;
       font-size: $s;
         }
     @media screen and (max-width: $tablet-s){ 
-        font-size: $xs;
+        font-size: $s;
           }
         
 }   

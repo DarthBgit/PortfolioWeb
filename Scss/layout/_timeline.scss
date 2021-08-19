@@ -17,6 +17,9 @@
     @media screen and (max-width: $tablet){ 
         height: $sectionsTablet;
     }
+    @media screen and (max-width: $tablet-s){ 
+        height: $sectionTabletS;
+    }
     &_title{
         
             position: absolute;
