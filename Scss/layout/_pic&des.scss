@@ -167,7 +167,7 @@ cursor: pointer;
     min-height: 800px;
     width: auto;
     height: auto;
-    background: linear-gradient(90deg, rgb(99, 99, 99) 0%, rgba(188,188,203,1) 41%, rgba(255, 255, 255, 0.998) 73%);
+    background: linear-gradient(90deg, rgb(85, 84, 84) 0%,  rgba(255, 255, 255, 0.998) 70%);
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -180,7 +180,7 @@ cursor: pointer;
     @media screen and (max-width: $tablet-s){ 
      min-height: 80%;
      min-width: 100%;
-     background: linear-gradient(0deg, rgba(87,87,87,1) 0%, rgba(255,255,255,1) 100%);
+     background: linear-gradient(0deg, rgb(68, 68, 68) 0%, rgba(255,255,255,1) 90%);
      }
 
 

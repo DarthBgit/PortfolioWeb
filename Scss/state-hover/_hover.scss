@@ -4,6 +4,10 @@
     transform: scale(1.2);
     color: $background-body;
     transition: all 0.5s;
+        @media screen and (max-width: $tablet-s){ 
+            transform: scale(1);
+            color: $form;
+         }
    
 }
 

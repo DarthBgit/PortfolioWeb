@@ -46,7 +46,7 @@
     @media screen and (max-width: $tablet-s){ 
         
         grid-template-columns: 50% 50%;
-        bottom: 5%;
+        height: 80%;
         }
 }
 .know-grid{
@@ -83,7 +83,11 @@
         @media screen and (max-width: $tablet){ 
           font-size: $xxxl * 1.2;
             }
-}
+            @media screen and (max-width: $tablet-s){ 
+                font-size: $xxxl * 2.1;
+                  }
+      }
+
    
     /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
 .smll{
@@ -99,6 +103,10 @@
              @media screen and (max-width: $tablet){ 
                  font-size: $xxxl;
                     }
+                    @media screen and (max-width: $tablet-s){ 
+                        font-size: $xxxl * 1.9;
+                          }
+              
         }  
    
 /*descripcion */

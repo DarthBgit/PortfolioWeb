@@ -155,10 +155,15 @@ font-family: 'Merienda', cursive;
     font-family: 'Merienda', cursive;
     width: 50%;
     margin-top: 0;
+    line-height: 150%;
 
 @media screen and (max-width: $tablet){ 
     font-size: $xss;
       }
+      @media screen and (max-width: $tablet-s){ 
+        font-size: $xs;
+        
+          }
     }
 
 
@@ -173,17 +178,37 @@ font-family: 'Merienda', cursive;
     position: absolute;
     cursor: pointer;
     color: $secundary-color;
+    @media screen and (max-width: $FHD){ 
+        font-size: $xxxl;
+         }
     @media screen and (max-width: $tablet){ 
-       font-size: $xxl;
+       font-size: $xl;
         }
+        @media screen and (max-width: $tablet-s){ 
+            display: none;
+             }
 
     &_right{
-    right: 8%;
-    bottom: 35%;   
+        right: 6%;
+        bottom: 35%;  
+        @media screen and (max-width: $FHD){ 
+            right: 7%;
+            bottom: 38%;
+             } 
+    @media screen and (max-width: $tablet){ 
+        right: 4%;
+         }
     }
     &_left{
-    left: 8%;
+    left: 6%;
     bottom: 35%;  
+    @media screen and (max-width: $FHD){ 
+        left: 7%;
+        bottom: 38%;
+         } 
+    @media screen and (max-width: $tablet){ 
+        left: 4%;
+         }
     }
 }
 .barras{

@@ -401,13 +401,13 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-about {
-    height: 450px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 769px) {
   .container-about {
     justify-content: center;
-    height: 700px;
+    height: 910px;
   }
 }
 .container-about_title {
@@ -617,12 +617,12 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-tl {
-    height: 450px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 769px) {
   .container-tl {
-    height: 700px;
+    height: 910px;
   }
 }
 .container-tl_title {
@@ -644,40 +644,21 @@ body {
 }
 
 .section-tl {
-  width: 100%;
+  width: 80%;
   height: 70%;
   background: url(../../Images/tm.jpg) center;
-  background-size: 80%;
+  background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 5%;
 }
-
-.forms-tl_left {
-  min-width: 30%;
-  min-height: 22%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  background-color: #3735ad;
-  left: 6%;
-}
 @media screen and (max-width: 769px) {
-  .forms-tl_left {
-    left: 20%;
-    min-width: 40%;
+  .section-tl {
+    background: url(../../Images/tmResponsive.jpg) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75%;
+    margin-bottom: 5%;
   }
-}
-
-.forms-tl_right {
-  min-width: 18%;
-  min-height: 20%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  background-color: #3735ad;
-  right: 3%;
 }
 
 .main-header {
@@ -881,7 +862,7 @@ body {
   min-height: 800px;
   width: auto;
   height: auto;
-  background: linear-gradient(90deg, #636363 0%, #bcbccb 41%, rgba(255, 255, 255, 0.998) 73%);
+  background: linear-gradient(90deg, #555454 0%, rgba(255, 255, 255, 0.998) 70%);
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -892,7 +873,7 @@ body {
   .form {
     min-height: 80%;
     min-width: 100%;
-    background: linear-gradient(0deg, #575757 0%, white 100%);
+    background: linear-gradient(0deg, #444444 0%, white 90%);
   }
 }
 
@@ -934,12 +915,12 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-know {
-    height: 450px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 769px) {
   .container-know {
-    height: 700px;
+    height: 910px;
   }
 }
 .container-know_title {
@@ -971,7 +952,7 @@ body {
 @media screen and (max-width: 769px) {
   .section-know {
     grid-template-columns: 50% 50%;
-    bottom: 5%;
+    height: 80%;
   }
 }
 
@@ -1018,6 +999,11 @@ body {
     font-size: 38.4px;
   }
 }
+@media screen and (max-width: 769px) {
+  .know-icon {
+    font-size: 67.2px;
+  }
+}
 
 /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
 .smll {
@@ -1038,6 +1024,11 @@ body {
 @media screen and (max-width: 977px) {
   .smll {
     font-size: 32px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .smll {
+    font-size: 60.8px;
   }
 }
 
@@ -1109,12 +1100,13 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-proyects {
-    height: 450px;
+    height: 500px;
   }
 }
 @media screen and (max-width: 769px) {
   .container-proyects {
-    height: 700px;
+    height: 910px;
+    align-items: flex-start;
   }
 }
 .container-proyects_title {
@@ -1137,27 +1129,31 @@ body {
 
 /*SLIDER*/
 .slider-container {
-  width: 75%;
+  width: 80%;
   height: 58%;
   position: relative;
   transition: 2s;
   margin-bottom: 80px;
+  background-color: red;
 }
 @media screen and (max-width: 1470px) {
   .slider-container {
-    height: 55%;
-    width: 70%;
+    height: 60%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 977px) {
   .slider-container {
     margin-bottom: 60px;
-    width: 75%;
+    width: 85%;
   }
 }
 @media screen and (max-width: 769px) {
   .slider-container {
-    margin-bottom: 50px;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 0;
+    margin-top: 20%;
   }
 }
 
@@ -1195,17 +1191,6 @@ body {
   width: 100%;
 }
 
-.forms-pro {
-  min-width: 18%;
-  min-height: 8%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  background-color: #3735ad;
-  right: 3%;
-}
-
 .container-courses {
   max-width: 1536px;
   width: 86%;
@@ -1229,7 +1214,7 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-courses {
-    height: 450px;
+    height: 500px;
   }
 }
 .container-courses_title {
@@ -1295,7 +1280,7 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-footer {
-    height: 450px;
+    height: 500px;
   }
 }
 .container-footer_title {
@@ -1464,26 +1449,16 @@ body {
 .bye {
   max-width: 1536px;
   width: 86%;
-  height: 200px;
+  height: 18%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 1470px) {
-  .bye {
-    height: 650px;
-  }
-}
 @media screen and (max-width: 1200px) {
   .bye {
     width: 100%;
-  }
-}
-@media screen and (max-width: 977px) {
-  .bye {
-    height: 450px;
   }
 }
 .bye_img {
@@ -1499,6 +1474,11 @@ body {
   top: 30%;
   font-size: 36px;
   color: #222121;
+}
+@media screen and (max-width: 977px) {
+  .thanks {
+    font-size: 24px;
+  }
 }
 
 .header_botons {
@@ -1655,10 +1635,16 @@ body {
   font-family: "Merienda", cursive;
   width: 50%;
   margin-top: 0;
+  line-height: 150%;
 }
 @media screen and (max-width: 977px) {
   .know-grid p {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .know-grid p {
+    font-size: 12px;
   }
 }
 
@@ -1670,18 +1656,50 @@ body {
   cursor: pointer;
   color: #474447;
 }
+@media screen and (max-width: 1470px) {
+  .icons-arrow {
+    font-size: 32px;
+  }
+}
 @media screen and (max-width: 977px) {
   .icons-arrow {
-    font-size: 28px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .icons-arrow {
+    display: none;
   }
 }
 .icons-arrow_right {
-  right: 8%;
+  right: 6%;
   bottom: 35%;
 }
+@media screen and (max-width: 1470px) {
+  .icons-arrow_right {
+    right: 7%;
+    bottom: 38%;
+  }
+}
+@media screen and (max-width: 977px) {
+  .icons-arrow_right {
+    right: 4%;
+  }
+}
 .icons-arrow_left {
-  left: 8%;
+  left: 6%;
   bottom: 35%;
+}
+@media screen and (max-width: 1470px) {
+  .icons-arrow_left {
+    left: 7%;
+    bottom: 38%;
+  }
+}
+@media screen and (max-width: 977px) {
+  .icons-arrow_left {
+    left: 4%;
+  }
 }
 
 .barras_bar {
@@ -1861,6 +1879,12 @@ body {
   color: #383538;
   transition: all 0.5s;
 }
+@media screen and (max-width: 769px) {
+  .header_botons:hover {
+    transform: scale(1);
+    color: rgba(179, 179, 179, 0.87);
+  }
+}
 
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover {
@@ -1977,6 +2001,8 @@ body {
 
 .vid-pro {
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .develop-pro {
