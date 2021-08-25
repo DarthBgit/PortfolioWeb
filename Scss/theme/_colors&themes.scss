@@ -148,36 +148,6 @@ background-color: $background-body;
         overflow: hidden;
 }
 
-//PROYECTO SLIDER 1
-.vid-pro{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
-.develop-pro{
-    background-color: $dark-color;
-    width: 100%;
-    height: 100%;
-    transform: scale(0.0000001);
-    top: 0;
-    position: absolute;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 1.5s;
-    opacity: 0.9;
-
-    &_icons{
-        width: 150px;
-        height: 150px;
-        margin: 10%;
-    }
-}
-.allProyects_1:hover .develop-pro{
-     transform: scale(1);
-
-}
 
 
 //PROYECTO SLIDER 2

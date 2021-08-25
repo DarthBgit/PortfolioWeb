@@ -7,8 +7,10 @@
     background-color: $dark-background;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
+    flex-direction: column;
+    
     @media screen and (max-width: $FHD){ 
         height: $sectionsFHD;
         }
@@ -18,6 +20,9 @@
     @media screen and (max-width: $tablet){ 
         height: $sectionsTablet;
             }
+            @media screen and (max-width: $tablet-s){ 
+                height: $sectionTabletS;
+                    }
     &_title{
         position: absolute;
         left: $margen-title-lat;
@@ -51,6 +56,13 @@
            height: 140px;
            top: 130px;
                 }
+                @media screen and (max-width: $tablet-s){ 
+                    position: initial;
+                    height: 40%;
+                    margin: 0;
+                    flex-direction: column;
+                    align-items: flex-end;
+                         }
 }
 .footer-down{
     position: absolute;
@@ -68,9 +80,16 @@
         }
         @media screen and (max-width: $tablet){ 
             height: 140px;
-            bottom: 25px;;
-            
+            bottom: 25px;            
                 }
+                @media screen and (max-width: $tablet-s){ 
+                    height: 140px;
+                    height: 40%;
+                    position: initial;
+                    margin: 0;
+                    flex-direction: column;
+                    align-items: flex-end;
+                         }
 }
 
 .section-footer{
@@ -84,7 +103,11 @@
         @media screen and (max-width: $tablet){ 
             height: 100%;
                 }
-
+                @media screen and (max-width: $tablet-s){ 
+                    height: 50%;
+                    justify-content: center;
+                        }
+        
     }
     &_B{
        width: 100%;
@@ -95,6 +118,10 @@
        @media screen and (max-width: $tablet){ 
         height: 100%;
             }
+            @media screen and (max-width: $tablet-s){ 
+                height: 50%;
+                justify-content: center;
+                    }
     }
     &_C{
         width: 100%;
@@ -105,11 +132,16 @@
         @media screen and (max-width: $tablet){ 
             height: 100%;
                 }
+                @media screen and (max-width: $tablet-s){ 
+                    height: 50%;
+                    justify-content: center;
+                    margin-bottom: 30px;
+                        }
         & p{
             font-size: $m;
             margin-top: 5px;
             @media screen and (max-width: $FHD){ 
-                font-size: $xs;
+                font-size: $xss;
                     }
         }
     }
@@ -122,25 +154,14 @@
         @media screen and (max-width: $tablet){ 
             height: 100%;
                 }
+                @media screen and (max-width: $tablet-s){ 
+                    height: 50%;
+                    justify-content: center;
+                    margin-bottom: 40px;
+                        }
         
     }
-    &_title {
-        margin-left: auto;
-        margin-right: auto;
-        font-size: $xl;
-        margin-bottom: 25px;
-        margin-top: 9%;
-        color: $white-color;
-        font-family: 'Merienda', cursive;
-        @media screen and (max-width: $FHD){ 
-            font-size: $l;
-            }
-            @media screen and (max-width: $tablet){ 
-                font-size: $s;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                    }
-        }
+   
     
 }
 
@@ -149,19 +170,10 @@
     @media screen and (max-width: $tablet){ 
         height: 30px;
             }
+            @media screen and (max-width: $tablet-s){
+                height: 40px;
+                    }
 }
 
 
 
-//FORMAS 
-.forms-cm{
-    min-width: 18%;
-    min-height: 20%;
-    width: auto;
-    height: auto;
-    background-color: $special-color;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    left: 41%;
-}

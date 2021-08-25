@@ -22,9 +22,12 @@
         height: $sectionsTablet;
             }
             @media screen and (max-width: $tablet-s){ 
-               height: $sectionTabletS;
+               height: 660px;
                align-items: flex-start;
                   }
+                  @media screen and (max-width: 675px){    //para la seccion de porjects
+                    height: 577px;
+                       }
     &_title{
         position: absolute;
         right: $margen-title-lat;
@@ -49,7 +52,6 @@
     position: relative;
     transition: 2s;
     margin-bottom: 80px;
-    background-color: red;
     @media screen and (max-width: $FHD){ 
     height: 60%;   
     width: 80%;
@@ -60,15 +62,16 @@
         }
         @media screen and (max-width: $tablet-s){ 
             width: 100%;
-            height: 40%;
+            height: auto;
             margin-bottom: 0;
-            margin-top: 20%;
+            margin-top: 24%;
+            min-height: 400px;
               }
            
 }
 
 
-/*BARRAS INFERIORES DEL SLIDER*/
+//BARRAS INFERIORES DEL SLIDER....Colocacion dentro de la seccion
 .barras{
     position: absolute;
     width: 100%;
@@ -78,7 +81,10 @@
     margin-bottom: 3%;
     @media screen and (max-width: $FHD){ 
         margin-bottom: 3.5%;
-        }    
+        }  
+        @media screen and (max-width: $tablet-s){ 
+            margin-bottom: 3%;
+            }    
         
 }
 
@@ -100,9 +106,3 @@
 
 
 
-// IMAGENES DE LOS SLIDERS
-
-.img-slider{
-    width: 100%;
-    width: 100%;
-}
