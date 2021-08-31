@@ -29,6 +29,10 @@ overflow: hidden;
     height: 1000px;}
     @media screen and (max-width: $phone-xl){ 
         height: 860px;}
+        @media screen and (max-width: $phone){ 
+            height: 760px;
+
+               }
     
 
     &_description{
@@ -85,6 +89,10 @@ overflow: hidden;
                     
                     max-height: 650px;
                 }
+                @media screen and (max-width: $phone){ 
+                    max-height: 580px;
+       
+                       }
                 
        
     }
@@ -135,6 +143,10 @@ overflow: hidden;
        transition: 1s;
        transform: translate(500px);
    }
+   @media screen and (max-width: $phone){ 
+    width: 70%;
+
+       }
    
    
    &.header-activate{

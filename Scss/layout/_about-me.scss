@@ -83,6 +83,10 @@
              height: 220px; 
              width: 80%;      
                 }
+                @media screen and (max-width: $phone){ 
+                    margin-bottom: 60px;
+                
+                       }
     }   
     }   
     
@@ -107,6 +111,7 @@ margin: auto;
    max-width: 30%;
 
     }
+    
 }
 .icon-cv{
     font-size: $xl;
