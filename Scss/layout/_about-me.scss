@@ -22,6 +22,9 @@
     justify-content: center;
     height: $sectionTabletS;
 }
+@media screen and (max-width: $phone-xl){ 
+   height: $sectionPhone-XL;
+    }
 &_title{
         
     position: absolute;
@@ -35,6 +38,9 @@
             left: $margen-title-lat-tablet;
             top: $margen-title-sup-tablet;
             }
+            @media screen and (max-width: $phone-xl){ 
+                left: $margen-title-lat-phone;
+                }
 }
 }
     
@@ -49,7 +55,7 @@
     align-items: center;
     position: relative;
     @media screen and (max-width: $tablet-s){ 
-     width: 90%;
+     width: 100%;
     
         }
     
@@ -97,6 +103,10 @@ bottom: 7%;
 left: 0;
 right: 0;
 margin: auto; 
+@media screen and (max-width: $phone-xl){ 
+   max-width: 30%;
+
+    }
 }
 .icon-cv{
     font-size: $xl;
@@ -106,8 +116,12 @@ margin: auto;
         font-size: $l;
         }
         @media screen and (max-width: $tablet-s){ 
-           font-size: $xl;
+           font-size: $xxl;
         }
+        @media screen and (max-width: $phone-xl){ 
+            font-size: $xl;
+
+            }
     &:hover{
         color: $form;
     }
@@ -176,19 +190,3 @@ justify-content: center;
 
 
 
-// FORMAS
-
-.forms-am{
-    min-width: 18%;
-    min-height: 20%;
-    width: auto;
-    height: auto;
-    background-color: $special-color;
-    position: absolute;
-    bottom: 0;
-    z-index: 0;
-    left: 40%;
-    @media screen and (max-width: $tablet-s){ 
-        left: 75%;
-     }
-}

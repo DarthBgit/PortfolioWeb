@@ -22,7 +22,7 @@ function positionSlide(n){
 function showSlides(n){
   let i;
   let slides = document.getElementsByClassName("position-bar")
-  let barras = document.getElementsByClassName("barras_bar")
+  let barras = document.getElementsByClassName("bar")
 
   if(n > slides.length){
     index = 1;
@@ -34,16 +34,16 @@ function showSlides(n){
     slides[i].style.display ='none';
   }
   for(i=0; i< barras.length; i++){
-    barras[i].className = barras[i].className.replace(" barras_active", "")
+    barras[i].className = barras[i].className.replace(" bar_active", "")
   }
 
   slides[index-1].style.display="block"
-  barras[index-1].className += " barras_active"}
+  barras[index-1].className += " bar_active"}
 
   /* CAMBIO AUTOMATICO DE IMAGENES*/
   
-  setInterval(function time(){
-  showSlides(index += 1)},500000)
+  // setInterval(function time(){
+  // showSlides(index += 1)},500000)
 
 
   // MENU HEADER 

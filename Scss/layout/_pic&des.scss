@@ -8,15 +8,13 @@
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 
 .container-pd{
-@media screen and (max-width: $ultraHD){        
-    
 max-width: $maxWidht;
 width: $margenes;
 height: 700px;
 margin-left: auto;
 margin-right: auto;
 overflow: hidden;
-}
+
 @media screen and (max-width: $FHD){ 
     height: 600px;
 }
@@ -29,6 +27,9 @@ overflow: hidden;
 }
 @media screen and (max-width: $tablet-s){ 
     height: 1000px;}
+    @media screen and (max-width: $phone-xl){ 
+        height: 860px;}
+    
 
     &_description{
     width: 100%;
@@ -80,6 +81,11 @@ overflow: hidden;
                 max-width: 1000px;
                 max-height: 750px;
                 }
+                @media screen and (max-width: $phone-xl){ 
+                    
+                    max-height: 650px;
+                }
+                
        
     }
  
@@ -114,7 +120,7 @@ overflow: hidden;
 // DESPLEGABLE OCULTO DEL HEADER
 
    .header-hidden{
-    @media screen and (max-width: $ultraHD){ 
+    @media screen and (max-width: $FHD-PLUS){ 
         display: none;
      }
     @media screen and (max-width: $tablet-s){       
@@ -128,17 +134,18 @@ overflow: hidden;
        right: 0;
        transition: 1s;
        transform: translate(500px);
-    
-    &.header-activate{
+   }
+   
+   
+   &.header-activate{
     transform: translate(0);
     transition: 1s;
     }
    }
-   }
   
    
    .arrow-list{
-@media screen and (max-width: $ultraHD){  
+@media screen and (max-width: $FHD-PLUS){  
     display: none;
 }
 @media screen and (max-width: $tablet-s){    
@@ -154,6 +161,8 @@ cursor: pointer;
     color: $form;
 }
    }
+   @media screen and (max-width: $phone-xl){ 
+    font-size: $xxxl *1.3;}
    }
 
 

@@ -19,7 +19,11 @@
     transition: all 0.2s;
 }
 
- 
+//HOVERS DE LOS PROYECTOS
+
+.project-1:hover .develop-pro{
+    transform: scale(1);
+}
 
 /*CONTACTME*/
 .link-footer{

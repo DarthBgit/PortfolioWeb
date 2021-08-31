@@ -18,6 +18,10 @@
         
         height: $sectionTabletS;
         }
+        @media screen and (max-width: $phone-xl){ 
+            height: $sectionPhone-XL;
+
+            }
 
     &_title{
         
@@ -32,6 +36,10 @@
                     left: $margen-title-lat-tablet;
                     top: $margen-title-sup-tablet;
                     }
+                    @media screen and (max-width: $phone-xl){ 
+                        left: $margen-title-lat-phone;
+        
+                        }
     }
 }
 
@@ -86,6 +94,10 @@
             @media screen and (max-width: $tablet-s){ 
                 font-size: $xxxl * 2.1;
                   }
+                  @media screen and (max-width: $phone-xl){ 
+                    font-size: $xxxl * 1.8;
+    
+                    }
       }
 
    
@@ -106,6 +118,10 @@
                     @media screen and (max-width: $tablet-s){ 
                         font-size: $xxxl * 1.9;
                           }
+                          @media screen and (max-width: $phone-xl){ 
+                            font-size: $xxxl * 1.7;
+            
+                            }
               
         }  
    

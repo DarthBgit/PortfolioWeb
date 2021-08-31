@@ -20,6 +20,10 @@
     @media screen and (max-width: $tablet-s){ 
         height: $sectionTabletS ;
     }
+    @media screen and (max-width: $tablet-s){ 
+        height: $sectionPhone-XL * 1.2;
+
+        }
     &_title{
         
             position: absolute;
@@ -33,6 +37,10 @@
                 right: $margen-title-lat-tablet;
                 top: $margen-title-sup-tablet;
                 }
+                @media screen and (max-width: $phone-xl){ 
+                    right: $margen-title-lat-phone;
+    
+                    }
     }
 }
 
@@ -49,8 +57,11 @@
         background-size: contain;
         background-repeat: no-repeat;
         height: 75%;
-        margin-bottom: 5%;
         }
+        @media screen and (max-width: $phone-xl){ 
+            margin-bottom: 12%;
+
+            }
     }
   
     

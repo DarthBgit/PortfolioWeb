@@ -28,7 +28,9 @@ $margenes: 86%;//ancho de las secciones
 $sections:805px;//alto de las secciones
 $sectionsFHD : 650px;
 $sectionsTablet: 500px;
-$sectionTabletS:700px * 1.3;
+$sectionTabletS:910px;
+$sectionPhone-XL:750px;
+
 $margenes-body:3%;//margenes laterales
 $margen-title-sup:50px;
 $margen-title-lat:120px;
@@ -36,4 +38,5 @@ $margen-title-lat-FHD:100px;
 $margen-title-sup-FHD:40px;
 $margen-title-sup-tablet:30px;
 $margen-title-lat-tablet:80px;
+$margen-title-lat-phone:50px;
 $maxWidht:1536px;/*Ancho maximo permitido*/
