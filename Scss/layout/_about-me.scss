@@ -25,6 +25,9 @@
 @media screen and (max-width: $phone-xl){ 
    height: $sectionPhone-XL;
     }
+    @media screen and (max-width: $phone){ 
+        height: $sectionPhone;
+         }
 &_title{
         
     position: absolute;
@@ -39,8 +42,12 @@
             top: $margen-title-sup-tablet;
             }
             @media screen and (max-width: $phone-xl){ 
-                left: $margen-title-lat-phone;
+                left: $margen-title-lat-phone-XL;
                 }
+                @media screen and (max-width: $phone){ 
+                    left: $margen-title-lat-phone;
+                    top: $margen-title-sup-phone;
+                     }
 }
 }
     
@@ -83,10 +90,13 @@
              height: 220px; 
              width: 80%;      
                 }
-                @media screen and (max-width: $phone){ 
+                @media screen and (max-width: $phone-xl){ 
                     margin-bottom: 60px;
                 
                        }
+                       @media screen and (max-width: $phone){ 
+                        margin-bottom: 0;
+                         }
     }   
     }   
     

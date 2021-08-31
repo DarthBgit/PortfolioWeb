@@ -12,12 +12,13 @@
         width: 100%;
             }
             @media screen and (max-width: $tablet){ 
-                height: 20%;
+                height: 200px;
                     }
                     @media screen and (max-width: 610px){ 
-                        height: 12%;
+                        height: 100px;
            
                            }
+                           
    &_img{
        position: absolute;
        width: 100%;
@@ -38,4 +39,7 @@
             @media screen and (max-width: 610px){ 
                 font-size: $m;
                    }
+                   @media screen and (max-width: $phone){ 
+                   font-size: $s;
+                     }
 }

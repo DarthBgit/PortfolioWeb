@@ -22,6 +22,9 @@
             height: $sectionPhone-XL;
 
             }
+            @media screen and (max-width: $phone){ 
+                height: $sectionPhone;
+                 }
 
     &_title{
         
@@ -37,9 +40,13 @@
                     top: $margen-title-sup-tablet;
                     }
                     @media screen and (max-width: $phone-xl){ 
-                        left: $margen-title-lat-phone;
+                        left: $margen-title-lat-phone-XL;
         
                         }
+                        @media screen and (max-width: $phone){ 
+                            left: $margen-title-lat-phone;
+                            top: $margen-title-sup-phone;
+                             }
     }
 }
 
@@ -98,6 +105,7 @@
                     font-size: $xxxl * 1.8;
     
                     }
+                    
       }
 
    
@@ -126,38 +134,25 @@
         }  
    
 /*descripcion */
-.know-icon p{
-    width: 50%;
-    margin: auto;
-    font-size: $s;
-    font-family: 'Merienda', cursive;
-    color: $dark-color;
-    @media screen and (max-width: $FHD){ 
-    font-size: $xs;
-    width: 60%;
-    }
-    @media screen and (max-width: $tablet){ 
-        font-size: $xss;
-        }
-        @media screen and (max-width: $tablet-s){ 
-           font-size: $xsss;
-            }
-}
+// .know-icon p{
+//     width: 50%;
+//     margin: auto;
+//     font-size: $s;
+//     font-family: 'Merienda', cursive;
+//     color: $dark-color;
+//     @media screen and (max-width: $FHD){ 
+//     font-size: $xs;
+//     width: 60%;
+//     }
+//     @media screen and (max-width: $tablet){ 
+//         font-size: $xss;
+//         }
+//         @media screen and (max-width: $tablet-s){ 
+//            font-size: $xsss;
+//             }
+//             @media screen and (max-width: $phone){ 
+//                 font-size: $xssss;
+//                  }
+// }
 
 
-.forms-kn{
-    min-width: 18%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    background-color: rgb(196, 30, 30);
-    background-color: $special-color;
-    position: absolute;
-    bottom: 0;
-    z-index: 0;
-    left: 41%;
-    @media screen and (max-width: $tablet){ 
-        left: 75%;
-        }
-
-}

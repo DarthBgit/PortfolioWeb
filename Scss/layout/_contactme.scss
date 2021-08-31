@@ -27,6 +27,8 @@
                         height: $sectionPhone-XL * 1.1;
            
                            }
+                           
+                           
     &_title{
         position: absolute;
         left: $margen-title-lat;
@@ -43,6 +45,10 @@
                     left: $margen-title-lat-phone;
        
                        }
+                       @media screen and (max-width: $phone){ 
+                        left: $margen-title-lat-phone;
+                        top: $margen-title-sup-phone;
+                         }
         }
   
 }
@@ -162,13 +168,6 @@
                             margin-bottom: 30px;
                
                                }
-        & p{
-            font-size: $m;
-            margin-top: 5px;
-            @media screen and (max-width: $FHD){ 
-                font-size: $xss;
-                    }
-        }
     }
     &_D{
         width: 100%;

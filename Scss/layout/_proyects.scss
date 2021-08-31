@@ -44,17 +44,13 @@
                    
                                    }
                                    @media screen and (max-width: 470px){ 
-                                    height: 430px;
+                                    height: 450px;
                        
                                        }
-                                       @media screen and (max-width: 420px){ 
-                                        height: 390px;
-                           
-                                           }
-                                           @media screen and (max-width: 380px){ 
-                                            height: 350px;
-                               
-                                               }
+                                       @media screen and (max-width: 370px){ 
+                                        height: 420px;
+                                         }
+                                     
                               
     &_title{
         position: absolute;
@@ -69,9 +65,13 @@
                 top: $margen-title-sup-tablet;
                 }
                 @media screen and (max-width: $phone-xl){ 
-                    right: $margen-title-lat-phone;
+                    right: $margen-title-lat-phone-XL;
        
                        }
+                       @media screen and (max-width: $phone){ 
+                        right: $margen-title-lat-phone;
+                        top: $margen-title-sup-phone;
+                         }
         }
 }
 
@@ -102,6 +102,12 @@
                 margin-top: 30%;
 
                 }
+                @media screen and (max-width: 470px){ 
+                    margin-top: 34%;
+                     }
+                     @media screen and (max-width: 385px){ 
+                        margin-top: 43%;
+                         }
            
 }
 
@@ -120,6 +126,9 @@
         @media screen and (max-width: $tablet-s){ 
             margin-bottom: 3%;
             }    
+            @media screen and (max-width: $phone){ 
+                margin-bottom: 5%;
+                 }
         
 }
 

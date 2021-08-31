@@ -99,9 +99,10 @@ font-family: 'Merienda', cursive;
 }
 @media screen and (max-width: $phone-xl){ 
     font-size: $xxxl * 1.1;
-    
-
-    }
+        }
+        @media screen and (max-width: $phone){ 
+         font-size: $xxl;
+             }
     
 //BARRA INFERIOR TITULOS SECCIONES 
 
@@ -185,6 +186,9 @@ font-family: 'Merienda', cursive;
             font-size: $xs;
 
             }
+            @media screen and (max-width: $phone){ 
+                font-size: $xss;
+                 }
         
 }   
 
@@ -205,9 +209,10 @@ font-family: 'Merienda', cursive;
           @media screen and (max-width: $phone-xl){ 
             font-size: $xss;
             width: 60%;
-
-
             }
+            @media screen and (max-width: $phone){ 
+             font-size: $xsss;
+                 }
     }
 
 
@@ -274,6 +279,10 @@ font-family: 'Merienda', cursive;
             margin-left: 3%;
             border-radius: 100%;
             }
+            @media screen and (max-width: $phone){ 
+              height: 25px;
+              width: 25px;
+                 }
     }
 
 
@@ -324,6 +333,7 @@ font-family: 'Merienda', cursive;
     // CONTACT ME     CONTACT ME //
 
 
+// TITULOS DE LOAS DIFERENTES APARTADOS 
 
 .section-footer_title {
     margin-left: auto;
@@ -346,6 +356,9 @@ font-family: 'Merienda', cursive;
                     margin-top: 10px;
                     margin-bottom: 20px;
                         }
+                        @media screen and (max-width: $phone){ 
+                           font-size: $s;
+                             }
     }
 
 
@@ -376,6 +389,9 @@ font-family: 'Merienda', cursive;
             @media screen and (max-width: $tablet){ 
                 font-size: $xss;
                 }
+                @media screen and (max-width: $phone){ 
+                    font-size: $xsss;
+                     }
     }
 }
 
@@ -403,6 +419,9 @@ font-family: 'Merienda', cursive;
                 @media screen and (max-width: $tablet){ 
                  font-size: $xss;
                         }    
+                        @media screen and (max-width: $phone){ 
+                           font-size: $xsss;
+                             }
             
         }
 }
@@ -412,6 +431,11 @@ font-family: 'Merienda', cursive;
 .this-pro{
     color: $white-color;
     font-family: 'Merienda', cursive;
+    margin-top: 5px;
+    font-size: $xss;
+    @media screen and (max-width: $phone){ 
+        font-size: $xsss;
+         }
 }
  //Iconos 
 
@@ -449,6 +473,9 @@ font-family: 'Merienda', cursive;
             margin-left: 42%;
             line-height: 200%;
                 }
+                @media screen and (max-width: $phone){ 
+                   font-size: $xsss;
+                     }
 }
 
 .text-flaticon{
