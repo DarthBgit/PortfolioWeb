@@ -10,9 +10,11 @@
     margin: 6px;
     font-family: 'Merienda', cursive;
     z-index: 2;
-    @media screen and (max-width: $tablet){ 
-    font-size:$xs;
-    margin: auto;
+    @media screen and (max-width: 1100px){ 
+    font-size:15px;
+    margin: auto;}
+    @media screen and (max-width: 850px){ 
+        font-size: $s;
 }
 @media screen and (max-width: $tablet-s){  //El header pasa a ser un nav desplegable
     font-size: $xxl;
@@ -124,6 +126,11 @@ font-family: 'Merienda', cursive;
         left: calc(50% - 60px);
         bottom: -5px;
     }
+    @media screen and (max-width: $phone){ 
+        width: 100px;
+        left: calc(50% - 50px);
+
+        }
     }
     }
 
@@ -138,7 +145,7 @@ font-family: 'Merienda', cursive;
 .am-section-a{    
     
     &_text{
-        font-size: $m;
+        font-size: $s;
         font-family: 'Merienda', cursive;
         text-align: justify;
         line-height: 170%;
@@ -365,16 +372,12 @@ font-family: 'Merienda', cursive;
 /*ICONOS DE LA SECCION DE CONTACTOS*/
 .icon-contact{
     font-size: $xl;
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
     margin-left: 30%;
     margin-bottom: 2%;
     @media screen and (max-width: $tablet){ 
         font-size: $m;
-        @media screen and (max-width: $tablet-s){ 
-            justify-content: center;
-            
+        @media screen and (max-width: 450px){ 
+            margin-left: 22%;
             }
         }
     & p{

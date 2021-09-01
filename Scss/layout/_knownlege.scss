@@ -105,6 +105,10 @@
                     font-size: $xxxl * 1.8;
     
                     }
+                    @media screen and (max-width: $phone){ 
+                        font-size: $xxxl * 1.4;
+        
+                        }
                     
       }
 
@@ -127,9 +131,13 @@
                         font-size: $xxxl * 1.9;
                           }
                           @media screen and (max-width: $phone-xl){ 
-                            font-size: $xxxl * 1.7;
+                            font-size: $xxxl * 1.6;
             
                             }
+                            @media screen and (max-width: $phone){ 
+                                font-size: $xxxl * 1.2;
+                
+                                }
               
         }  
    

@@ -499,7 +499,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .am-section-a_containertext {
-    margin-bottom: 0;
+    margin-bottom: 12px;
   }
 }
 
@@ -520,6 +520,12 @@ body {
 @media screen and (max-width: 600px) {
   .container-cv {
     max-width: 30%;
+    bottom: 5%;
+  }
+}
+@media screen and (max-width: 355px) {
+  .container-cv {
+    max-width: 35%;
   }
 }
 
@@ -543,8 +549,15 @@ body {
     font-size: 24px;
   }
 }
-.icon-cv:hover {
-  color: rgba(179, 179, 179, 0.87);
+@media screen and (max-width: 470px) {
+  .icon-cv {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icon-cv:hover {
+    color: rgba(179, 179, 179, 0.87);
+  }
 }
 
 .text-cv {
@@ -570,6 +583,11 @@ body {
 @media screen and (max-width: 769px) {
   .text-cv {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .text-cv {
+    font-size: 12px;
   }
 }
 
@@ -752,13 +770,49 @@ body {
 }
 @media screen and (max-width: 1200px) {
   .container-header-section {
-    margin-right: 5px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 977px) {
   .container-header-section {
-    margin-right: 20px;
+    margin-right: 5px;
   }
+}
+
+.language {
+  position: absolute;
+  left: 9.2%;
+  z-index: 20;
+  margin-top: 25px;
+  color: rgba(179, 179, 179, 0.87);
+}
+@media screen and (max-width: 1200px) {
+  .language {
+    left: 3%;
+  }
+}
+.language_lang {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(248, 247, 247, 0.808);
+  font-family: "Merienda", cursive;
+}
+
+.bar-lang {
+  font-size: 20px;
+}
+
+.non-actived {
+  color: rgba(179, 179, 179, 0.87);
+}
+
+.non-actived:hover {
+  color: rgba(37, 37, 37, 0.986);
+}
+
+.actived {
+  color: rgba(231, 229, 229, 0.945);
+  cursor: default;
 }
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
@@ -798,7 +852,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .container-pd {
-    height: 650px;
+    height: 700px;
   }
 }
 .container-pd_description {
@@ -1116,6 +1170,11 @@ body {
     font-size: 57.6px;
   }
 }
+@media screen and (max-width: 470px) {
+  .know-icon {
+    font-size: 44.8px;
+  }
+}
 
 /*CAMBIA EL TAMAÑO DE ALGUNOS ICONOS DE CONOCIMIENTOS*/
 .smll {
@@ -1145,7 +1204,12 @@ body {
 }
 @media screen and (max-width: 600px) {
   .smll {
-    font-size: 54.4px;
+    font-size: 51.2px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .smll {
+    font-size: 38.4px;
   }
 }
 
@@ -1372,7 +1436,7 @@ body {
 }
 @media screen and (max-width: 610px) {
   .container-footer {
-    height: 825px;
+    height: 750px;
   }
 }
 .container-footer_title {
@@ -1565,6 +1629,11 @@ body {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 470px) {
+  .section-footer_D {
+    margin-bottom: 0;
+  }
+}
 
 @media screen and (max-width: 977px) {
   .container-icons-md {
@@ -1586,6 +1655,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  background: linear-gradient(0deg, #444444 0%, white 90%);
 }
 @media screen and (max-width: 1200px) {
   .bye {
@@ -1599,13 +1669,8 @@ body {
 }
 @media screen and (max-width: 610px) {
   .bye {
-    height: 100px;
+    height: 150px;
   }
-}
-.bye_img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
 }
 
 .thanks {
@@ -1641,10 +1706,15 @@ body {
   font-family: "Merienda", cursive;
   z-index: 2;
 }
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 1100px) {
   .header_botons {
-    font-size: 12px;
+    font-size: 15px;
     margin: auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header_botons {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -1776,9 +1846,15 @@ body {
     bottom: -5px;
   }
 }
+@media screen and (max-width: 470px) {
+  .titles::after {
+    width: 100px;
+    left: calc(50% - 50px);
+  }
+}
 
 .am-section-a_text {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Merienda", cursive;
   text-align: justify;
   line-height: 170%;
@@ -2039,9 +2115,9 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 977px) and (max-width: 769px) {
+@media screen and (max-width: 977px) and (max-width: 450px) {
   .icon-contact {
-    justify-content: center;
+    margin-left: 22%;
   }
 }
 .icon-contact p {

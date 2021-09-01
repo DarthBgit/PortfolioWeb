@@ -95,12 +95,13 @@
                 
                        }
                        @media screen and (max-width: $phone){ 
-                        margin-bottom: 0;
+                        margin-bottom: 12px;
                          }
     }   
     }   
     
 
+    // CURRICULUM VITAE
 
 //POSICION BOTON CV
 
@@ -119,8 +120,13 @@ right: 0;
 margin: auto; 
 @media screen and (max-width: $phone-xl){ 
    max-width: 30%;
+   bottom: 5%;
 
     }
+    @media screen and (max-width: 355px){ 
+        max-width: 35%;
+
+        }
     
 }
 .icon-cv{
@@ -137,10 +143,18 @@ margin: auto;
             font-size: $xl;
 
             }
+            @media screen and (max-width: $phone){ 
+                font-size: $l;
+
+                }
+            
     &:hover{
+        @media screen and (min-width: $HD){ 
         color: $form;
     }
 }
+}
+
 .text-cv{
     color: $white-color;
     font-family: 'Merienda', cursive;
@@ -156,6 +170,10 @@ margin: auto;
            font-size: $m;
          
         }
+        @media screen and (max-width: $phone){ 
+            font-size: $xs;
+
+            }
 }
 
 

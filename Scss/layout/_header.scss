@@ -27,11 +27,46 @@
         align-items: center;
         margin-right: 40px; //margen de todo el bloque div del header
         @media screen and (max-width: $HD){ 
-            margin-right: 5px;}
+            margin-right: 10px;}
         @media screen and (max-width: $tablet){ 
-        margin-right: 20px;}
+        margin-right: 5px;}
     }
     
+    .language{
+        position: absolute;
+        left: 9.2%;
+        z-index: 20;
+        margin-top: 25px;
+        color: $form;
+        @media screen and (max-width: $HD){ 
+            left: 3%;
+        }
+
+        &_lang{
+            font-size: $m;
+            text-decoration: none;
+            color: rgba(248, 247, 247, 0.808);
+            font-family: 'Merienda', cursive;
+            
+        }
+
+        }
+
+        .bar-lang{
+            font-size: $l;
+        }
     
+        .non-actived{
+            color: rgba(179, 179, 179, 0.87);
+            }
+            
+            .non-actived:hover{
+                color: rgba(37, 37, 37, 0.986);
+                
+            }
+        .actived{
+            color: rgba(231, 229, 229, 0.945);
+            cursor: default;
+        }
 
 

@@ -24,7 +24,7 @@
                 height: $sectionTabletS;
                     }
                     @media screen and (max-width: 610px){ 
-                        height: $sectionPhone-XL * 1.1;
+                        height: $sectionPhone-XL;
            
                            }
                            
@@ -183,6 +183,10 @@
                     justify-content: center;
                     margin-bottom: 20px;
                         }
+                        @media screen and (max-width: $phone){ 
+                            margin-bottom: 0;
+            
+                            }
         
     }
    
