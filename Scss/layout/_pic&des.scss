@@ -132,7 +132,7 @@ overflow: hidden;
         display: none;
      }
     @media screen and (max-width: $tablet-s){       
-       width: 45%;
+       width: 67%;
        height: 100%;
        background-color: rgba(0, 0, 0, 0.829);
        display: flex;
@@ -141,7 +141,7 @@ overflow: hidden;
        position: absolute;
        right: 0;
        transition: 1s;
-       transform: translate(500px);
+       transform: translate(700px);
    }
    @media screen and (max-width: $phone){ 
     width: 70%;
@@ -187,7 +187,7 @@ cursor: pointer;
     min-height: 800px;
     width: auto;
     height: auto;
-    background: linear-gradient(90deg, rgb(85, 84, 84) 0%,  rgba(255, 255, 255, 0.998) 70%);
+    background: linear-gradient(90deg, rgb(83, 83, 83) 0%,  rgba(255, 255, 255, 0.998) 62%);
     background-size: cover;
     position: absolute;
     bottom: 0;

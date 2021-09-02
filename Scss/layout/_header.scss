@@ -18,20 +18,38 @@
    
 }
 
-
+// CONTENEDOR IDIOMA ESPAÑOL
 .container-header-section{
         height: 100%;
         max-width: 1100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 40px; //margen de todo el bloque div del header
+        margin-right: 20px; //margen de todo el bloque div del header
         @media screen and (max-width: $HD){ 
             margin-right: 10px;}
         @media screen and (max-width: $tablet){ 
         margin-right: 5px;}
     }
     
+// CONTENEDOR IDIOMA INGLES
+.container-header-sectionEN{
+        height: 100%;
+        max-width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px; //margen de todo el bloque div del header
+        @media screen and (max-width: $HD){ 
+            margin-right: 10px;}
+        @media screen and (max-width: $tablet){ 
+        margin-right: 5px;}
+    }
+    
+
+
+    // LENGUAJE ESPAÑOL INGLES
+
     .language{
         position: absolute;
         left: 9.2%;
@@ -65,7 +83,7 @@
                 
             }
         .actived{
-            color: rgba(231, 229, 229, 0.945);
+            color: rgb(255, 255, 255);
             cursor: default;
         }
 

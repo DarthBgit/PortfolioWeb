@@ -31,6 +31,14 @@ background-color: $background-body;
         color: $form;
             }
 }
+.header_botonsEN{
+    
+    color: $secundary-color;   
+
+    @media screen and (max-width: $tablet-s){ 
+        color: $form;
+            }
+}
 
 
 

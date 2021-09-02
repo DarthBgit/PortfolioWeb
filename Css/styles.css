@@ -766,7 +766,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 @media screen and (max-width: 1200px) {
   .container-header-section {
@@ -775,6 +775,25 @@ body {
 }
 @media screen and (max-width: 977px) {
   .container-header-section {
+    margin-right: 5px;
+  }
+}
+
+.container-header-sectionEN {
+  height: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .container-header-sectionEN {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .container-header-sectionEN {
     margin-right: 5px;
   }
 }
@@ -811,7 +830,7 @@ body {
 }
 
 .actived {
-  color: rgba(231, 229, 229, 0.945);
+  color: white;
   cursor: default;
 }
 
@@ -944,7 +963,7 @@ body {
 }
 @media screen and (max-width: 769px) {
   .header-hidden {
-    width: 45%;
+    width: 67%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.829);
     display: flex;
@@ -953,7 +972,7 @@ body {
     position: absolute;
     right: 0;
     transition: 1s;
-    transform: translate(500px);
+    transform: translate(700px);
   }
 }
 @media screen and (max-width: 470px) {
@@ -997,7 +1016,7 @@ body {
   min-height: 800px;
   width: auto;
   height: auto;
-  background: linear-gradient(90deg, #555454 0%, rgba(255, 255, 255, 0.998) 70%);
+  background: linear-gradient(90deg, #535353 0%, rgba(255, 255, 255, 0.998) 62%);
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -1700,21 +1719,51 @@ body {
 .header_botons {
   cursor: pointer;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 19px;
   padding: 7px 10px;
-  margin: 6px;
+  margin: 2px;
   font-family: "Merienda", cursive;
   z-index: 2;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1385px) {
+  .header_botons {
+    font-size: 17px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1385px) {
+  .header_botons {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header_botons {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .header_botons {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1045px) {
   .header_botons {
     font-size: 15px;
-    margin: auto;
+  }
+}
+@media screen and (max-width: 965px) {
+  .header_botons {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .header_botons {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 850px) {
   .header_botons {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -1732,6 +1781,69 @@ body {
 }
 @media screen and (max-width: 490px) {
   .header_botons {
+    font-size: 22px;
+  }
+}
+
+.header_botonsEN {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 10px;
+  margin: 3px;
+  font-family: "Merienda", cursive;
+  z-index: 2;
+}
+@media screen and (max-width: 1385px) {
+  .header_botonsEN {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header_botonsEN {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .header_botonsEN {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .header_botonsEN {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 965px) {
+  .header_botonsEN {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .header_botonsEN {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header_botonsEN {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .header_botonsEN {
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .header_botonsEN {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .header_botonsEN {
     font-size: 22px;
   }
 }
@@ -2300,6 +2412,18 @@ body {
   }
 }
 
+.header_botonsEN:hover {
+  transform: scale(1.2);
+  color: #383538;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 769px) {
+  .header_botonsEN:hover {
+    transform: scale(1);
+    color: rgba(179, 179, 179, 0.87);
+  }
+}
+
 /*HOVER FLECHAS SLIDER*/
 .icons-arrow:hover {
   color: rgba(179, 179, 179, 0.87);
@@ -2340,6 +2464,15 @@ body {
 }
 @media screen and (max-width: 769px) {
   .header_botons {
+    color: rgba(179, 179, 179, 0.87);
+  }
+}
+
+.header_botonsEN {
+  color: #474447;
+}
+@media screen and (max-width: 769px) {
+  .header_botonsEN {
     color: rgba(179, 179, 179, 0.87);
   }
 }

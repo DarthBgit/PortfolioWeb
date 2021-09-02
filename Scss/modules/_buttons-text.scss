@@ -1,20 +1,39 @@
 
    // HEADER    HEADER //
 
-//BOTONES HEADER
+//BOTONES HEADER IDIOMA ESPAÑOL
 .header_botons{
     cursor: pointer;
     text-decoration: none;
-    font-size: $m;
+    font-size: 19px;
     padding: 7px 10px;
-    margin: 6px;
+    margin: 2px;
     font-family: 'Merienda', cursive;
     z-index: 2;
-    @media screen and (max-width: 1100px){ 
-    font-size:15px;
+    @media screen and (max-width: 1385px){ 
+    font-size:17px;
     margin: auto;}
+    @media screen and (max-width: 1385px){ 
+        font-size:16px;
+    }
+    @media screen and (max-width: 1200px){ 
+        font-size:17px;
+    }
+    @media screen and (max-width: 1125px){ 
+        font-size:16px;
+    }
+    @media screen and (max-width: 1045px){ 
+        font-size:15px;
+    }
+    @media screen and (max-width: 965px){ 
+        font-size:14px;
+    }
+    @media screen and (max-width: 920px){ 
+        font-size:13px;
+    }
+
     @media screen and (max-width: 850px){ 
-        font-size: $s;
+        font-size: 12px;
 }
 @media screen and (max-width: $tablet-s){  //El header pasa a ser un nav desplegable
     font-size: $xxl;
@@ -29,6 +48,55 @@
     font-size: $l* 1.1;
 }
 }
+
+// BOTONES DEL HEADER IDIOMA INGLES
+
+.header_botonsEN{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: $l;
+    padding: 7px 10px;
+    margin: 3px;
+    font-family: 'Merienda', cursive;
+    z-index: 2;
+
+        @media screen and (max-width: 1385px){ 
+            font-size:17px;
+        }
+        @media screen and (max-width: 1200px){ 
+            font-size:18px;
+        }
+        @media screen and (max-width: 1125px){ 
+            font-size:17px;
+        }
+        @media screen and (max-width: 1045px){ 
+            font-size:15px;
+        }
+        @media screen and (max-width: 965px){ 
+            font-size:14px;
+        }
+        @media screen and (max-width: 920px){ 
+            font-size:13px;
+        }
+    
+        @media screen and (max-width: 850px){ 
+            font-size: 12px;}
+@media screen and (max-width: $tablet-s){  //El header pasa a ser un nav desplegable
+    font-size: $xxl;
+    padding: 0;
+    margin: 0;
+    margin-left: 6%;
+}
+@media screen and (max-width: 560px){  //Cuestion de resolucion
+    font-size: $xl;
+}
+@media screen and (max-width: 490px){  
+    font-size: $l* 1.1;
+}
+}
+
+
+
 
 
 
