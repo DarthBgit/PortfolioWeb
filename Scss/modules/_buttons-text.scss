@@ -106,24 +106,27 @@
 
 // NOMBRE
 .name{
-    font-size: $xxxl * 1.6;
+    font-size: $xxxl * 1.5;
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Libre Caslon Text', serif;
+    margin-right: 20px;
     @media screen and (max-width: $FHD){ 
-        font-size: $xxxl * 1.3;
-    }
-    @media screen and (max-width: $HD){ 
         font-size: $xxxl * 1.2;
     }
+    @media screen and (max-width: $HD){ 
+        font-size: $xxxl * 1.1;
+    }
     @media screen and (max-width: $tablet){ 
-            font-size: $xxl;
+            font-size: $xxl - 1px;
 }
 @media screen and (max-width: $tablet-s){ 
     font-size: $xxxl * 1.3;
+    margin-right: 0;
   
 }
 @media screen and (max-width: $phone-xl){ 
+    
     font-size: $xxxl;}
 
 @media screen and (max-width: $phone){ 
@@ -137,6 +140,7 @@
 .profession{
     font-size: $xl;
     font-family: 'Libre Caslon Text', serif;
+    margin-right: 20px;
     @media screen and (max-width: $FHD){ 
         font-size: $l;
     }
@@ -145,6 +149,7 @@
 }
 @media screen and (max-width: $tablet-s){ 
     font-size: $l;    
+    margin-right: 0;
 }
 @media screen and (max-width: $phone){ 
     font-size: $m;

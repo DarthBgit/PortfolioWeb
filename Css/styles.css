@@ -1849,29 +1849,31 @@ body {
 }
 
 .name {
-  font-size: 51.2px;
+  font-size: 48px;
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Libre Caslon Text", serif;
+  margin-right: 20px;
 }
 @media screen and (max-width: 1470px) {
-  .name {
-    font-size: 41.6px;
-  }
-}
-@media screen and (max-width: 1200px) {
   .name {
     font-size: 38.4px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .name {
+    font-size: 35.2px;
+  }
+}
 @media screen and (max-width: 977px) {
   .name {
-    font-size: 28px;
+    font-size: 27px;
   }
 }
 @media screen and (max-width: 769px) {
   .name {
     font-size: 41.6px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1888,6 +1890,7 @@ body {
 .profession {
   font-size: 24px;
   font-family: "Libre Caslon Text", serif;
+  margin-right: 20px;
 }
 @media screen and (max-width: 1470px) {
   .profession {
@@ -1902,6 +1905,7 @@ body {
 @media screen and (max-width: 769px) {
   .profession {
     font-size: 20px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 470px) {
