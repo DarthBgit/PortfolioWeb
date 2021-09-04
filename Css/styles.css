@@ -541,7 +541,7 @@ body {
 }
 @media screen and (max-width: 769px) {
   .icon-cv {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -551,7 +551,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .icon-cv {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -581,6 +581,11 @@ body {
   }
 }
 @media screen and (max-width: 769px) {
+  .text-cv {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
   .text-cv {
     font-size: 16px;
   }
@@ -800,14 +805,59 @@ body {
 
 .language {
   position: absolute;
-  left: 9.2%;
   z-index: 20;
   margin-top: 25px;
   color: rgba(179, 179, 179, 0.87);
 }
+@media screen and (max-width: 3000px) {
+  .language {
+    left: 25%;
+  }
+}
+@media screen and (max-width: 2800px) {
+  .language {
+    left: 23%;
+  }
+}
+@media screen and (max-width: 2600px) {
+  .language {
+    left: 21%;
+  }
+}
+@media screen and (max-width: 2400px) {
+  .language {
+    left: 18%;
+  }
+}
+@media screen and (max-width: 2200px) {
+  .language {
+    left: 15%;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .language {
+    left: 12%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .language {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 1470px) {
+  .language {
+    left: 9.2%;
+    color: rgba(179, 179, 179, 0.87);
+  }
+}
 @media screen and (max-width: 1200px) {
   .language {
     left: 3%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .language {
+    left: 4%;
   }
 }
 .language_lang {
@@ -815,6 +865,11 @@ body {
   text-decoration: none;
   color: rgba(248, 247, 247, 0.808);
   font-family: "Merienda", cursive;
+}
+@media screen and (max-width: 600px) {
+  .language_lang {
+    font-size: 14px;
+  }
 }
 
 .bar-lang {
@@ -825,13 +880,20 @@ body {
   color: rgba(179, 179, 179, 0.87);
 }
 
-.non-actived:hover {
-  color: rgba(37, 37, 37, 0.986);
+@media screen and (min-width: 769px) {
+  .non-actived:hover {
+    color: rgba(37, 37, 37, 0.986);
+  }
 }
 
 .actived {
   color: white;
   cursor: default;
+}
+@media screen and (max-width: 769px) {
+  .actived {
+    color: #222121;
+  }
 }
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
@@ -1041,7 +1103,7 @@ body {
   color: #383538;
   position: absolute;
   bottom: 230px;
-  right: 25%;
+  right: 26%;
 }
 @media screen and (max-width: 1470px) {
   .icon-code-pd {

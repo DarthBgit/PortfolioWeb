@@ -52,19 +52,52 @@
 
     .language{
         position: absolute;
-        left: 9.2%;
         z-index: 20;
         margin-top: 25px;
         color: $form;
+         
+        @media screen and (max-width: 3000px){ 
+            left: 25%;
+           }
+           @media screen and (max-width: 2800px){ 
+            left: 23%;
+           }
+           @media screen and (max-width: 2600px){ 
+            left: 21%;
+           }
+           @media screen and (max-width: 2400px){ 
+            left: 18%;
+           }
+           @media screen and (max-width: 2200px){ 
+            left: 15%;
+           }
+        @media screen and (max-width: 2000px){     
+         
+            left: 12%;
+        } 
+            @media screen and (max-width: 1800px){ 
+                left: 10%;
+               }
+        @media screen and (max-width: $FHD){ 
+        left: 9.2%;
+        color: $form;}
         @media screen and (max-width: $HD){ 
             left: 3%;
         }
+        @media screen and (max-width: $tablet-s){ 
+           left: 4%;
+
+            }
 
         &_lang{
             font-size: $m;
             text-decoration: none;
             color: rgba(248, 247, 247, 0.808);
             font-family: 'Merienda', cursive;
+            @media screen and (max-width: $phone-xl){ 
+                font-size: $s;
+    
+                }
             
         }
 
@@ -75,16 +108,23 @@
         }
     
         .non-actived{
-            color: rgba(179, 179, 179, 0.87);
+             
+                color: rgba(179, 179, 179, 0.87);           
             }
             
             .non-actived:hover{
-                color: rgba(37, 37, 37, 0.986);
+                @media screen and (min-width: $tablet-s){ 
+    
+                color: rgba(37, 37, 37, 0.986);}
                 
             }
         .actived{
             color: rgb(255, 255, 255);
             cursor: default;
+            @media screen and (max-width: $tablet-s){ 
+            color: $dark-background;
+            }
+    
         }
 
 
