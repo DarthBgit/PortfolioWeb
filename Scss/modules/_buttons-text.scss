@@ -218,30 +218,39 @@ font-family: 'Merienda', cursive;
 .am-section-a{    
     
     &_text{
-        font-size: $s;
+        font-size: 18px;
         font-family: 'Merienda', cursive;
         text-align: justify;
-        line-height: 170%;
+        line-height: 160%;
         @media screen and (max-width: $FHD){ 
-            font-size: $xs;
+            font-size: 15px;
+        }
+        @media screen and (max-width: $HD){ 
+            font-size: 14px;
+            line-height: 180%;
         }
         @media screen and (max-width: $tablet){ 
-            font-size: $xss;
+            font-size: 11.5px;
+            line-height: 160%;
+           
             }
             @media screen and (max-width: $tablet-s){ 
-                font-size: $m;
-                line-height: 160%;
+                font-size: 20px;
 
                 }
                 @media screen and (max-width: $phone-xl){ 
-                    font-size: $s;
-                    line-height: 150%;
+                    font-size: 15.8px;
     
                     }
                     @media screen and (max-width: $phone){ 
-                        font-size: $xss * 1.1;
+                        font-size: 13px;
                     
                            }
+                           @media screen and (max-width: 350px){ 
+                            font-size: 12px;
+                        
+                               }
+        
     }
    
 }
@@ -376,7 +385,7 @@ font-family: 'Merienda', cursive;
 
 //  VENTANA HOVER DEL SLIDER 1
 .develop-pro{
-    background-color: $dark-color;
+    background-color: transparent;
     width: 100%;
     height: 100%;
     transform: scale(0.0000001);
@@ -386,7 +395,7 @@ font-family: 'Merienda', cursive;
     justify-content: center;
     align-items: center;
     transition: all 1.5s;
-    opacity: 0.9;
+    // opacity: 0.9;
     @media screen and (max-width: $tablet-s){ 
         display: none;
         }

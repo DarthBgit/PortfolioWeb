@@ -85,18 +85,16 @@
             @media screen and (max-width: $tablet-s){ 
              left: 0;
              right: 0;
-             bottom: 45%;
+             bottom: 55%;
              margin: auto;   
              height: 220px; 
              width: 80%;      
                 }
                 @media screen and (max-width: $phone-xl){ 
-                    margin-bottom: 60px;
+                    bottom: 49%;
                 
                        }
-                       @media screen and (max-width: $phone){ 
-                        margin-bottom: 12px;
-                         }
+                      
     }   
     }   
     
@@ -114,10 +112,22 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 position: absolute;
-bottom: 7%;
+bottom: 5%;
 left: 0;
 right: 0;
 margin: auto; 
+@media screen and (max-width: $HD){ 
+    max-width: 26%;
+ 
+     }
+@media screen and (max-width: $tablet){ 
+    bottom: 5%;
+ 
+     }
+@media screen and (max-width: $tablet-s){ 
+    max-width: 29%;
+ 
+     }
 @media screen and (max-width: $phone-xl){ 
    max-width: 30%;
    bottom: 5%;
@@ -133,11 +143,18 @@ margin: auto;
     font-size: $xl;
     color: $white-color;
     cursor: pointer;
+    transform: translateY(-2px);
+    @media screen and (max-width: $HD){ 
+        font-size: 22px;
+     
+         }
     @media screen and (max-width: $tablet){ 
+        transform: translateY(-3px);
         font-size: $l;
+
         }
         @media screen and (max-width: $tablet-s){ 
-           font-size: $xl;
+           font-size: $xxl;
         }
         @media screen and (max-width: $phone-xl){ 
             font-size: $xl;

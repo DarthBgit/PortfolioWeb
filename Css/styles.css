@@ -486,7 +486,7 @@ body {
   .am-section-a_containertext {
     left: 0;
     right: 0;
-    bottom: 45%;
+    bottom: 55%;
     margin: auto;
     height: 220px;
     width: 80%;
@@ -494,12 +494,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .am-section-a_containertext {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .am-section-a_containertext {
-    margin-bottom: 12px;
+    bottom: 49%;
   }
 }
 
@@ -512,10 +507,25 @@ body {
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  bottom: 7%;
+  bottom: 5%;
   left: 0;
   right: 0;
   margin: auto;
+}
+@media screen and (max-width: 1200px) {
+  .container-cv {
+    max-width: 26%;
+  }
+}
+@media screen and (max-width: 977px) {
+  .container-cv {
+    bottom: 5%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .container-cv {
+    max-width: 29%;
+  }
 }
 @media screen and (max-width: 600px) {
   .container-cv {
@@ -533,15 +543,22 @@ body {
   font-size: 24px;
   color: #fffdfd;
   cursor: pointer;
+  transform: translateY(-2px);
+}
+@media screen and (max-width: 1200px) {
+  .icon-cv {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 977px) {
   .icon-cv {
+    transform: translateY(-3px);
     font-size: 20px;
   }
 }
 @media screen and (max-width: 769px) {
   .icon-cv {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -2032,36 +2049,46 @@ body {
 }
 
 .am-section-a_text {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Merienda", cursive;
   text-align: justify;
-  line-height: 170%;
+  line-height: 160%;
 }
 @media screen and (max-width: 1470px) {
   .am-section-a_text {
-    font-size: 12px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .am-section-a_text {
+    font-size: 14px;
+    line-height: 180%;
   }
 }
 @media screen and (max-width: 977px) {
   .am-section-a_text {
-    font-size: 10px;
+    font-size: 11.5px;
+    line-height: 160%;
   }
 }
 @media screen and (max-width: 769px) {
   .am-section-a_text {
-    font-size: 16px;
-    line-height: 160%;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 600px) {
   .am-section-a_text {
-    font-size: 14px;
-    line-height: 150%;
+    font-size: 15.8px;
   }
 }
 @media screen and (max-width: 470px) {
   .am-section-a_text {
-    font-size: 11px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .am-section-a_text {
+    font-size: 12px;
   }
 }
 
@@ -2213,7 +2240,7 @@ body {
 }
 
 .develop-pro {
-  background-color: black;
+  background-color: transparent;
   width: 100%;
   height: 100%;
   transform: scale(0.0000001);
@@ -2223,7 +2250,6 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 1.5s;
-  opacity: 0.9;
 }
 @media screen and (max-width: 769px) {
   .develop-pro {
