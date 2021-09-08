@@ -24,9 +24,13 @@
                 height: $sectionTabletS;
                     }
                     @media screen and (max-width: 610px){ 
-                        height: $sectionPhone-XL;
+                        height: $sectionPhone-XL * 1.2;
            
                            }
+                           @media screen and (max-width: $phone){ 
+                            height: $sectionPhone-XL ;
+               
+                               }
                            
                            
     &_title{

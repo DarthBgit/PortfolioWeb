@@ -385,7 +385,7 @@ font-family: 'Merienda', cursive;
 
 //  VENTANA HOVER DEL SLIDER 1
 .develop-pro{
-    background-color: transparent;
+    background-color: $dark-background;
     width: 100%;
     height: 100%;
     transform: scale(0.0000001);
@@ -395,7 +395,7 @@ font-family: 'Merienda', cursive;
     justify-content: center;
     align-items: center;
     transition: all 1.5s;
-    // opacity: 0.9;
+    opacity: 0.9;
     @media screen and (max-width: $tablet-s){ 
         display: none;
         }

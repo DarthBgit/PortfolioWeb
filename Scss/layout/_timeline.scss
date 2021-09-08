@@ -54,24 +54,47 @@
 .section-tl{
     width: 80%;
     height: 70%;
-    background: url(../../Images/tm.jpg) center;
-    background-size: contain;
-    background-repeat: no-repeat;
     margin-bottom: 5%;
+    position: relative;
 
     @media screen and (max-width: $tablet-s){ 
-        background: url(../../Images/tmResponsive.jpg) center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 75%;
+        height: 77%;
+        display: flex;
+        justify-content: center;
         }
         @media screen and (max-width: $phone-xl){ 
-            margin-bottom: 12%;
+            margin-bottom: 6%;
 
             }
             @media screen and (max-width: $phone){ 
                 margin-bottom: 8%;
                  }
-    }
+               
+    //  LAS DOS IMAGENES DEL TIME-LINE
+   & :nth-child(1){
+             width: 100%;
+             position: absolute;
+             top: 50%;
+             transform: translateY(-50%);
+                     
+             @media screen and (max-width: $tablet-s){ 
+             display: none;
+                 }
+                 }
+    & :nth-child(2){
+                       
+              display: none;
+            
+            @media screen and (max-width: $tablet-s){               
+            display: block;    
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+            
+        }
+        }
+
   
     

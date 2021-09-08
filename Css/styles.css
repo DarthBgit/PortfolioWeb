@@ -731,27 +731,47 @@ body {
 .section-tl {
   width: 80%;
   height: 70%;
-  background: url(../../Images/tm.jpg) center;
-  background-size: contain;
-  background-repeat: no-repeat;
   margin-bottom: 5%;
+  position: relative;
 }
 @media screen and (max-width: 769px) {
   .section-tl {
-    background: url(../../Images/tmResponsive.jpg) center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 75%;
+    height: 77%;
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
   .section-tl {
-    margin-bottom: 12%;
+    margin-bottom: 6%;
   }
 }
 @media screen and (max-width: 470px) {
   .section-tl {
     margin-bottom: 8%;
+  }
+}
+.section-tl :nth-child(1) {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 769px) {
+  .section-tl :nth-child(1) {
+    display: none;
+  }
+}
+.section-tl :nth-child(2) {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .section-tl :nth-child(2) {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
@@ -1413,7 +1433,7 @@ body {
 /*SLIDER*/
 .slider-container {
   width: 80%;
-  height: 58%;
+  height: 59.9%;
   position: relative;
   transition: 2s;
   margin-bottom: 80px;
@@ -1533,6 +1553,11 @@ body {
   }
 }
 @media screen and (max-width: 610px) {
+  .container-footer {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 470px) {
   .container-footer {
     height: 750px;
   }
@@ -2240,7 +2265,7 @@ body {
 }
 
 .develop-pro {
-  background-color: transparent;
+  background-color: #222121;
   width: 100%;
   height: 100%;
   transform: scale(0.0000001);
@@ -2250,6 +2275,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: all 1.5s;
+  opacity: 0.9;
 }
 @media screen and (max-width: 769px) {
   .develop-pro {
@@ -2493,9 +2519,9 @@ body {
 
 /*HOVER BOTONES HEADER*/
 .header_botons:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: #383538;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 769px) {
   .header_botons:hover {
@@ -2505,9 +2531,9 @@ body {
 }
 
 .header_botonsEN:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: #383538;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 769px) {
   .header_botonsEN:hover {
