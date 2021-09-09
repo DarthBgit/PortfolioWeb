@@ -7,7 +7,7 @@
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
 
-.container-pd{
+.container-general-photo-name{
 max-width: $maxWidht;
 width: $margenes;
 height: 700px;
@@ -34,8 +34,12 @@ overflow: hidden;
 
                }
     
+}
 
-    &_description{
+
+// CONTENEDOR PARA LA FOTO Y MI NOMBRE CON EL OFICIO
+
+.container-photo-description{
     width: 100%;
     height: 100%;
     display: flex;
@@ -43,10 +47,6 @@ overflow: hidden;
     position: relative;
    
     }
-    
-}
-
-
 
 
 /* DIV DE LA FOTO*/
@@ -182,7 +182,7 @@ cursor: pointer;
 
 // DEGRADADO
 
-.form{
+.degradado{
     min-width: 70%;
     min-height: 800px;
     width: auto;

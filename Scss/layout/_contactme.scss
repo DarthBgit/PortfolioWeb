@@ -1,3 +1,4 @@
+// CONTENEDOR GENERAL
 .container-footer{
     max-width: $maxWidht;
     width: $margenes;
@@ -11,51 +12,50 @@
     align-items: center;
     flex-direction: column;
     
-    @media screen and (max-width: $FHD){ 
-        height: $sectionsFHD;
-        }
-    @media screen and (max-width: $HD){ 
-        width: 100%;
-            }
-    @media screen and (max-width: $tablet){ 
-        height: $sectionsTablet;
-            }
-            @media screen and (max-width: $tablet-s){ 
-                height: $sectionTabletS;
-                    }
-                    @media screen and (max-width: 610px){ 
-                        height: $sectionPhone-XL * 1.2;
-           
-                           }
-                           @media screen and (max-width: $phone){ 
-                            height: $sectionPhone-XL ;
-               
-                               }
-                           
-                           
-    &_title{
-        position: absolute;
-        left: $margen-title-lat;
-        top: $margen-title-sup;
         @media screen and (max-width: $FHD){ 
-            left: $margen-title-lat-FHD;
-            top: $margen-title-sup-FHD;
+            height: $sectionsFHD;
             }
-            @media screen and (max-width: $tablet){ 
-                left: $margen-title-lat-tablet;
-                top: $margen-title-sup-tablet;
+            @media screen and (max-width: $HD){ 
+                width: 100%;
+            }
+                @media screen and (max-width: $tablet){ 
+                height: $sectionsTablet;
                 }
-                @media screen and (max-width: $phone-xl){ 
-                    left: $margen-title-lat-phone;
-       
-                       }
-                       @media screen and (max-width: $phone){ 
-                        left: $margen-title-lat-phone;
-                        top: $margen-title-sup-phone;
-                         }
+                    @media screen and (max-width: $tablet-s){ 
+                    height: $sectionTabletS;
+                    }
+                        @media screen and (max-width: 610px){ 
+                        height: $sectionPhone-XL * 1.2;
+                        }
+                            @media screen and (max-width: $phone){ 
+                            height: $sectionPhone-XL ;
+                            }
+                               
+//TITULO DE LA SECCION   
+&_title{
+    position: absolute;
+    left: $margen-title-lat;
+    top: $margen-title-sup;
+
+    @media screen and (max-width: $FHD){ 
+        left: $margen-title-lat-FHD;
+        top: $margen-title-sup-FHD;
+    }
+        @media screen and (max-width: $tablet){ 
+            left: $margen-title-lat-tablet;
+            top: $margen-title-sup-tablet;
         }
-  
+            @media screen and (max-width: $phone-xl){ 
+                left: $margen-title-lat-phone;    
+            }
+                @media screen and (max-width: $phone){ 
+                    left: $margen-title-lat-phone;
+                    top: $margen-title-sup-phone;
+                }
+        }  
 }
+
+//CONTENEDOR DE PARTE SUPERIOR
 .footer-up{
     position: absolute;
     right: 0;
@@ -67,22 +67,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     @media screen and (max-width: $FHD){ 
         height: 200px;
-        }
+    }
         @media screen and (max-width: $tablet){ 
            height: 140px;
            top: 130px;
-                }
-                @media screen and (max-width: $tablet-s){ 
-                    position: initial;
-                    height: 40%;
-                    margin: 0;
-                    flex-direction: column;
-                    align-items: flex-end;
-                         }
+        }
+            @media screen and (max-width: $tablet-s){ 
+                position: initial;
+                height: 40%;
+                margin: 0;
+                flex-direction: column;
+                align-items: flex-end;
+            }
                          
 }
+
+//CONTENEDOR DE LA PARTE INFERIOR
 .footer-down{
     position: absolute;
     right: 0;
@@ -94,117 +97,118 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     @media screen and (max-width: $FHD){ 
         height: 200px;
-        }
+    }
         @media screen and (max-width: $tablet){ 
             height: 140px;
             bottom: 25px;            
+        
+            @media screen and (max-width: $tablet-s){ 
+                height: 140px;
+                height: 40%;
+                position: initial;
+                margin: 0;
+                flex-direction: column;
+                align-items: flex-end;
+                margin-bottom: 20px;
+            }
+                @media screen and (max-width: 610px){ 
+                    margin-bottom: 24px;        
                 }
-                @media screen and (max-width: $tablet-s){ 
-                    height: 140px;
-                    height: 40%;
-                    position: initial;
-                    margin: 0;
-                    flex-direction: column;
-                    align-items: flex-end;
-                    margin-bottom: 20px;
-                         }
-                         @media screen and (max-width: 610px){ 
-                            margin-bottom: 24px;
-               
-                               }
+    }
 }
 
+//CONTENEDORES DE LAS DIFERENTES PARTES DEL FOOTER
 .section-footer{
     
-    &_A{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        @media screen and (max-width: $tablet){ 
-            height: 100%;
-                }
-                @media screen and (max-width: $tablet-s){ 
-                    height: 50%;
-                    justify-content: center;
-                        }
-                        @media screen and (max-width: $phone-xl){ 
-                            margin-bottom: 30px;
-               
-                               }
-        
-    }
-    &_B{
-       width: 100%;
-       height: 200px;
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       @media screen and (max-width: $tablet){ 
+&_A{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media screen and (max-width: $tablet){ 
         height: 100%;
+    }
+        @media screen and (max-width: $tablet-s){ 
+            height: 50%;
+            justify-content: center;
+        }
+            @media screen and (max-width: $phone-xl){ 
+                margin-bottom: 30px;           
+            }        
+    }
+
+&_B{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media screen and (max-width: $tablet){ 
+        height: 100%;
+    }
+        @media screen and (max-width: $tablet-s){ 
+            height: 50%;
+            justify-content: center;
+        }
+            @media screen and (max-width: $phone-xl){ 
+                margin-bottom: 30px;    
             }
-            @media screen and (max-width: $tablet-s){ 
-                height: 50%;
-                justify-content: center;
-                    }
-                    @media screen and (max-width: $phone-xl){ 
-                        margin-bottom: 30px;
-           
-                           }
     }
-    &_C{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        @media screen and (max-width: $tablet){ 
-            height: 100%;
-                }
-                @media screen and (max-width: $tablet-s){ 
-                    height: 50%;
-                    justify-content: center;
-                        }
-                        @media screen and (max-width: $phone-xl){ 
-                            margin-bottom: 30px;
-               
-                               }
-    }
-    &_D{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        @media screen and (max-width: $tablet){ 
-            height: 100%;
-                }
-                @media screen and (max-width: $tablet-s){ 
-                    height: 50%;
-                    justify-content: center;
-                    margin-bottom: 20px;
-                        }
-                        @media screen and (max-width: $phone){ 
-                            margin-bottom: 0;
-            
-                            }
-        
-    }
-   
     
+&_C{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: $tablet){ 
+        height: 100%;
+    }
+        @media screen and (max-width: $tablet-s){ 
+            height: 50%;
+            justify-content: center;
+        }
+            @media screen and (max-width: $phone-xl){ 
+                margin-bottom: 30px;    
+            }
+}
+&_D{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media screen and (max-width: $tablet){ 
+        height: 100%;
+    }
+        @media screen and (max-width: $tablet-s){ 
+            height: 50%;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+            @media screen and (max-width: $phone){ 
+                margin-bottom: 0;
+
+            }    
+    }    
 }
 
 // DIV DE LOS ICONOS DE MADE WITH
 .container-icons-md{
+
     @media screen and (max-width: $tablet){ 
         height: 30px;
-            }
-            @media screen and (max-width: $tablet-s){
-                height: 40px;
-                    }
+    }
+        @media screen and (max-width: $tablet-s){
+            height: 40px;
+        }
 }
 
 

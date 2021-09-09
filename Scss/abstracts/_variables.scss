@@ -1,4 +1,4 @@
-/*Tamanyos de fuentes*/
+/*TAMAÑOS FUENTES*/
 
 $xxxxl: 36px;
 $xxxl: 32px;
@@ -12,7 +12,7 @@ $xss: 10px;
 $xsss: 8px;
 $xssss: 6px;
 
-/* Colores */
+/*PALETA DE COLORES*/
 $dark-color: rgb(0, 0, 0);
 $white-color: rgb(255, 253, 253);
 $secundary-color: rgb(71, 68, 71);
@@ -24,7 +24,8 @@ $background-body: rgb(56, 53, 56);
 $special-color: rgb(170, 7, 7);
 
 /*MARGENES Y DIMENSIONES*/
-$margenes: 86%;//ancho de las secciones
+
+// ALTURA DE LAS SECCIONES CON DIFERENTES RESOLUCIONES
 $sections:805px;//alto de las secciones
 $sectionsFHD : 650px;
 $sectionsTablet: 500px;
@@ -32,7 +33,10 @@ $sectionTabletS:910px;
 $sectionPhone-XL:750px;
 $sectionPhone:650px;
 
-$margenes-body:3%;//margenes laterales
+// ANCHO DE LAS SECCIONES
+$margenes: 86%;
+
+//MARGENES LATERALES Y SUPERIORES DE LAS SECCIONES
 $margen-title-sup:50px;
 $margen-title-lat:120px;
 $margen-title-lat-FHD:100px;
@@ -42,4 +46,6 @@ $margen-title-sup-phone:20px;
 $margen-title-lat-tablet:80px;
 $margen-title-lat-phone-XL:50px;
 $margen-title-lat-phone:40px;
+
+//ANCHO MAXIMO PERMITIDO PARA LA PORTADA
 $maxWidht:1536px;/*Ancho maximo permitido*/

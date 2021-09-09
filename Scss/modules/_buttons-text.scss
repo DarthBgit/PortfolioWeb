@@ -10,6 +10,7 @@
     margin: 2px;
     font-family: 'Merienda', cursive;
     z-index: 2;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (max-width: 1385px){ 
     font-size:17px;
     margin: auto;}
@@ -59,6 +60,7 @@
     margin: 3px;
     font-family: 'Merienda', cursive;
     z-index: 2;
+    -webkit-tap-highlight-color: transparent;
 
         @media screen and (max-width: 1385px){ 
             font-size:17px;
@@ -256,6 +258,66 @@ font-family: 'Merienda', cursive;
 }
 
 
+.text-cv{
+    color: $white-color;
+    font-family: 'Merienda', cursive;
+    font-size: $xl;
+    @media screen and (max-width: $FHD){ 
+        font-size: $l;}
+    @media screen and (max-width: $HD){ 
+     font-size: $m;}
+     @media screen and (max-width: $tablet){ 
+        font-size: $s;
+        }
+        @media screen and (max-width: $tablet-s){ 
+           font-size: $l;
+         
+        }
+        @media screen and (max-width: $phone-xl){ 
+            font-size: $m;
+
+            }
+        @media screen and (max-width: $phone){ 
+            font-size: $xs;
+
+            }
+}
+
+.icon-cv{
+    font-size: $xl;
+    color: $white-color;
+    cursor: pointer;
+    transform: translateY(-2px);
+    -webkit-tap-highlight-color: transparent;
+    @media screen and (max-width: $HD){ 
+        font-size: 22px;
+     
+         }
+    @media screen and (max-width: $tablet){ 
+        transform: translateY(-3px);
+        font-size: $l;
+
+        }
+        @media screen and (max-width: $tablet-s){ 
+           font-size: $xxl;
+        }
+        @media screen and (max-width: $phone-xl){ 
+            font-size: $xl;
+
+            }
+            @media screen and (max-width: $phone){ 
+                font-size: $m;
+
+                }
+            
+    &:hover{
+        @media screen and (min-width: $HD){ 
+        color: $form;
+    }
+}
+}
+
+
 
 
     // KNOWLEDGE    KNOWLEDGE //
@@ -316,6 +378,7 @@ font-family: 'Merienda', cursive;
     position: absolute;
     cursor: pointer;
     color: $secundary-color;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (max-width: $FHD){ 
         font-size: $xxxl;
          }
@@ -357,6 +420,7 @@ font-family: 'Merienda', cursive;
         width: 25px;
         display: inline-block;
         margin-left: 0.5%;
+        -webkit-tap-highlight-color: transparent;
    
     @media screen and (max-width: $tablet){ 
         width: 15px;
@@ -468,6 +532,7 @@ font-family: 'Merienda', cursive;
         margin: 0;
         margin-left: 20px;
         font-family: 'Merienda', cursive;
+        -webkit-tap-highlight-color: transparent;
         @media screen and (max-width: $FHD){ 
             font-size: $s;
             }
@@ -487,6 +552,7 @@ font-family: 'Merienda', cursive;
         text-decoration: none;
         margin-top: 5px;
         margin-left: 45%;
+        -webkit-tap-highlight-color: transparent;
         @media screen and (max-width: $tablet){ 
             font-size: $m;
                 }
@@ -549,6 +615,7 @@ font-family: 'Merienda', cursive;
     margin-left: 38%;
     font-size: $m;
     font-family: 'Merienda', cursive;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (max-width: $FHD){ 
         font-size: $s;
         }
@@ -565,12 +632,14 @@ font-family: 'Merienda', cursive;
 
 .text-flaticon{
     color: $white-color;
+    -webkit-tap-highlight-color: transparent;
     @media screen and (max-width: $HD){ 
         font-size: $xsss;
 
             }   
     &_from{
         color: $white-color;
+        -webkit-tap-highlight-color: transparent;
         @media screen and (max-width: $HD){ 
             
             font-size: $xsss;
@@ -581,6 +650,7 @@ font-family: 'Merienda', cursive;
 
 
 .link-flaticon{
+    -webkit-tap-highlight-color: transparent;
     @media screen and (max-width: $HD){ 
             
         font-size: $xsss;

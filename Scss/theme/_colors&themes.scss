@@ -47,7 +47,7 @@ background-color: $background-body;
 
 // FONDO COLOR 
 
-.container-pd{
+.container-general-photo-name{
    
     background-color: $white-background;
     
@@ -88,6 +88,16 @@ background-color: $background-body;
 // FONDO COLOR
 .container-about{
     background-color: $dark-background;
+}
+
+//DEGRADADO DE LA IMAGEN 
+.am-section-b_image::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.61) 50%);
+
 }
 
 

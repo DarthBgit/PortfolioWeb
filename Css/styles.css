@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/*Tamanyos de fuentes*/
-/* Colores */
+/*TAMAÑOS FUENTES*/
+/*PALETA DE COLORES*/
 /*MARGENES Y DIMENSIONES*/
 /*Ancho maximo permitido*/
 /*NORMALIZE: Normalize es un fichero CSS que apenas ocupa 8 KB, cuyo principal objetivo es mantener los estilos 
@@ -353,8 +353,6 @@ template {
 }
 
 body {
-  font-size: 14px;
-  position: relative;
   position: relative;
 }
 @media screen and (min-width: 1200px) {
@@ -539,80 +537,6 @@ body {
   }
 }
 
-.icon-cv {
-  font-size: 24px;
-  color: #fffdfd;
-  cursor: pointer;
-  transform: translateY(-2px);
-}
-@media screen and (max-width: 1200px) {
-  .icon-cv {
-    font-size: 22px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .icon-cv {
-    transform: translateY(-3px);
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 769px) {
-  .icon-cv {
-    font-size: 28px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .icon-cv {
-    font-size: 24px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .icon-cv {
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .icon-cv:hover {
-    color: rgba(179, 179, 179, 0.87);
-  }
-}
-
-.text-cv {
-  color: #fffdfd;
-  font-family: "Merienda", cursive;
-  font-size: 24px;
-}
-@media screen and (max-width: 1470px) {
-  .text-cv {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .text-cv {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 977px) {
-  .text-cv {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 769px) {
-  .text-cv {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .text-cv {
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .text-cv {
-    font-size: 12px;
-  }
-}
-
 .am-section-b {
   width: 40%;
   height: 100%;
@@ -641,20 +565,6 @@ body {
 @media screen and (max-width: 977px) {
   .am-section-b_image {
     background-size: 420px;
-  }
-}
-
-.am-section-b_image::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.603) 50%);
-}
-@media screen and (max-width: 1470px) {
-  .am-section-b_image::after {
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -934,7 +844,7 @@ body {
 }
 
 /*CONTENEDOR DE LA SECCION DESCRIPCION*/
-.container-pd {
+.container-general-photo-name {
   max-width: 1536px;
   width: 86%;
   height: 700px;
@@ -943,37 +853,38 @@ body {
   overflow: hidden;
 }
 @media screen and (max-width: 1470px) {
-  .container-pd {
+  .container-general-photo-name {
     height: 600px;
   }
 }
 @media screen and (max-width: 1200px) {
-  .container-pd {
+  .container-general-photo-name {
     width: 100%;
     overflow: hidden;
   }
 }
 @media screen and (max-width: 977px) {
-  .container-pd {
+  .container-general-photo-name {
     height: 450px;
   }
 }
 @media screen and (max-width: 769px) {
-  .container-pd {
+  .container-general-photo-name {
     height: 1000px;
   }
 }
 @media screen and (max-width: 600px) {
-  .container-pd {
+  .container-general-photo-name {
     height: 860px;
   }
 }
 @media screen and (max-width: 470px) {
-  .container-pd {
+  .container-general-photo-name {
     height: 700px;
   }
 }
-.container-pd_description {
+
+.container-photo-description {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1110,7 +1021,7 @@ body {
   }
 }
 
-.form {
+.degradado {
   min-width: 70%;
   min-height: 800px;
   width: auto;
@@ -1123,12 +1034,12 @@ body {
   left: 0;
 }
 @media screen and (max-width: 1470px) {
-  .form {
+  .degradado {
     min-width: 65%;
   }
 }
 @media screen and (max-width: 769px) {
-  .form {
+  .degradado {
     min-height: 80%;
     min-width: 100%;
     background: linear-gradient(0deg, #444444 0%, white 90%);
@@ -1647,7 +1558,7 @@ body {
     bottom: 25px;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 977px) and (max-width: 769px) {
   .footer-down {
     height: 140px;
     height: 40%;
@@ -1658,7 +1569,7 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 977px) and (max-width: 610px) {
   .footer-down {
     margin-bottom: 24px;
   }
@@ -1828,6 +1739,7 @@ body {
   margin: 2px;
   font-family: "Merienda", cursive;
   z-index: 2;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1385px) {
   .header_botons {
@@ -1897,6 +1809,7 @@ body {
   margin: 3px;
   font-family: "Merienda", cursive;
   z-index: 2;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1385px) {
   .header_botonsEN {
@@ -2117,6 +2030,81 @@ body {
   }
 }
 
+.text-cv {
+  color: #fffdfd;
+  font-family: "Merienda", cursive;
+  font-size: 24px;
+}
+@media screen and (max-width: 1470px) {
+  .text-cv {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .text-cv {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .text-cv {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .text-cv {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-cv {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .text-cv {
+    font-size: 12px;
+  }
+}
+
+.icon-cv {
+  font-size: 24px;
+  color: #fffdfd;
+  cursor: pointer;
+  transform: translateY(-2px);
+  -webkit-tap-highlight-color: transparent;
+}
+@media screen and (max-width: 1200px) {
+  .icon-cv {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 977px) {
+  .icon-cv {
+    transform: translateY(-3px);
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .icon-cv {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .icon-cv {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .icon-cv {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icon-cv:hover {
+    color: rgba(179, 179, 179, 0.87);
+  }
+}
+
 .know-title {
   font-size: 24px;
   font-family: "Merienda", cursive;
@@ -2183,6 +2171,7 @@ body {
   position: absolute;
   cursor: pointer;
   color: #474447;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1470px) {
   .icons-arrow {
@@ -2236,6 +2225,7 @@ body {
   width: 25px;
   display: inline-block;
   margin-left: 0.5%;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 977px) {
   .bar {
@@ -2356,6 +2346,7 @@ body {
   margin: 0;
   margin-left: 20px;
   font-family: "Merienda", cursive;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1470px) {
   .icon-contact p {
@@ -2378,6 +2369,7 @@ body {
   text-decoration: none;
   margin-top: 5px;
   margin-left: 45%;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 977px) {
   .icon-des {
@@ -2448,6 +2440,7 @@ body {
   margin-left: 38%;
   font-size: 16px;
   font-family: "Merienda", cursive;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1470px) {
   .resources {
@@ -2470,6 +2463,7 @@ body {
 
 .text-flaticon {
   color: #fffdfd;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1200px) {
   .text-flaticon {
@@ -2478,6 +2472,7 @@ body {
 }
 .text-flaticon_from {
   color: #fffdfd;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 1200px) {
   .text-flaticon_from {
@@ -2485,6 +2480,9 @@ body {
   }
 }
 
+.link-flaticon {
+  -webkit-tap-highlight-color: transparent;
+}
 @media screen and (max-width: 1200px) {
   .link-flaticon {
     font-size: 8px;
@@ -2595,7 +2593,7 @@ body {
   }
 }
 
-.container-pd {
+.container-general-photo-name {
   background-color: white;
 }
 
@@ -2623,6 +2621,14 @@ body {
 
 .container-about {
   background-color: #222121;
+}
+
+.am-section-b_image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.055) 30%, rgba(8, 8, 8, 0.61) 50%);
 }
 
 .container-tl {
