@@ -812,6 +812,7 @@ body {
   text-decoration: none;
   color: rgba(248, 247, 247, 0.808);
   font-family: "Merienda", cursive;
+  -webkit-tap-highlight-color: transparent;
 }
 @media screen and (max-width: 600px) {
   .language_lang {
@@ -1008,11 +1009,13 @@ body {
     color: #474447;
     font-size: 54.4px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   .arrow-list.arrow-change {
     transform: rotate(180deg);
     z-index: 10;
     color: rgba(179, 179, 179, 0.87);
+    -webkit-tap-highlight-color: transparent;
   }
 }
 @media screen and (max-width: 600px) {
