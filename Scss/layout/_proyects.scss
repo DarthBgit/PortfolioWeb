@@ -79,11 +79,12 @@
 /*SLIDER*/
 
 .slider-container{
-    width: 78%;
-    height: 58.5%;
+    width: 77%;
+    height: 58.4%;
     position: relative;
     transition: 2s;
     margin-bottom: 80px;
+    
     @media screen and (max-width: $FHD){ 
     height: 60%;   
     width: 80%;
