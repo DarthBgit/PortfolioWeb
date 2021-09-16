@@ -2389,9 +2389,25 @@ body {
 @media screen and (max-width: 977px) {
   .icon-contact {
     font-size: 16px;
+    margin-left: 32%;
   }
 }
-@media screen and (max-width: 977px) and (max-width: 450px) {
+@media screen and (max-width: 970px) {
+  .icon-contact {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .icon-contact {
+    margin-left: 32%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .icon-contact {
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 450px) {
   .icon-contact {
     margin-left: 22%;
   }

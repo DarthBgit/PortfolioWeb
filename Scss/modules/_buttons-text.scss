@@ -534,7 +534,7 @@ font-family: 'Merienda', cursive;
     // CONTACT ME     CONTACT ME //
 
 
-// TITULOS DE LOAS DIFERENTES APARTADOS 
+// TITULOS DE LOS DIFERENTES APARTADOS 
 
 .section-footer_title {
     margin-left: auto;
@@ -570,10 +570,18 @@ font-family: 'Merienda', cursive;
     margin-bottom: 2%;
     @media screen and (max-width: $tablet){ 
         font-size: $m;
+        margin-left: 32%;}
+        @media screen and (max-width: 970px){ 
+            margin-left: 25%;}
+            @media screen and (max-width: 769px){ 
+                
+                margin-left: 32%;}
+        @media screen and (max-width: 550px){ 
+            margin-left: 27%;}
         @media screen and (max-width: 450px){ 
             margin-left: 22%;
             }
-        }
+        
     & p{
         font-size: $m;
         display: inline-block;
@@ -591,7 +599,8 @@ font-family: 'Merienda', cursive;
                     font-size: $xsss;
                      }
     }
-}
+    }
+
 
 // TEXTOS E ICONOS (DESCUBRE MAS SOBRE MI)
 .icon-des{
