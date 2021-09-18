@@ -2345,6 +2345,21 @@ body {
   font-size: 41.6px;
   color: #222121;
 }
+@media screen and (max-width: 1470px) {
+  .coming-soon h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .coming-soon h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .coming-soon h1 {
+    font-size: 16px;
+  }
+}
 
 .section-footer_title {
   margin-left: auto;
