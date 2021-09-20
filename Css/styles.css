@@ -2338,6 +2338,7 @@ body {
 }
 
 .coming-soon h1 {
+  height: auto;
   position: absolute;
   bottom: 50%;
   right: 50%;
@@ -2357,7 +2358,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .coming-soon h1 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 

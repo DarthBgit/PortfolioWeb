@@ -522,6 +522,7 @@ font-family: 'Merienda', cursive;
 
 
 .coming-soon h1{  
+    height: auto;
     position: absolute;
     bottom: 50%;
     right: 50%;
@@ -535,7 +536,7 @@ font-family: 'Merienda', cursive;
             font-size: $l;
             }
             @media screen and (max-width: $phone){ 
-                font-size: 15px;
+                font-size: 14px;
                 }
 }
 
