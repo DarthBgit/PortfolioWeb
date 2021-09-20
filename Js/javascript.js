@@ -46,7 +46,7 @@ function showSlides(n){
   // showSlides(index += 1)},500000)
 
 
-  // MENU HEADER 
+  // MENU HEADER OCULTO
 
   const menuHeader = document.getElementById('header-hidden');
   const arrow = document.getElementById('arrow-header');
@@ -54,29 +54,36 @@ function showSlides(n){
   arrow.addEventListener('click',(s)=>{
     menuHeader.classList.toggle('header-activate');
     arrow.classList.toggle('arrow-change');
+  });
+
+  // OCULTAR MENU DESPUES DE CLICKAR LINK
+
+  const link1=document.getElementById('header-links1')
+  const link2=document.getElementById('header-links2')
+  const link3=document.getElementById('header-links3')
+  const link4=document.getElementById('header-links4')
+  const link5=document.getElementById('header-links5')
+
+  link1.addEventListener('click', ()=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change')
   })
-
-  
-
-
-  //BOTON DEL CV
-
-  const cv = document.getElementById('curriculum');
-
-  cv.addEventListener('mouseenter', (e)=>{
-
-    cv.classList.remove('animate__shakeY');
-    
-  });
-
-  cv.addEventListener('mouseleave', (e)=>{
-
-    cv.classList.add('animate__shakeY');
-   console.log(e.target);
-  });
-
-
- 
+  link2.addEventListener('click', ()=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change')
+  })
+  link3.addEventListener('click', ()=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change')
+  })
+  link4.addEventListener('click', ()=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change')
+  })
+  link5.addEventListener('click', ()=>{
+    menuHeader.classList.toggle('header-activate');
+    arrow.classList.toggle('arrow-change')
+  })
 
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
