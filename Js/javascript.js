@@ -3,7 +3,7 @@
 
 
 function openPDF(){
-    window.open("../pdf/CV_Sergio_Berdiell_sánchez.pdf","_blank");
+    window.open("../pdf/CV_Sergio.pdf","_blank");
 }
 
 /*SLIDER*/
