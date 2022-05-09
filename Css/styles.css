@@ -1388,6 +1388,39 @@ body {
   }
 }
 
+@media screen and (max-width: 630px) {
+  .slider-container {
+    padding-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .container-app img {
+    padding: 100px 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-app p {
+    font-size: 14px !important;
+    top: 28% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-app h1 {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container-app a {
+    top: 70% !important;
+    padding: 5px 5px;
+    font-size: 10px !important;
+  }
+}
+
 .container-bars {
   position: absolute;
   width: 100%;
@@ -1421,18 +1454,112 @@ body {
 
 /*ANIMACION OPACIDAD DE FOTO*/
 .animation-opacity {
-  animation-name: ani;
-  animation-duration: 3s;
+  animation: ani 4.5s;
 }
 
 @keyframes ani {
   from {
-    opacity: 0.3;
+    opacity: 0;
   }
   to {
     opacity: 1;
   }
 }
+.container-app {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.container-app:hover .div-url {
+  animation: hoverUrl 1s forwards;
+}
+
+.div-url {
+  background-color: rgba(0, 0, 0, 0.851);
+  position: absolute;
+  transform: translateY(-105%);
+  animation: returnUrl 0.7s forwards;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+@keyframes hoverUrl {
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes returnUrl {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-105%);
+  }
+}
+.container-app img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container-app .responsive-url {
+  display: none;
+}
+
+.container-app h1 {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  transform: translate(50%);
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  background: #383538;
+}
+
+.container-app p {
+  position: absolute;
+  top: 35%;
+  right: 50%;
+  transform: translate(50%);
+  width: 75%;
+  text-align: justify;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 20px 10px;
+}
+
+.container-app a.link {
+  position: absolute;
+  top: 65%;
+  right: 50%;
+  transform: translate(50%);
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #c01e1e;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px black;
+}
+
+.container-app a.link:hover {
+  box-shadow: 0 0 5px #9b8a8a;
+}
+
 .container-footer {
   max-width: 1536px;
   width: 86%;

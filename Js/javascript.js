@@ -85,6 +85,8 @@ function showSlides(n){
     arrow.classList.toggle('arrow-change')
   })
 
+
+
   
 /*ACTIVACION LIBRERIA DE WOW.JS*/
 

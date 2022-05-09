@@ -111,6 +111,45 @@
            
 }
 
+// ESTILOS RESPONSIVE DE LOS SLIDERS
+.slider-container{
+    
+    @media screen and (max-width: 630px){ 
+        padding-top: 20px !important;
+        }
+}
+
+.container-app img{
+
+    @media screen and (max-width: 630px){ 
+        padding: 100px 30px;
+        }
+}
+
+.container-app p {
+    @media screen and (max-width: 1000px){ 
+        font-size: 14px !important;
+        top: 28% !important;
+         }
+
+    }
+    .container-app h1{
+        @media screen and (max-width: 1000px){ 
+            font-size: 22px !important;
+             }
+    
+        }
+        .container-app a{
+            @media screen and (max-width: 1000px){ 
+               top: 70% !important;
+               padding: 5px 5px;
+               font-size: 10px !important;
+
+                 }
+        
+            }
+    
+
 
 //BARRAS INFERIORES DEL SLIDER POSICIONAMIENTO DEL CONTENEDOR
 .container-bars{
@@ -120,6 +159,7 @@
     justify-content: center;
     bottom: 0;
     margin-bottom: 3%;
+
     @media screen and (max-width: $FHD){ 
         margin-bottom: 3.5%;
         }  
@@ -146,17 +186,117 @@
 
 /*ANIMACION OPACIDAD DE FOTO*/
 .animation-opacity{
-    animation-name:ani;
-    animation-duration: 3s;
+    animation:ani 4.5s ;
 }
 @keyframes ani{
     from{
-        opacity: 0.3;
+        opacity: 0;
     }
     to{
         opacity: 1;
     };
 }
 
+
+
+// ESTILOS DE LOS SLIDERS
+.container-app {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;   
+    }
+
+    .container-app:hover .div-url{
+        animation: hoverUrl 1s forwards;
+    }
+    
+    
+    .div-url{
+        background-color: rgba(0, 0, 0, 0.851);
+        position: absolute;
+        transform: translateY(-105%);
+        animation: returnUrl 0.7s forwards;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0
+    }
+    // Animacion para mostrar
+    @keyframes hoverUrl{      
+        100% {
+          transform: translateY(0%);
+        }
+      }
+        // Animacion para ocultar 
+    @keyframes returnUrl{   
+        0%{
+            transform: translateY(0%);
+        }   
+        100% {
+          transform: translateY(-105%);
+        }
+      }
+   
+    .container-app img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // padding: 10%;
+    
+    }
+    .container-app .responsive-url{
+        display: none;
+    }
+    .container-app h1 {
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translate(50%);
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background: $background-body; 
+    }
+    .container-app p {
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%);
+    width: 75%;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px 10px;
+    
+    }
+    .container-app a.link {
+    position: absolute;
+    top: 65%;
+    right: 50%;   
+    transform: translate(50%);
+    display: inline-block;    
+    text-decoration: none;
+    padding: 7px 14px;
+    background: rgb(192, 30, 30);
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px rgb(0, 0, 0)
+    }
+
+    .container-app a.link:hover {
+    box-shadow: 0 0 5px rgb(155, 138, 138)
+    }
+
+    
 
 
