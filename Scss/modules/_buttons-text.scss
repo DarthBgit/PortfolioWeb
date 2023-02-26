@@ -458,8 +458,8 @@ font-family: 'Merienda', cursive;
         -webkit-tap-highlight-color: transparent;
    
     @media screen and (max-width: $tablet){ 
-        width: 15px;
-        height: 3px;
+        width: 25px;
+        height: 4px;
         }
         @media screen and (max-width: $tablet-s){   //EN ESTA RESOLUCION PASAN A SER CIRCULOS
             height: 30px;
@@ -621,8 +621,7 @@ font-family: 'Merienda', cursive;
     
         font-size: $xl;
         text-decoration: none;
-        margin-top: 5px;
-        margin-left: 45%;
+        margin-left: 50%;
         -webkit-tap-highlight-color: transparent;
         @media screen and (max-width: $tablet){ 
             font-size: $m;

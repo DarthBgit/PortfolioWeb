@@ -44,11 +44,11 @@
                    
                                    }
                                    @media screen and (max-width: 470px){ 
-                                    height: 450px;
+                                    height: 400px;
                        
                                        }
                                        @media screen and (max-width: 370px){ 
-                                        height: 420px;
+                                        height: 400px;
                                          }
                                      
                               
@@ -75,9 +75,7 @@
         }
 }
 
-
-/*SLIDER*/
-
+// ESTILOS RESPONSIVE DE LOS SLIDERS
 .slider-container{
     width: 77%;
     height: 58.4%;
@@ -100,18 +98,17 @@
             min-height: 400px;
               }
               @media screen and (max-width: $phone-xl){ 
-                margin-top: 17%;
+                margin-top: 16%;
                 }
                 @media screen and (max-width: 470px){ 
-                    margin-top: 18%;
+                    margin-top: 10%;
                      }
                      @media screen and (max-width: 385px){ 
-                        margin-top: 17%;
+                        margin-top: 10%;
                          }
            
 }
 
-// ESTILOS RESPONSIVE DE LOS SLIDERS
 .slider-container{
     
     @media screen and (max-width: 630px){ 
@@ -119,36 +116,64 @@
         }
 }
 
-.container-app img{
-
-    @media screen and (max-width: 630px){ 
-        padding: 100px 30px;
-        }
+//CONTENEDOR QUE CENTRA LA IMAGEN
+.container-app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-app p {
-    @media screen and (max-width: 1000px){ 
-        font-size: 14px !important;
-        top: 28% !important;
-         }
+//CERTIFICADOS IMAGNES
+.imgSlider {
 
-    }
-    .container-app h1{
-        @media screen and (max-width: 1000px){ 
-            font-size: 22px !important;
-             }
-    
-        }
-        .container-app a{
-            @media screen and (max-width: 1000px){ 
-               top: 70% !important;
-               padding: 5px 5px;
-               font-size: 10px !important;
-
+    // position: absolute;
+    width: 70%;
+    height: 83%;
+    // right: 50%;
+    // transform: translate(50%);
+    @media screen and (max-width: $FHD){ 
+        // margin-bottom: 3.5%;
+        }  
+        @media screen and (max-width: $tablet-s){ 
+           width: 100%;
+           height: 100%;
+           padding: 2%;
+            }    
+            @media screen and (max-width: 620px){
+            margin-bottom: 8%;
+            padding: 4%;
+            height: 80%;
+            width: 100%;
+            } @media screen and (max-width: 520px){
+                // margin-bottom: 15%;
+                padding: 4%;
+                height: 80%;
+                width: 100%;
+                }
+            @media screen and (max-width: $phone){ 
+                margin-bottom: 10%;
+                height: 60%;
+                width: 100%;
+                padding: 4%;
                  }
-        
-            }
-    
+    }
+
+
+
+/*ANIMACION OPACIDAD DE FOTO*/
+.animation-opacity{
+    animation:ani 4.5s ;
+}
+@keyframes ani{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    };
+}
 
 
 //BARRAS INFERIORES DEL SLIDER POSICIONAMIENTO DEL CONTENEDOR
@@ -171,131 +196,6 @@
                  }
         
 }
-
-//TODOS LOS SLIDERS 
-
-.allProjects-sizes{
-
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-
-
-/*ANIMACION OPACIDAD DE FOTO*/
-.animation-opacity{
-    animation:ani 4.5s ;
-}
-@keyframes ani{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    };
-}
-
-
-
-// ESTILOS DE LOS SLIDERS
-.container-app {
-    width: 100%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;   
-    }
-
-    .container-app:hover .div-url{
-        animation: hoverUrl 1s forwards;
-    }
-    
-    
-    .div-url{
-        background-color: rgba(0, 0, 0, 0.851);
-        position: absolute;
-        transform: translateY(-105%);
-        animation: returnUrl 0.7s forwards;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        overflow: hidden;
-        top: 0;
-        left: 0
-    }
-    // Animacion para mostrar
-    @keyframes hoverUrl{      
-        100% {
-          transform: translateY(0%);
-        }
-      }
-        // Animacion para ocultar 
-    @keyframes returnUrl{   
-        0%{
-            transform: translateY(0%);
-        }   
-        100% {
-          transform: translateY(-105%);
-        }
-      }
-   
-    .container-app img {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    // padding: 10%;
-    
-    }
-    .container-app .responsive-url{
-        display: none;
-    }
-    .container-app h1 {
-    position: absolute;
-    top: 10%;
-    right: 50%;
-    transform: translate(50%);
-    width: 100%;
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-    background: $background-body; 
-    }
-    .container-app p {
-    position: absolute;
-    top: 35%;
-    right: 50%;
-    transform: translate(50%);
-    width: 75%;
-    text-align: justify;
-    font-size: 20px;
-    color: #fff;
-    padding: 10px 20px 10px;
-    
-    }
-    .container-app a.link {
-    position: absolute;
-    top: 65%;
-    right: 50%;   
-    transform: translate(50%);
-    display: inline-block;    
-    text-decoration: none;
-    padding: 7px 14px;
-    background: rgb(192, 30, 30);
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px rgb(0, 0, 0)
-    }
-
-    .container-app a.link:hover {
-    box-shadow: 0 0 5px rgb(155, 138, 138)
-    }
 
     
 

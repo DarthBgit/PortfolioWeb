@@ -140,7 +140,7 @@ background-color: $background-body;
 
 
 
-    //   SLIDER PROYECTS    //
+    //   SLIDER CERTIFICATIONS    //
 
 //COLOR BOTONES DIRECCIONES
 
@@ -153,20 +153,18 @@ background-color: $background-body;
     }
     }
 
+    .imgSlider{
+        background-color: $dark-background;
+    }
 
+    .container-app{
+        background-color: $dark-background;
 
+        @media screen and (max-width: $tablet-s){ 
+           background-color: $white-color;
 
-
-
-//PROYECTO SLIDER 2
-
-
-
-
-
-
-
-
+             }
+    }
     //   CONTACT ME     CONTACT ME//
 
 //COLOR TEXTO E ICONOS (CONTACTAME)

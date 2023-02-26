@@ -1,318 +1,350 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/styles.css">
-    <link rel="stylesheet" href="Css/color-lang.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="Css/color-lang.css"> -->
     <script src="Js/plugins/jquery.min.js"></script>
 
     <!--FUENTES SACADAS DE GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Lobster+Two&family=Merienda&display=swap" rel="stylesheet">
-     <!--ICONOS SACADOS DE FONTASTIC-->
-     <link href="https://file.myfontastic.com/NjZmZpCvdmG4abprt5aqj9/icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Lobster+Two&family=Merienda&display=swap"
+        rel="stylesheet">
+    <!--ICONOS SACADOS DE FONTASTIC-->
+    <link href="https://file.myfontastic.com/NjZmZpCvdmG4abprt5aqj9/icons.css" rel="stylesheet">
     <!--LIBRERIA DE ANIMACIONES ANIMATE.CSS-->
-    <link rel="stylesheet" href="Css/animate.css"/>
+    <link rel="stylesheet" href="css/animate.css" />
     <title>Portfolio Sergio Berdiell</title>
 </head>
+
 <body class="body-theme">
-   <!-- REPASAR LOS DIV Y COLOCARLOS BIEN  -->
-  
-       
-   
+    <!-- REPASAR LOS DIV Y COLOCARLOS BIEN  -->
+
+
+
     <!--PICTURE & NAME-->
 
-<div class="container-general-photo-name">
+    <div class="container-general-photo-name">
 
-    <!--LANGUAGE-->
-        
-    <div class="language">
-        <a href="index.html" class="language_lang actived">EN</a>
-        <span class="bar-lang">/</span>
-        <a href="Html/español.html" class="language_lang non-actived">ES</a>                    
+        <!--LANGUAGE-->
+
+        <div class="language">
+            <a href="index.html" class="language_lang actived">EN</a>
+            <span class="bar-lang">/</span>
+            <a href="Html/español.html" class="language_lang non-actived">ES</a>
+        </div>
+
+        <!--CONTAINER HEADER-->
+        <header class="main-header" id="index">
+            <div class="container-header-sectionEN">
+                <a class="header_botonsEN" href="#aboutme">ABOUT ME</a>
+                <a class="header_botonsEN" href="#timeline">TIME LINE</a>
+                <a class="header_botonsEN" href="#knowledge">KNOWLEDGE</a>
+                <a class="header_botonsEN" href="#proyects">CERTIFICATES</a>
+                <a class="header_botonsEN" href="#contact">CONTACT ME</a>
+            </div>
+        </header>
+
+        <!--CONTAINER PHOTO,NAME,DATE,ICON CODING, NAV-->
+        <div class="container-photo-description">
+            <!--DEGRADED-->
+            <div class="degradado"></div>
+            <!--CONTAINER PHOTO AND ARROW NAV -->
+            <div class="picture-cover">
+                <img class="photo" src="Images/photo-sergio.png" alt="">
+                <div class="arrow-list icon-angle-left" id="arrow-header"></div>
+            </div>
+            <!--CONTAINER NAME AND PROFESSION -->
+            <div class="description-cover">
+                <p class="name">Sergio Berdiell Sánchez</p>
+                <p class="profession">Back-End Developer</p>
+            </div>
+            <!--ICON CODE-->
+            <div class="icon-code icon-code-pd"></div>
+
+            <!--NAV HIDDEN-->
+            <div class="header-hidden" id="header-hidden">
+                <a id="header-links1" class="header_botonsEN" href="#aboutme">ABOUT ME</a>
+                <a id="header-links2" class="header_botonsEN" href="#timeline">TIME LINE</a>
+                <a id="header-links3" class="header_botonsEN" href="#knowledge">KNOWLEDGE</a>
+                <a id="header-links4" class="header_botonsEN" href="#proyects">CERTIFICATES</a>
+                <a id="header-links5" class="header_botonsEN" href="#contact">CONTACT ME</a>
+            </div>
+        </div>
     </div>
-
-    <!--CONTAINER HEADER-->
-    <header class="main-header" id="index">       
-        <div class="container-header-sectionEN">
-            <a   class="header_botonsEN" href="#aboutme">ABOUT ME</a>
-            <a   class="header_botonsEN" href="#timeline">TIME LINE</a>
-            <a   class="header_botonsEN" href="#knowledge">KNOWLEDGE</a>
-            <a   class="header_botonsEN" href="#proyects">PROJECTS</a>
-            <a   class="header_botonsEN" href="#contact">CONTACT ME</a>
-        </div>         
-    </header>
-
-    <!--CONTAINER PHOTO,NAME,DATE,ICON CODING, NAV-->
-    <div class="container-photo-description" >
-        <!--DEGRADED-->
-        <div class="degradado"></div>
-        <!--CONTAINER PHOTO AND ARROW NAV -->
-        <div class="picture-cover">
-            <img class="photo" src="Images/photo-sergio.png" alt="">
-            <div class="arrow-list icon-angle-left" id="arrow-header"></div>
-        </div>
-        <!--CONTAINER NAME AND PROFESSION -->
-        <div class="description-cover">
-            <p class="name">Sergio Berdiell Sánchez</p>
-            <p class="profession">Jr Back End Developer</p>
-        </div>
-        <!--ICON CODE-->
-        <div class="icon-code icon-code-pd"></div>
-
-        <!--NAV HIDDEN-->
-        <div class="header-hidden" id="header-hidden">            
-            <a id="header-links1" class="header_botonsEN" href="#aboutme">ABOUT ME</a>
-            <a id="header-links2" class="header_botonsEN" href="#timeline">TIME LINE</a>
-            <a id="header-links3" class="header_botonsEN" href="#knowledge">KNOWLEDGE</a>
-            <a id="header-links4" class="header_botonsEN" href="#proyects">PROJECS</a>
-            <a id="header-links5" class="header_botonsEN" href="#contact">CONTACT ME</a>
-        </div>
-    </div>    
-</div>   
 
 
 
 
     <!--ABOUT ME-->
-<div class="container-about am">
-    <!--TITLE SECTION-->
+    <div class="container-about am">
+        <!--TITLE SECTION-->
         <h1 class="container-about_title titles title-L" id="aboutme">ABOUT ME</h1>
-    <!--CONTAINER SECTION A (TEXT AND CV)-->
-    <div class="am-section-a">
-    <!--CONTAINER TEXT-->
-        <div class="am-section-a_containertext">
-             <p class="am-section-a_text-english">
-                I love programming!
-                I have completed a higher degree in Web Development, in addition, I have knowledge in different technologies such 
-                as Java, JavaScript, MySQL, HTML and CSS.
-                These courses have helped me to build knowledge to create my first front-end and back-end projects.
-                My next goal is to specialize in Java Guidewire, technology needed for 
-                my next job as a Back-End Developer.                 
-                I want to keep growing, getting experience day by day to become a professional in the IT sector.
+        <!--CONTAINER SECTION A (TEXT AND CV)-->
+        <div class="am-section-a">
+            <!--CONTAINER TEXT-->
+            <div class="am-section-a_containertext">
+                <p class="am-section-a_text-english">
+                    I love programming!
+                    I have completed a higher degree in Web Development, in addition, I have knowledge in different
+                    technologies such
+                    as Java, Spring Boot and PHP from the back-end and HTML, CSS and JS from the front-end.
+                    These courses have helped me to build knowledge to create my first front-end and back-end projects.
+                    My next goal is to specialize in Guidewire, technology I'm currently using in my job as a back-end
+                    developer of Integration.
+                    I want to keep growing, getting experience day by day to become a professional in the IT sector.
 
-                                
-             </p>
+
+                </p>
+            </div>
+            <!--BUTTON CV-->
+            <div class="container-cv">
+                <h2 class="text-cv">Download CV </h2>
+                <div class="icon-download icon-cv" onclick="openPDF()"></div>
+            </div>
         </div>
-    <!--BUTTON CV-->
-        <div class="container-cv" >
-            <h2 class="text-cv">Download CV </h2>
-            <div class="icon-download icon-cv"onclick="openPDF()"></div>
-        </div>  
+        <!--CONTAINER IMAGE-->
+        <div class="am-section-b">
+            <div class="am-section-b_image"></div>
+        </div>
     </div>
-    <!--CONTAINER IMAGE-->
-    <div class="am-section-b">
-        <div class="am-section-b_image"></div>    
-    </div>
-</div>
 
 
 
     <!--TIME LINE -->
-<div class="container-tl">
-    <!--TITLE SECTION-->
+    <div class="container-tl">
+        <!--TITLE SECTION-->
         <h1 class="container-tl_title titles title-R" id="timeline">TIME LINE</h1>
-    <!--CONTAINER IMAGES-->
+        <!--CONTAINER IMAGES-->
         <div class="section-tl">
             <img class="horizantal" src="Images/tm-english.jpg" alt="">
             <img class="vertical" src="Images/tmResponsive-english.jpg" alt="">
-        </div>       
-</div>
-     
+        </div>
+    </div>
+
 
 
     <!--KNOWELEDGE-->
-<div class="container-know">
-    <!--TITLE SECTION -->
+    <div class="container-know">
+        <!--TITLE SECTION -->
         <h1 class="container-know_title titles title-L" id="knowledge">KNOWLEDGE</h1>
-    <!--CONTAINER ALL ELEMENTS -->
-    <div class="section-know">
+        <!--CONTAINER ALL ELEMENTS -->
+        <div class="section-know">
             <!--firts icon-->
-        <div class=" wow know-grid" data-wow-delay="0.1s">
-            <div class="know-icon icon-laptop"></div>
-            <h2 class="know-title">WEB APP DEVELOPMENT</h2>
-            <p>Ability to implement front-end and back-end technologies to develop an App</p>
-        </div>
+            <div class=" wow know-grid" data-wow-delay="0.1s">
+                <div class="know-icon icon-laptop"></div>
+                <h2 class="know-title">WEB APP DEVELOPMENT</h2>
+                <p>Ability to implement front-end and back-end technologies, API's and microservices</p>
+            </div>
             <!--second icon-->
-        <div class=" wow know-grid" data-wow-delay="0.5s">
-            <div class="know-icon icon-book "></div>
-            <h2 class="know-title">PROGRAMMING LANGUAGE</h2>
-            <p>Knowledge of PHP, JAVA, JS and other programming languages</p>
-        </div>
+            <div class=" wow know-grid" data-wow-delay="0.5s">
+                <div class="know-icon icon-book "></div>
+                <h2 class="know-title">PROGRAMMING LANGUAGE</h2>
+                <p>Knowledge of Java with Spring Boot, Gosu-Guidewire and others languages</p>
+            </div>
             <!--third icon-->
-        <div class=" wow know-grid" data-wow-delay="0.9s">
-            <div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"></div>
-            <h2 class="know-title">WEB DESIGN</h2>
-            <p>Layout of web pages using Html, Sass and JS</p>
+            <div class=" wow know-grid" data-wow-delay="0.9s">
+                <div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"></div>
+                <h2 class="know-title">WEB DESIGN</h2>
+                <p>Layout of web pages using Html, CSS-Bootstrap and JS</p>
+            </div>
+            <!--fourth icon-->
+            <div class=" wow know-grid" data-wow-delay="2s">
+                <div class="know-icon icon-mobile"></div>
+                <h2 class="know-title">RESPONSIVE DESIGN</h2>
+                <p>Adaptation of projects for many resolutions</p>
+            </div>
+            <!--fifth icon-->
+            <div class=" wow know-grid" data-wow-delay="2.4s">
+                <div class="know-icon smll icon-database"></div>
+                <h2 class="know-title">DATA BASE</h2>
+                <p>Basic knowledge of a database and different DBMS, such as Oracle or MySql</p>
+            </div>
+            <!--sixth icon-->
+            <div class=" wow know-grid" data-wow-delay="2.8s">
+                <div class="know-icon smll icon-language"></div>
+                <h2 class="know-title">LANGUAGES</h2>
+                <p>Ease of working with different softwares in English</p>
+            </div>
+
         </div>
-             <!--fourth icon-->
-        <div class=" wow know-grid" data-wow-delay="2s">
-            <div class="know-icon icon-mobile"></div>
-            <h2 class="know-title">RESPONSIVE DESIGN</h2>
-            <p>Adaptation of projects for many resolutions</p>
-        </div>
-             <!--fifth icon-->
-        <div class=" wow know-grid" data-wow-delay="2.4s">
-            <div class="know-icon smll icon-database"></div>
-            <h2 class="know-title">DATA BASE</h2>
-            <p>Basic knowledge of a database and different DBMS, such as Oracle or MySql</p>
-        </div>
-             <!--sixth icon-->
-        <div class=" wow know-grid" data-wow-delay="2.8s">
-            <div class="know-icon smll icon-language"></div>
-            <h2 class="know-title">LANGUAGES</h2>
-            <p>Ease of working with different softwares in English</p>
-        </div>
-                
+
     </div>
-        
-</div>
 
 
 
-     <!--SLIDER PROYECS-->
-<div class="container-proyects">
-    <!--TITLE SECTION-->
-        <h1 class="container-proyects_title titles title-R" id="proyects">PROJECTS</h1>
-    <!--ARROWS FROM SLIDER-->
+    <!--SLIDER PROYECTS-->
+    <div class="container-proyects">
+        <!--TITLE SECTION-->
+        <h1 class="container-proyects_title titles title-R" id="proyects">CERTIFICATES</h1>
+        <!--ARROWS FROM SLIDER-->
         <div class="icons-arrow icons-arrow_right icon-angle-right" onclick="nextSlide(1)"></div>
         <div class="icons-arrow icons-arrow_left icon-angle-left" onclick="nextSlide(-1)"></div>
-    <!--CONTAINER SLIDER-->
-    <div class="slider-container">
-    <!--DIV SLIDER 1-->
-        <div class=" animation-opacity allProjects-sizes hover-1 position-bar">
-            <!-- Block slider 1 -->
-          <div class=" container-app">             
-                <img class="imgSlider" src="Images/ecommerce.png" alt="ops">   
-                <div class="div-url div-hidden">
-                <h1>E-Commerce App</h1>
-                <p>This project is an application of an online store of fitness products. 
-                    This is the software I have developed for the final project of the DAW degree.
-                     The technologies used are PHP, JavaScript and Bootstrap.</p>
-                <a class="link"  href="https://sbsfitness.herokuapp.com/">Visit Web</a>  
+        <!--CONTAINER SLIDER-->
+
+        <div class="slider-container">
+
+            <!--DIV SLIDER 1-->
+            <div class=" animation-opacity allProjects-sizes position-bar">
+                <!-- Block slider 1 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/integration_gw.png" alt="ops">
                 </div>
-          </div>
-        </div>   
-
-    <!-- SLIDER 2 -->
-        <div class="animation-opacity allProyects-sizes position-bar">
-                <!-- Block slider 2 -->
-          <div class=" container-app">              
-                <img class="imgSlider" src="Images/css_edteam.png" alt="ops">   
-                <div class="div-url ">
-                <h1>Project CSS + Sass</h1>
-                <p>I have done this project with the EdTeam platform course, 'CSS desde cero'. 
-                    It is the layout of a website made with CSS and SASS.</p>
-                <a class="link"  href="https://css-template-sbs.netlify.app/">Visit Web</a>  
-                </div>
-          </div>  
-        </div> 
-
-    <!-- SLIDER 3 -->
-        <div class="animation-opacity allProyects-sizes position-bar">
-                 <!-- Block slider 3-->
-          <div class=" container-app">             
-                <img class="imgSlider" src="Images/game.png" alt="ops">   
-                <div class="div-url ">
-                <h1>Slots Machine</h1>
-                <p>A Slot game made with JavaScript for an exercise of the DAW degree. It is only adaptable for desktop resolution.</p>
-                <a class="link"  href="https://slots-machine-sbs.netlify.app/">Visit Web</a>  
-                </div>
-          </div>  
-        </div> 
-
-             <!-- SLIDER 4 
-
-             <div class="animation-opacity allProyects-sizes position-bar">
-               
-            </div> 
-            SLIDER 5
-
-             <div class="animation-opacity allProyects-sizes position-bar">
-                
-            </div> 
-
-             <div class="animation-opacity allProyects-sizes position-bar">
-            SLIDER 6 
-             </div>  -->
-            
-    </div>
-         
-    <div class="container-bars">
-        <span class="bar bar_active" onclick="positionSlide(1)"></span>
-        <span class="bar" onclick="positionSlide(2)"></span>
-        <span class="bar" onclick="positionSlide(3)"></span>
-        <!-- <span class="bar" onclick="positionSlide(4)"></span>
-        <span class="bar" onclick="positionSlide(5)"></span>
-        <span class="bar" onclick="positionSlide(6)"></span> -->
-    </div>
-</div>
-
-
-
-   
-    <!--CONTACT ME-->
-<div class="container-footer">
-    <!--TITLE SECTION -->
-        <h1 class="container-footer_title titles title-L" id="contact">CONTACT ME</h1>
-    <!--CONTAINER SECTION UP (IT HAS CONTACT INFORMATION AND KNOW MORE ABOUT ME)-->
-    <div class="section-footer footer-up">
-    <!--CONTAINER CONTACT INFO-->
-        <div class="section-footer_A">
-            <h2 class="section-footer_title">CONTACT INFORMATION</h2>
-            <div class="icon-user-1 icon-contact"><p>Sergio Berdiell Sanchez</p></div>
-            <div class="icon-home icon-contact"><p>Bínefar (Huesca)</p></div>
-            <div class="icon-phone icon-contact"> <p class="number-phone">653364846</p></div>
-            <a class=" icon-contact icon-contact_mail icon-envelope" href="mailto:sergiovencillon10@gmail.com"><p class="link-footer">sergiovencillon10@gmail.com</p></a>           
-        </div>
-    <!--CONTAINER KNOW ABOUT ME-->
-        <div class="section-footer_B"> 
-            <h2 class="section-footer_title">MORE ABOUT ME</h2>
-            <p class="icon-des icon-des_follow">Find me in: </p>
-            <a href="https://www.linkedin.com/in/sergio-berdiell-sanchez-6697711b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQG%2Bt2F8tRSW95gOT81Aw6Q%3D%3D" class="icon-des icon-linkedin-square link-footer"></a>   
-            <a href="https://github.com/sergio89bs" class="icon-des icon-github-square link-footer"></a>       
-        </div>   
-    </div>   
-    <!--CONTAINER SECTION DOWN (IT HAS ABOUT THIS PROJECT AND OTHER RESOURCES)-->
-    <div class="section-footer footer-down">
-    <!--CONTAINER ABOUT THIS PROJECT-->
-        <div class="section-footer_C">
-            <h2 class="section-footer_title">ABOUT THIS PROJECT</h2>
-            <p class="this-pro">This project has been made with </p>
-            <div class="container-icons-md">
-                <img src="Images/html.jpg" alt="" class="icon-madeWith">
-                <object class="icon-madeWith" data="Images/sass-1.svg" type="image/svg+xml"></object>                   
-                <object class="icon-madeWith" data="Images/logo-javascript.svg" type="image/svg+xml"></object>   
             </div>
-            <div class="text-flaticon">Icons designed by<a class="link-footer link-flaticon" href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a></div>
-            <div><span class="text-flaticon_from">from </span>  <a class="link-footer link-flaticon" href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-        </div>
-        <!--CONTAINER OTHER RESOURCES-->
-        <div class="section-footer_D">
-            <h2 class="section-footer_title">OTHER RESOURCES</h2>
-            <a class="resources link-footer" href="https://fontastic.me/">Fontastic.me</a>
-            <a class="resources link-footer" href="https://fonts.google.com/">Google Fonts</a>
-            <a class="resources link-footer" href="https://wowjs.uk/">wow.js</a>
-            <a class="resources link-footer" href="https://animate.style/">Animate.css</a>
+
+            <!-- SLIDER 2 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/rest_api.png" alt="ops">
+                </div>
+            </div>
+
+            <!-- SLIDER 3 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/ingles_certi.png" alt="ops">
+                </div>
+            </div>
+
+
+            <!-- SLIDER 4 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/git.png" alt="ops">
+                </div>
+            </div>
+
+
+            <!-- SLIDER 5 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/micro_certi.png" alt="ops">
+                </div>
+            </div>
+
+            <!-- SLIDER 6 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/sprint_boot.png" alt="ops">
+                </div>
+            </div>
+
+            <!-- SLIDER 7 -->
+            <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/certi_php.png" alt="ops">
+                </div>
+            </div>
+
+             <!-- SLIDER 8 -->
+             <div class="animation-opacity allProyects-sizes position-bar">
+                <!-- Block slider 2 -->
+                <div class=" container-app">
+                    <img class="imgSlider" src="Images/certificates/lambda_cer.png" alt="ops">
+                </div>
+            </div>
+
         </div>
 
+        <div class="container-bars">
+            <span class="bar bar_active" onclick="positionSlide(1)"></span>
+            <span class="bar" onclick="positionSlide(2)"></span>
+            <span class="bar" onclick="positionSlide(3)"></span>
+            <span class="bar" onclick="positionSlide(4)"></span>
+            <span class="bar" onclick="positionSlide(5)"></span>
+            <span class="bar" onclick="positionSlide(6)"></span>
+            <span class="bar" onclick="positionSlide(7)"></span>
+            <span class="bar" onclick="positionSlide(8)"></span>
+        </div>
     </div>
-</div>
+
+
+
+
+    <!--CONTACT ME-->
+    <div class="container-footer">
+        <!--TITLE SECTION -->
+        <h1 class="container-footer_title titles title-L" id="contact">CONTACT ME</h1>
+        <!--CONTAINER SECTION UP (IT HAS CONTACT INFORMATION AND KNOW MORE ABOUT ME)-->
+        <div class="section-footer footer-up">
+            <!--CONTAINER CONTACT INFO-->
+            <div class="section-footer_A">
+                <h2 class="section-footer_title">CONTACT INFORMATION</h2>
+                <div class="icon-user-1 icon-contact">
+                    <p>Sergio Berdiell Sanchez</p>
+                </div>
+                <div class="icon-home icon-contact">
+                    <p>Bínefar (Huesca)</p>
+                </div>
+                <div class="icon-phone icon-contact">
+                    <p class="number-phone">+34 653364846</p>
+                </div>
+                <a class=" icon-contact icon-contact_mail icon-envelope" href="mailto:sergiovencillon10@gmail.com">
+                    <p class="link-footer">sergiovencillon10@gmail.com</p>
+                </a>
+            </div>
+            <!--CONTAINER KNOW ABOUT ME-->
+            <div class="section-footer_B">
+                <h2 class="section-footer_title">MORE ABOUT ME</h2>
+                <p class="icon-des icon-des_follow">Find me in: </p>
+                <a href="https://www.linkedin.com/in/sergio-berdiell-sanchez-6697711b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQG%2Bt2F8tRSW95gOT81Aw6Q%3D%3D"
+                    class="icon-des icon-linkedin-square link-footer"></a>
+                <p class="icon-des icon-des_follow">Check my proyects in: </p>
+                <a href="https://github.com/sergio89bs" class="icon-des icon-github-square link-footer"></a>
+            </div>
+        </div>
+        <!--CONTAINER SECTION DOWN (IT HAS ABOUT THIS PROJECT AND OTHER RESOURCES)-->
+        <div class="section-footer footer-down">
+            <!--CONTAINER ABOUT THIS PROJECT-->
+            <div class="section-footer_C">
+                <h2 class="section-footer_title">ABOUT THIS PROJECT</h2>
+                <p class="this-pro">This project has been made with </p>
+                <div class="container-icons-md">
+                    <img src="Images/html.jpg" alt="" class="icon-madeWith">
+                    <object class="icon-madeWith" data="Images/sass-1.svg" type="image/svg+xml"></object>
+                    <object class="icon-madeWith" data="Images/logo-javascript.svg" type="image/svg+xml"></object>
+                </div>
+                <div class="text-flaticon">Icons designed by<a class="link-footer link-flaticon"
+                        href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
+                </div>
+                <div><span class="text-flaticon_from">from </span> <a class="link-footer link-flaticon"
+                        href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+            </div>
+            <!--CONTAINER OTHER RESOURCES-->
+            <div class="section-footer_D">
+                <h2 class="section-footer_title">OTHER RESOURCES</h2>
+                <a class="resources link-footer" href="https://fontastic.me/">Fontastic.me</a>
+                <a class="resources link-footer" href="https://fonts.google.com/">Google Fonts</a>
+                <a class="resources link-footer" href="https://wowjs.uk/">Wow.js</a>
+                <a class="resources link-footer" href="https://animate.style/">Animate.css</a>
+            </div>
+
+        </div>
+    </div>
 
     <!--ICON ARROW UP-->
-<div class=" container-icon-up"><a class="icon-arrow-up" href="#index"></a></div>
-    
-   
-    
+    <div class=" container-icon-up"><a class="icon-arrow-up" href="#index"></a></div>
+
+
+
     <!--GOODBYE-->
-<div class="bye">
-    <h1 class="thanks">THANK YOU FOR VISITING MY PORTFOLIO!</h1>
-</div>
+    <div class="bye">
+        <h1 class="thanks">THANK YOU FOR VISITING MY PORTFOLIO!</h1>
+    </div>
 
     <!--SCRIPT JS-->
     <script src="Js/javascript.js"></script>
     <script src="Js/wow.js"></script>
-  
+
 
 </body>
+
 </html>
