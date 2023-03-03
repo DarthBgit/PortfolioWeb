@@ -313,9 +313,8 @@ font-family: 'Merienda', cursive;
 
             }
         @media screen and (max-width: $phone){ 
-            font-size: $xs;
-
-            }
+            font-size: $s;
+}
 }
 
 .icon-cv{
@@ -341,7 +340,7 @@ font-family: 'Merienda', cursive;
 
             }
             @media screen and (max-width: $phone){ 
-                font-size: $m;
+                font-size: $l;
 
                 }
             

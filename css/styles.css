@@ -2099,7 +2099,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .text-cv {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -2133,7 +2133,7 @@ body {
 }
 @media screen and (max-width: 470px) {
   .icon-cv {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
