@@ -310,10 +310,12 @@ font-family: 'Merienda', cursive;
         }
         @media screen and (max-width: $phone-xl){ 
             font-size: $m;
+            
 
             }
         @media screen and (max-width: $phone){ 
             font-size: $s;
+            text-align: center;
 }
 }
 

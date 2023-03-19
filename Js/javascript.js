@@ -42,8 +42,8 @@ function showSlides(n){
 
   /* CAMBIO AUTOMATICO DE IMAGENES*/
   
-  setInterval(function time(){
-  showSlides(index += 1)},12000)
+  // setInterval(function time(){
+  // showSlides(index += 1)},12000)
 
 
   // MENU HEADER OCULTO
