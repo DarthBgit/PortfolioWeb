@@ -1250,6 +1250,11 @@ body {
     align-items: flex-start;
   }
 }
+@media screen and (max-width: 470px) {
+  .container-proyects {
+    height: 450px;
+  }
+}
 .container-proyects_title {
   position: absolute;
   right: 120px;
@@ -1339,18 +1344,18 @@ body {
 }
 @media screen and (max-width: 470px) {
   .container-app {
-    height: 100%;
+    height: 70%;
     margin-top: 0;
   }
 }
 
 .imgSlider {
-  width: 90%;
-  height: 90%;
+  width: 75%;
+  height: 96%;
 }
 @media screen and (max-width: 1470px) {
   .imgSlider {
-    width: 80%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 977px) {
@@ -1362,12 +1367,11 @@ body {
   .imgSlider {
     width: 100%;
     height: 100%;
-    padding: 2%;
+    padding: 0;
   }
 }
 @media screen and (max-width: 600px) {
   .imgSlider {
-    padding: 1%;
     height: 100%;
     width: 100%;
   }
@@ -1376,13 +1380,11 @@ body {
   .imgSlider {
     height: 100%;
     width: 100%;
-    padding: 17% 0.5%;
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 382px) {
   .imgSlider {
-    padding: 19% 0.1%;
     margin-bottom: 0;
   }
 }
@@ -2223,7 +2225,7 @@ body {
 }
 @media screen and (max-width: 769px) {
   .icons-arrow {
-    display: none;
+    font-size: 40px;
   }
 }
 .icons-arrow_right {
@@ -2241,6 +2243,23 @@ body {
     right: 4%;
   }
 }
+@media screen and (max-width: 769px) {
+  .icons-arrow_right {
+    z-index: 99;
+    bottom: 42%;
+    right: -1.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .icons-arrow_right {
+    bottom: 45%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .icons-arrow_right {
+    bottom: 38%;
+  }
+}
 .icons-arrow_left {
   left: 6%;
   bottom: 40%;
@@ -2254,6 +2273,23 @@ body {
 @media screen and (max-width: 977px) {
   .icons-arrow_left {
     left: 4%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .icons-arrow_left {
+    z-index: 99;
+    bottom: 42%;
+    left: -1.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .icons-arrow_left {
+    bottom: 45%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .icons-arrow_left {
+    bottom: 38%;
   }
 }
 
@@ -2273,16 +2309,7 @@ body {
 }
 @media screen and (max-width: 769px) {
   .bar {
-    height: 30px;
-    width: 30px;
-    margin-left: 3%;
-    border-radius: 100%;
-  }
-}
-@media screen and (max-width: 470px) {
-  .bar {
-    height: 28px;
-    width: 28px;
+    display: none;
   }
 }
 

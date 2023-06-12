@@ -25,9 +25,9 @@
                height: 640px;
                align-items: flex-start;
                   }
-             
-
-               
+                       @media screen and (max-width: $phone){ 
+                        height: 450px;
+                         }             
                      
                                      
                               
@@ -108,7 +108,7 @@
     justify-content: center;
     //Ajuste contenedor imagen en movil
     @media screen and (max-width: $phone){                
-        height: 100%;
+        height: 70%;
         margin-top: 0;
          }
 }
@@ -116,11 +116,10 @@
 
 //IMAGENES
 .imgSlider {
-    width: 90%;
-    height: 90%;
+    width: 75%;
+    height: 96%;
     @media screen and (max-width: $FHD){ 
-        // margin-bottom: 3.5%;
-        width: 80%;
+        width: 75%;
         } 
         @media screen and (max-width: $tablet){ 
             
@@ -129,22 +128,18 @@
         @media screen and (max-width: $tablet-s){ 
            width: 100%;
            height: 100%;
-           padding: 2%;
+           padding: 0;
             }    
         @media screen and (max-width: $phone-xl){
-                padding: 1%;
                 height: 100%;
                 width: 100%;
                 }
             @media screen and (max-width: $phone){ 
                 height: 100%;
                 width: 100%;
-                padding: 17% 0.5%;
                 margin-bottom: 0;
                  }
-                 @media screen and (max-width: 382px){ 
-          
-                    padding: 19% 0.1%;
+                 @media screen and (max-width: 382px){           
                     margin-bottom: 0;
                      }
     }

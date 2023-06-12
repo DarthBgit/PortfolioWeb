@@ -99,10 +99,6 @@
 
 
 
-
-
-
-
     // PICTURE AND DESCRIPTION //
 
 
@@ -422,12 +418,12 @@ font-family: 'Merienda', cursive;
        font-size: $xl;
         }
         @media screen and (max-width: $tablet-s){ 
-            display: none;
+            font-size: 40px;
              }
 
     &_right{
         right: 6%;
-        bottom: 40%;  
+        bottom: 40%;
         @media screen and (max-width: $FHD){ 
             right: 7%;
             bottom: 40%;
@@ -435,6 +431,17 @@ font-family: 'Merienda', cursive;
     @media screen and (max-width: $tablet){ 
         right: 4%;
          }
+         @media screen and (max-width: $tablet-s){ 
+            z-index: 99;
+            bottom: 42%;
+            right: -1.5%;
+             }
+             @media screen and (max-width: $phone-xl){ 
+                bottom: 45%;
+                }
+                @media screen and (max-width: $phone){ 
+                 bottom: 38%;
+                     }
     }
     &_left{
     left: 6%;
@@ -446,6 +453,17 @@ font-family: 'Merienda', cursive;
     @media screen and (max-width: $tablet){ 
         left: 4%;
          }
+         @media screen and (max-width: $tablet-s){ 
+            z-index: 99;
+            bottom: 42%;
+            left: -1.5%;
+             }
+             @media screen and (max-width: $phone-xl){ 
+                bottom: 45%;
+                }
+                @media screen and (max-width: $phone){ 
+                 bottom: 38%;
+                     }
     }
 }
 
@@ -462,16 +480,9 @@ font-family: 'Merienda', cursive;
         width: 25px;
         height: 4px;
         }
-        @media screen and (max-width: $tablet-s){   //EN ESTA RESOLUCION PASAN A SER CIRCULOS
-            height: 30px;
-            width: 30px;
-            margin-left: 3%;
-            border-radius: 100%;
+        @media screen and (max-width: $tablet-s){   
+            display: none;
             }
-            @media screen and (max-width: $phone){ 
-              height: 28px;
-              width: 28px;
-                 }
     }
 
 
