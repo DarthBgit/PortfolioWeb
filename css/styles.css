@@ -2657,6 +2657,9 @@ p.number-phone {
 }
 
 /*CONTACTME*/
+.link-footer {
+  cursor: pointer;
+}
 .link-footer:hover {
   color: rgba(179, 179, 179, 0.87);
 }
@@ -2739,10 +2742,12 @@ p.number-phone {
 
 .am-section-a_text {
   color: rgb(255, 253, 253);
+  margin-top: 0;
 }
 
 .am-section-a_text-english {
   color: rgb(255, 253, 253);
+  margin-top: 0;
 }
 
 .container-tl {
