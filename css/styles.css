@@ -432,7 +432,7 @@ body {
   }
 }
 .am-section-a_containertext {
-  width: 70%;
+  width: 73%;
   height: 200px;
   position: absolute;
   left: 120px;
@@ -2026,19 +2026,19 @@ body {
   }
 }
 .am-section-a_text-english {
-  font-size: 19px;
+  font-size: 18.5px;
   font-family: "Merienda", cursive;
   text-align: justify;
-  line-height: 160%;
+  line-height: 140%;
 }
 @media screen and (max-width: 1470px) {
   .am-section-a_text-english {
-    font-size: 15.7px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 1200px) {
   .am-section-a_text-english {
-    font-size: 14.7px;
+    font-size: 14.5px;
     line-height: 180%;
   }
 }
@@ -2050,22 +2050,22 @@ body {
 }
 @media screen and (max-width: 769px) {
   .am-section-a_text-english {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 600px) {
   .am-section-a_text-english {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 470px) {
   .am-section-a_text-english {
-    font-size: 13.7px;
+    font-size: 12.5px;
   }
 }
 @media screen and (max-width: 350px) {
   .am-section-a_text-english {
-    font-size: 12.8px;
+    font-size: 12px;
   }
 }
 
