@@ -11,8 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Aclonica&family=Courgette&family=Lobster+Two&family=Merienda&display=swap"
         rel="stylesheet">
-    <!--ICONOS SACADOS DE FONTASTIC-->
-    <link href="https://file.myfontastic.com/NjZmZpCvdmG4abprt5aqj9/icons.css" rel="stylesheet">
+    <!--ICONOS - FONT AWESOME 6 FREE-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <!--LIBRERIA DE ANIMACIONES ANIMATE.CSS-->
     <link rel="stylesheet" href="../Css/animate.css" />
     <title>Portfolio Sergio Berdiell</title>
@@ -55,7 +55,7 @@
             <!-- CONTENEDOR CON MI FOTO Y LA FLECHA DEL NAV -->
             <div class="picture-cover">
                 <img class="photo" src="../Images/photo-sergio.png" alt="">
-                <div class="arrow-list icon-angle-left" id="arrow-header"></div>
+                <div class="arrow-list" id="arrow-header"><i class="fa-solid fa-chevron-left"></i></div>
             </div>
             <!--CONTENEDOR DE MI NOMBRE Y PROFESION  -->
             <div class="description-cover">
@@ -63,7 +63,7 @@
                 <p class="profession">Software Developer</p>
             </div>
             <!--ICONO DE CODIGO -->
-            <div class="icon-code icon-code-pd"></div>
+            <div class="icon-code-pd"><i class="fa-solid fa-code"></i></div>
 
             <!--NAV OCULTO-->
             <div class="header-hidden" id="header-hidden">
@@ -141,37 +141,37 @@
         <div class="section-know">
             <!-- primer icono  -->
             <div class=" wow know-grid" data-wow-delay="0.1s">
-                <div class="know-icon icon-laptop"></div>
+                <div class="know-icon"><i class="fa-solid fa-laptop"></i></div>
                 <h2 class="know-title">DESARROLLO APPS WEB</h2>
                 <p>Capacidad de implementar tecnologías de front-end, back-end, Api's y microsevicios</p>
             </div>
             <!-- segundo icono -->
             <div class=" wow know-grid" data-wow-delay="0.5s">
-                <div class="know-icon icon-book "></div>
+                <div class="know-icon"><i class="fa-solid fa-book"></i></div>
                 <h2 class="know-title">LENGUAJES DE PROGRAMACIÓN</h2>
                 <p>Conocimiento de Java, Spring Boot, Gosu-Guidewire entre otros</p>
             </div>
             <!-- tercer icono -->
             <div class=" wow know-grid" data-wow-delay="0.9s">
-                <div class="know-icon smll icon-design-graphic-tablet-streamline-tablet"></div>
+                <div class="know-icon smll"><i class="fa-solid fa-pen-nib"></i></div>
                 <h2 class="know-title">DISEÑO WEB</h2>
                 <p>Maquetación de páginas web, usando Html, CSS-Bootstrap y Js</p>
             </div>
             <!-- cuarto icono -->
             <div class=" wow know-grid" data-wow-delay="2s">
-                <div class="know-icon icon-mobile"></div>
+                <div class="know-icon"><i class="fa-solid fa-mobile-screen"></i></div>
                 <h2 class="know-title">DISEÑO RESPONSIVE</h2>
                 <p>Adaptamiento de los proyectos a diferentes resoluciones</p>
             </div>
             <!-- quinto icono -->
             <div class=" wow know-grid" data-wow-delay="2.4s">
-                <div class="know-icon smll icon-database"></div>
+                <div class="know-icon smll"><i class="fa-solid fa-database"></i></div>
                 <h2 class="know-title">BASES DE DATOS</h2>
                 <p>Conocimientos básicos de una BBDD como MySql u Oracle</p>
             </div>
             <!-- sexto icono -->
             <div class=" wow know-grid" data-wow-delay="2.8s">
-                <div class="know-icon smll icon-code-fork"></div>
+                <div class="know-icon smll"><i class="fa-solid fa-code-branch"></i></div>
                 <h2 class="know-title">GIT</h2>
                 <p>Buen manejo de git para el control de versiones</p>
             </div>
@@ -187,8 +187,8 @@
         <!--TITLE SECTION-->
         <h1 class="container-proyects_title titles title-R" id="proyects">CERTIFICADOS</h1>
         <!--ARROWS FROM SLIDER-->
-        <div class="icons-arrow icons-arrow_right icon-angle-right" onclick="nextSlide(1)"></div>
-        <div class="icons-arrow icons-arrow_left icon-angle-left" onclick="nextSlide(-1)"></div>
+        <div class="icons-arrow icons-arrow_right" onclick="nextSlide(1)"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="icons-arrow icons-arrow_left" onclick="nextSlide(-1)"><i class="fa-solid fa-chevron-left"></i></div>
         <!--CONTAINER SLIDER-->
 
         <div class="slider-container">
@@ -266,16 +266,20 @@
             <!--CONTENEDOR DE INFO-CONTACTO -->
             <div class="section-footer_A">
                 <h2 class="section-footer_title">INFORMACIÓN DE CONTACTO</h2>
-                <div class="icon-user-1 icon-contact">
+                <div class="icon-contact">
+                    <i class="fa-solid fa-user"></i>
                     <p>Sergio Berdiell Sanchez</p>
                 </div>
-                <div class="icon-home icon-contact">
+                <div class="icon-contact">
+                    <i class="fa-solid fa-location-dot"></i>
                     <p>Bínefar (Huesca)</p>
                 </div>
-                <div class="icon-phone icon-contact">
+                <div class="icon-contact">
+                    <i class="fa-solid fa-phone"></i>
                     <p class="number-phone">+34 653364846</p>
                 </div>
-                <a class=" icon-contact icon-contact_mail icon-envelope" href="mailto:sergiovencillon10@gmail.com">
+                <a class="icon-contact icon-contact_mail" href="mailto:sergiovencillon10@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
                     <p class="link-footer">sergiovencillon10@gmail.com</p>
                 </a>
             </div>
@@ -287,10 +291,10 @@
                     class="icon-des icon-linkedin-square link-footer"></a> -->
                 <p class="icon-des icon-des_follow">Acerca de mis proyectos: </p>
                 <a style="z-index: 100;" href="https://github.com/DarthBgit"
-                    class="icon-des icon-github-square link-footer"></a>
+                    class="icon-des link-footer"><i class="fa-brands fa-github"></i></a>
                     <!--BUTTON CV-->
                 <p class="icon-des icon-des_follow">Descarga mi Cv: </p>
-                <a style="z-index: 100;" class="icon-des icon-download link-footer" onclick="openPDF()"></a>
+                <a style="z-index: 100;" class="icon-des link-footer" onclick="openPDF()"><i class="fa-solid fa-download"></i></a>
             </div>
         </div>
 
@@ -315,7 +319,7 @@
             <!--CONTENEDOR DE OTROS RECURSOS -->
             <div class="section-footer_D">
                 <h2 class="section-footer_title">OTROS RECURSOS</h2>
-                <a class="resources link-footer" href="https://fontastic.me">Fontastic.me</a>
+                <a class="resources link-footer" href="https://fontawesome.com/">Font Awesome</a>
                 <a class="resources link-footer" href="https://fonts.google.com/">Google Fonts</a>
                 <a class="resources link-footer" href="https://wowjs.uk/">wow.js</a>
                 <a class="resources link-footer" href="https://animate.style/">Animate.css</a>
@@ -325,7 +329,7 @@
     </div>
 
     <!--ICONO FLECHA HACIA ARRIBA-->
-    <div class=" container-icon-up"><a class="icon-arrow-up" href="#index"></a></div>
+    <div class=" container-icon-up"><a class="icon-arrow-up" href="#index"><i class="fa-solid fa-chevron-up"></i></a></div>
 
 
     <!--DESPEDIDA-->
